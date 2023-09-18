@@ -1,0 +1,273 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.login a{
+    text-decoration: none;
+}
+
+.login h3{
+    display: flex;
+    justify-content: flex-end;
+    margin: 40px 60px 0px 0px;
+    color: #0B6635;
+}
+
+.login h3:hover{
+    cursor: pointer;
+}
+
+.logo img{
+    width: 120px;
+    height: 120px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links{
+    display: flex;
+    list-style: none;
+    margin-top: 20px;
+    justify-content: space-around;
+    margin-left: 117px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: #0B6635;
+    font-size: 1.7em;
+    margin: 0px 60px 0px 60px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.foro-banner {
+    position: relative;
+    width: 100%;
+    height: 300px; /* Ajusta la altura según tus necesidades */
+    background-image: url('img/Banner\ foro.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.foro-banner h1{
+    color: black;
+    font-size: 5em;
+    font-weight: bold;
+    margin-top: 175px;
+}
+
+.foro-title{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.foro-title h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.foro-publicacion-wrapper{
+    background-color: #2D6806;
+    display: flex;
+    margin: 70px 0px 70px 0px;
+    padding: 20px 0px 40px 0px;
+}
+
+.foto-user-name-wrapper{
+    margin-left: 90px;
+}
+
+.foto-user{
+    margin-top: 20px;
+}
+
+.foto-user img{
+    width: 120px;
+    height: 120px;
+}
+
+.name-user h4{
+    color: white;
+    margin-left: 17px;
+    margin-top: 10px;
+}
+
+.foro-pregunta-wrapper h2{
+    color: white;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    
+}
+
+.foro-pregunta-wrapper input{
+    margin-left: 100px;
+    width: 1300px;
+    height: 70px;
+    border-radius: 20px;
+    border: none;
+}
+
+.foro-pregunta-wrapper input::placeholder{
+    font-size: 1.5em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.button-enviar{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 30px 0px 0px
+}
+
+.button-enviar button{
+    color: #2D6806;
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 1.3em;
+    width: 230px;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+}
+
+.last-discusiones-title{
+    display: flex;
+    justify-content: center;
+}
+
+.last-discusiones-title h2{
+    font-size: 2.4em;
+    font-weight: bold;
+}
+
+.foro-pregunta{
+    margin-left: 100px;
+    padding-right: 640px;
+    margin-top: 50px;
+}
+
+.foro-pregunta h2{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.button-comentarios{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0px 0px 0px;
+    margin-right: 260px;
+}
+
+.button-comentarios button{
+    color: #2D6806;
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 1.3em;
+    width: 230px;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+}
+
+.clase-footer{
+    margin-top: 200px;
+}
+
+.textos{
+    display: flex;
+    justify-content: space-around;
+    background-color: #2D6806;
+    padding: 20px 0px;
+    color: white;
+}
+
+.textos h4{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.wraper-footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contacto-wrapper, .lista-wrapper, .cuenta-wrapper{
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.lista-contacto ul{
+    list-style: none;
+
+}
+
+.lista-servicio ul{
+    list-style: none;
+    margin-right: 90px;
+}
+
+.lista-cuenta ul{
+    list-style: none;
+}
+
+.lista-contacto li{
+    margin: 20px 0px;
+}
+
+.lista-servicio li{
+    margin: 10px 0px;
+}
+
+.lista-cuenta li{
+    margin: 20px 0px;
+}
+
+.lista-servicio a{
+    text-decoration: none;
+    color: black;
+}
+
+.lista-contacto a{
+    text-decoration: none;
+    color: black;
+}
+
+.lista-cuenta a{
+    text-decoration: none;
+    color: black;
+}
+
+.copi h4{
+    background-color: #2D6806;
+    margin: 0;
+    color: white;
+    padding: 10px;
+    font-size: 1.2em;
+    font-family: 'Poppins', sans-serif;
+}
+
+.copi{
+    display: flex;
+    justify-content: center;
+    background-color: #2D6806;
+    color: white;
+    padding: 15px 0px;
+}

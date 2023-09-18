@@ -1,0 +1,194 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.login a{
+    text-decoration: none;
+}
+
+.login h3{
+    display: flex;
+    justify-content: flex-end;
+    margin: 40px 60px 0px 0px;
+    color: #0B6635;
+}
+
+.login h3:hover{
+    cursor: pointer;
+}
+
+.logo img{
+    width: 120px;
+    height: 120px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links{
+    display: flex;
+    list-style: none;
+    margin-top: 20px;
+    justify-content: space-around;
+    margin-left: 117px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: #0B6635;
+    font-size: 1.7em;
+    margin: 0px 60px 0px 60px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.bienvenida-usuario{
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 0px 65px 0px;
+}
+
+.bienvenida-usuario h1{
+    margin-right: 570px;
+    font-size: 3em;
+}
+
+.x-puntos{
+    display: flex;
+    justify-content: center;
+    font-size: 1.8em;
+}
+
+.x-puntos h3{
+    margin: 0;
+}
+
+.pregunta{
+    display: flex;
+    justify-content: center;
+    font-size: 1.6em;
+    padding-top: 20px;
+}
+
+.pregunta h5{
+    margin: 0;
+}
+
+.bene-dispo{
+    display: flex;
+    justify-content: center;
+    margin-top: 38px;
+    font-size: 1.7em;
+    margin-bottom: 80px;
+}
+
+.primeros-cupones{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 80px;
+}
+
+.segundos-cupones{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button{
+    width: 500px;
+    height: 80px;
+    background-color: #2D6806;
+    color: white;
+    border-radius: 10px;
+    font-size: 1.6em;
+    border: none;
+    font-weight: bold;
+}
+
+.clase-footer{
+    margin-top: 200px;
+}
+
+.textos{
+    display: flex;
+    justify-content: space-around;
+    background-color: #2D6806;
+    padding: 20px 0px;
+    color: white;
+}
+
+.textos h4{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.wraper-footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contacto-wrapper, .lista-wrapper, .cuenta-wrapper{
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.lista-contacto ul{
+    list-style: none;
+
+}
+
+.lista-servicio ul{
+    list-style: none;
+    margin-right: 90px;
+}
+
+.lista-cuenta ul{
+    list-style: none;
+}
+
+.lista-contacto li{
+    margin: 20px 0px;
+}
+
+.lista-servicio li{
+    margin: 10px 0px;
+}
+
+.lista-cuenta li{
+    margin: 20px 0px;
+}
+
+.lista-servicio a{
+    text-decoration: none;
+    color: black;
+}
+
+.lista-contacto a{
+    text-decoration: none;
+    color: black;
+}
+
+.lista-cuenta a{
+    text-decoration: none;
+    color: black;
+}
+
+.copi h4{
+    background-color: #2D6806;
+    margin: 0;
+    color: white;
+    padding: 10px;
+    font-size: 1.2em;
+    font-family: 'Poppins', sans-serif;
+}
+
+.copi{
+    display: flex;
+    justify-content: center;
+    background-color: #2D6806;
+    color: white;
+    padding: 15px 0px;
+}
