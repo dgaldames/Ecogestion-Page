@@ -23,6 +23,7 @@ div[id]{
 
 .login h3:hover{
   cursor: pointer;
+  color: #00af52;
 }
 
 .logo img{
@@ -49,6 +50,10 @@ div[id]{
   font-size: 1.7em;
   margin: 0px 60px 0px 60px;
   font-family: 'Poppins', sans-serif;
+}
+
+.nav-links a:hover{
+  color: #00af52;
 }
 
 .banner {
@@ -502,6 +507,8 @@ div[id]{
 
 /* Fin de estilos del foro*/
 
+
+/* Comienzo estilos del footer*/
 .textos{
   display: flex;
   justify-content: space-around;
@@ -545,6 +552,14 @@ div[id]{
   margin: 20px 0px;
 }
 
+.lista-contacto li:hover{
+  color: #00af52;
+}
+
+.lista-contacto a:hover{
+  color: #00af52;
+}
+
 .lista-servicio li{
   margin: 10px 0px;
 }
@@ -558,6 +573,10 @@ div[id]{
   color: black;
 }
 
+.lista-servicio a:hover{
+  color: #00af52;
+}
+
 .lista-contacto a{
   text-decoration: none;
   color: black;
@@ -566,6 +585,10 @@ div[id]{
 .lista-cuenta a{
   text-decoration: none;
   color: black;
+}
+
+.lista-cuenta a:hover{
+  color: #00af52;
 }
 
 .copi h4{
@@ -586,4 +609,5 @@ div[id]{
 }
 
 
-/* Comienzo de estilos del login*/
+
+/* Fin estilos del footer*/
