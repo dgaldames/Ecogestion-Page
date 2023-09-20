@@ -30,6 +30,7 @@ body{
 
 .login h3:hover{
     cursor: pointer;
+    color: #00af52;
 }
 
 .logo img{
@@ -58,6 +59,9 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+.nav-links a:hover{
+    color: #00af52;
+}
 
 main{
     width: 100%;
