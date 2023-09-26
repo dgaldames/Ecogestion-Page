@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="assets/css/perfil.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
     <title>Perfil</title>
 </head>
 
@@ -53,22 +55,147 @@
         <h2>Beneficios Disponibles</h2>
     </div>
 
-    <div class="primeros-cupones">
-        <div class="btn-250">
-            <button>Cupones por 250 pts</button>
+        <div class="primeros-cupones">
+
+            <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Modal 1</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      Show a second modal and hide this one with the button below.
+                    </div>
+                    <div class="modal-footer">
+                      <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Open second modal</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Modal 2</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      Hide this modal and show the first with the button below.
+                    </div>
+                    <div class="modal-footer">
+                      <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Back to first</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button class="btn btn-primary" id="btn-250" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Cupones por 250 pts</button>
+
+              <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Modal 1</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      Show a second modal and hide this one with the button below.
+                    </div>
+                    <div class="modal-footer">
+                      <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Open second modal</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Modal 2</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      Hide this modal and show the first with the button below.
+                    </div>
+                    <div class="modal-footer">
+                      <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Back to first</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button class="btn btn-primary" id="btn-500" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Cupones por 500 pts</button>
         </div>
-        <div class="btn-500">
-            <button>Cupones por 500 pts</button>
-        </div>
-    </div>
 
     <div class="segundos-cupones">
-        <div class="btn-750">
-            <button>Cupones por 750 pts</button>
-        </div>
-        <div class="btn-1000">
-            <button>Cupones por 1000 pts</button>
-        </div>
+        
+        <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Modal 1</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  Show a second modal and hide this one with the button below.
+                </div>
+                <div class="modal-footer">
+                  <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Open second modal</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Modal 2</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  Hide this modal and show the first with the button below.
+                </div>
+                <div class="modal-footer">
+                  <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Back to first</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="btn btn-primary" id="btn-750" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Cupones por 750 pts</button>
+
+          <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Modal 1</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  Show a second modal and hide this one with the button below.
+                </div>
+                <div class="modal-footer">
+                  <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Open second modal</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Modal 2</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  Hide this modal and show the first with the button below.
+                </div>
+                <div class="modal-footer">
+                  <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Back to first</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="btn btn-primary" id="btn-1000" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Cupones por 1000 pts</button>
+          
     </div>
 
     <footer class="clase-footer">

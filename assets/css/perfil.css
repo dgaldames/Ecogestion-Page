@@ -236,3 +236,59 @@ button{
     color: white;
     padding: 15px 0px;
 }
+
+
+/* Inicio de estilos de modales*/
+
+#btn-250{
+    background-color: #2D6806;
+    font-size: 1.2em;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+
+}
+
+#btn-250:hover{
+    background-color: #03361b;
+}
+
+#btn-500{
+    background-color: #2D6806;
+    font-size: 1.2em;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+
+}
+
+#btn-500:hover{
+    background-color: #03361b;
+}
+
+#btn-750{
+    background-color: #2D6806;
+    font-size: 1.2em;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+
+}
+
+#btn-750:hover{
+    background-color: #03361b;
+}
+
+#btn-1000{
+    background-color: #2D6806;
+    font-size: 1.2em;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+
+}
+
+#btn-1000:hover{
+    background-color: #03361b;
+}
+
