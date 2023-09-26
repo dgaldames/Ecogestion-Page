@@ -1,3 +1,16 @@
+<?php
+
+session_start();
+
+if (isset($_SESSION['usuario'])) {
+    header("location: home.html");
+}
+
+?>
+
+
+
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -14,7 +27,7 @@
     <header>
         <div class home="header-wrapper">
             <div class="login">
-                <a href="login.html"><h3>Inicio Sesión / Registrarse</h3></a>
+                <a href="login.php"><h3>Inicio Sesión / Registrarse</h3></a>
             </div>
 
             <div class="logo">
@@ -57,19 +70,19 @@
 
             <!--Formulario Login-->
 
-                <form action="" class="formulario-login">
+                <form action="php/login_usuario_be.php" method="POST" class="formulario-login">
                     <h2>Iniciar sesión</h2>
-                    <input type="text" placeholder="Correo Electronico">
-                    <input type="password" placeholder="Contraseña">
+                    <input type="text" placeholder="Correo Electronico" name="correo">
+                    <input type="password" placeholder="Contraseña" name="contrasena">
                     <button>Entrar</button>
                 </form>
             <!--Formulario Register-->
-                <form action="" class="formulario-signup">
+                <form action="php/registro_usuario_be.php" method="POST" class="formulario-signup">
                     <h2>Registrarse</h2>
-                    <input type="text" placeholder="Nombre Completo">
-                    <input type="text" placeholder="Correo Electronico">
-                    <input type="text" placeholder="Usuario">
-                    <input type="password" placeholder="Contraseña">
+                    <input type="text" placeholder="Nombre Completo" name="nombre_completo">
+                    <input type="text" placeholder="Correo Electronico" name="correo">
+                    <input type="text" placeholder="Usuario" name="usuario">
+                    <input type="password" placeholder="Contraseña" name="contrasena">
                     <button>Registrarse</button>
                 </form>
             </div>
