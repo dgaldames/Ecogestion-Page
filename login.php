@@ -1,11 +1,13 @@
 <?php
 
-session_start();
+/* session_start();
 
 if (isset($_SESSION['usuario'])) {
     header("location: home.html");
-}
+} */
 
+
+// CREO QUE SI TENGO ESTO NO ME DEJA IR AL APARTADO DE INICIAR SESION DE NUEVO
 ?>
 
 
@@ -31,7 +33,7 @@ if (isset($_SESSION['usuario'])) {
             </div>
 
             <div class="logo">
-                <img src="/assets/css/img/logo-no-background.png" alt="Ecogesion">
+                <img src="assets/css/img/logo-no-background.png" alt="Ecogesion">
             </div>
 
             <div class="nav">

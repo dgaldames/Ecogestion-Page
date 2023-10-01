@@ -2,16 +2,20 @@
 
 include 'conexion_be.php';
 
+
+//INSERTAMOS LOS DATOS DEL USUARIO EN VARIABLES
 $nombre_completo = $_POST['nombre_completo'];
 $correo = $_POST['correo'];
 $usuario = $_POST['usuario'];
 $contrasena = $_POST['contrasena'];
 
+
+//HACEMOS LA SENTENCIA SQL PARA INSERTAR LOS DATOS EN LA BASE DE DATOS
 $query = "INSERT INTO usuarios (nombre_completo, correo, usuario, contrasena)
         VALUES('$nombre_completo', '$correo', '$usuario', '$contrasena')";
 
-//verificar que el correo no se repita
 
+//VERIFICAMOS QUE EL CORREO NO SE REPITA
 $verificar_correo = mysqli_query
 ($conexion, "SELECT * FROM usuarios WHERE correo = '$correo' ");
 
@@ -25,8 +29,8 @@ if (mysqli_num_rows($verificar_correo) > 0) {
     exit();
 }
 
-//verificar que el usuario no se repita
 
+//VERIFICAMOS QUE EL USUARIO NO SE REPITA
 $verificar_usuario = mysqli_query
 ($conexion, "SELECT * FROM usuarios WHERE usuario = '$usuario' ");
 
