@@ -20,7 +20,7 @@ if (isset($_SESSION['usuario'])) {
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-<link rel="stylesheet" href="assets/css/login.css">
+<link rel="stylesheet" href="/Ecogestion-Page/assets/css/login.css">
 <title>Login</title>
 </head>
 
@@ -33,18 +33,18 @@ if (isset($_SESSION['usuario'])) {
             </div>
 
             <div class="logo">
-                <img src="assets/css/img/logo-no-background.png" alt="Ecogesion">
+                <img src="/Ecogestion-page/assets/css/img/logo-no-background.png" alt="Ecogesion">
             </div>
 
             <div class="nav">
                 <nav>
                     <ul class="nav-links">
-                        <li><a href="home.html">Inicio</a></li>
-                        <li><a href="perfil.html">Perfil</a></li>
-                        <li><a href="perfil.html#beneficios">Recompensas</a></li>
-                        <li><a href="foro.html">Foro</a></li>
-                        <li><a href="home.html#fondo-who">¿Quiénes Somos?</a></li>
-                        <li><a href="home.html#fondo-serv">¿Qué ofrecemos?</a></li>
+                        <li><a href="/Ecogestion-page/src/index.html">Inicio</a></li>
+                        <li><a href="/Ecogestion-page/src/perfil.html">Perfil</a></li>
+                        <li><a href="/Ecogestion-page/src/perfil.html#beneficios">Recompensas</a></li>
+                        <li><a href="/Ecogestion-page/src/foro.html">Foro</a></li>
+                        <li><a href="/Ecogestion-page/src/index.html#fondo-who">¿Quiénes Somos?</a></li>
+                        <li><a href="/Ecogestion-page/src/index.html#fondo-serv">¿Qué ofrecemos?</a></li>
                     </ul>
                 </nav>
             </div>
@@ -72,14 +72,14 @@ if (isset($_SESSION['usuario'])) {
 
             <!--Formulario Login-->
 
-                <form action="php/login_usuario_be.php" method="POST" class="formulario-login">
+                <form action="/Ecogestion-page/php/login_usuario_be.php" method="POST" class="formulario-login">
                     <h2>Iniciar sesión</h2>
                     <input type="text" placeholder="Correo Electronico" name="correo">
                     <input type="password" placeholder="Contraseña" name="contrasena">
                     <button>Entrar</button>
                 </form>
             <!--Formulario Register-->
-                <form action="php/registro_usuario_be.php" method="POST" class="formulario-signup">
+                <form action="/Ecogestion-page/php/registro_usuario_be.php" method="POST" class="formulario-signup">
                     <h2>Registrarse</h2>
                     <input type="text" placeholder="Nombre Completo" name="nombre_completo">
                     <input type="text" placeholder="Correo Electronico" name="correo">
@@ -92,7 +92,7 @@ if (isset($_SESSION['usuario'])) {
         </div>
     </main>
 
-    <script src="assets/js/login.js"></script>
+    <script src="/Ecogestion-page/assets/js/login.js"></script>
 
 </body>
 </html>

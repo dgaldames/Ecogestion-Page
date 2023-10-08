@@ -23,7 +23,7 @@ if (mysqli_num_rows($verificar_correo) > 0) {
     echo '
         <script>
             alert("Este correo ya esta registrado, intenta con otro.");
-            window.location = "../login.php"
+            window.location = "../php/login.php";
         </script>
     ';
     exit();
@@ -38,7 +38,7 @@ if (mysqli_num_rows($verificar_usuario) > 0) {
     echo '
         <script>
             alert("Este usuario ya esta registrado, intenta con otro.");
-            window.location = "../login.php"
+            window.location = "../php/login.php";
         </script>
     ';
     exit();
@@ -51,14 +51,14 @@ if ($ejecutar) {
     echo '
         <script>
             alert("Usuario registrado exitosamente.");
-            window.location = "../login.php"
+            window.location = "../php/login.php"
         </script>
         ';
 }else{
     echo '
         <script>
             alert("Hubo un error :(, Intentelo de nuevo.");
-            window.location = "../login.php"
+            window.location = "../php/login.php"
         </script>
         ';
 }
