@@ -28,6 +28,11 @@ div[id]{
   color: #00af52;
 }
 
+.login a:hover{
+  cursor: pointer;
+  color: #00af52;
+}
+
 .logo img{
   width: 120px;
   height: 120px;

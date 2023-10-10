@@ -1,3 +1,12 @@
+<?php
+
+session_start();
+
+?>
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -15,7 +24,8 @@
         <header>
             <div class="header-wrapper">
                 <div class="login">
-                    <a href="/Ecogestion-Page/php/login.php"><h3>Inicio Sesión / Registrarse</h3></a>
+                    <h3>Bienvenido, <span><?php echo $_SESSION['usuario'];?>!</span></h3>
+                    <h3><a href="cerrar_sesion.php">Cerrar Sesión</a></h3>
                 </div>
 
                 <div class="logo">
