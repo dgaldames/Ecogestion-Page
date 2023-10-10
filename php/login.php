@@ -33,18 +33,19 @@ if (isset($_SESSION['usuario'])) {
             </div>
 
             <div class="logo">
-                <img src="/Ecogestion-page/assets/css/img/logo-no-background.png" alt="Ecogesion">
+                <a href="/Ecogestion-page/src/index.html">
+                    <img src="/Ecogestion-page/assets/css/img/logo-no-background.png" alt="Ecogesion">
+                </a>
             </div>
 
             <div class="nav">
                 <nav>
                     <ul class="nav-links">
                         <li><a href="/Ecogestion-page/src/index.html">Inicio</a></li>
-                        <li><a href="/Ecogestion-page/src/perfil.html">Perfil</a></li>
-                        <li><a href="/Ecogestion-page/src/perfil.html#beneficios">Recompensas</a></li>
-                        <li><a href="/Ecogestion-page/src/foro.html">Foro</a></li>
                         <li><a href="/Ecogestion-page/src/index.html#fondo-who">¿Quiénes Somos?</a></li>
+                        <li><a href="/Ecogestion-page/src/perfil.html#beneficios">Recompensas</a></li>
                         <li><a href="/Ecogestion-page/src/index.html#fondo-serv">¿Qué ofrecemos?</a></li>
+                        <li><a href="/Ecogestion-page/src/foro.html">Foro</a></li>
                     </ul>
                 </nav>
             </div>

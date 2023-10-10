@@ -43,7 +43,7 @@ div[id]{
   list-style: none;
   margin-top: 20px;
   justify-content: space-around;
-  margin-left: 117px;
+  margin-left: 240px;
 }
 
 .nav-links a{
@@ -114,6 +114,7 @@ div[id]{
 
 .main-foto{
   margin-top: 60px;
+  box-shadow: 20px 15px 23px rgb(165, 165, 165);
 }
 
 .who-banner{
@@ -195,10 +196,15 @@ div[id]{
   padding-bottom: 90px;
 }
 
-.img-option img{
+.img-option-serv img{
   width: 250px;
   height: 250px;
-  border-radius: 25px;
+  border-radius: 15px;
+}
+
+.img-option-serv{
+  border-radius: 15px;
+  box-shadow: 8px 6px 10px 5px rgb(163, 163, 163);
 }
 
 .btn-option{
@@ -281,10 +287,19 @@ div[id]{
 }
 
 .img-option img{
-  border-radius: 25px;
-  border: 4px solid #2D6806;
-  margin: 0px 10px 0px 10px;
+  width: 250px;
+  height: 250px;
+  border-radius: 15px;
 }
+
+.img-option img {
+  border-radius: 15px;
+  border: 2px solid green;
+  margin: 0px 10px 0px 10px;
+  box-shadow: 15px 15px 10px grey;
+} 
+
+/*No se pq no me pesca lo de arriba a no ser que sea por el xamp */ 
 
 .img-option button{
   background-color: #2D6806;
@@ -363,151 +378,6 @@ div[id]{
   border: 4px solid rgb(238, 238, 238);
 }
 
-/* Comienzo de estilos del foro*/
-
-.foro-banner {
-  position: relative;
-  width: 100%;
-  height: 300px; /* Ajusta la altura según tus necesidades */
-  background-image: url('img/Banner\ foro.png');
-  background-size: cover;
-  background-position: center;
-  color: white;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.foro-banner h1{
-  color: black;
-  font-size: 5em;
-  font-weight: bold;
-  margin-top: 175px;
-}
-
-.foro-title{
-  display: flex;
-  justify-content: center;
-  margin-top: 15px;
-}
-
-.foro-title h2{
-  font-family: 'Poppins', sans-serif;
-  font-weight: bold;
-}
-
-.foro-publicacion-wrapper{
-  background-color: #2D6806;
-  display: flex;
-  margin: 70px 0px 70px 0px;
-  padding: 20px 0px 40px 0px;
-}
-
-.foto-user-name-wrapper{
-  margin-left: 90px;
-}
-
-.foto-user{
-  margin-top: 20px;
-}
-
-.foto-user img{
-  width: 120px;
-  height: 120px;
-}
-
-.name-user h4{
-  color: white;
-  margin-left: 17px;
-  margin-top: 10px;
-}
-
-.foro-pregunta-wrapper h2{
-  color: white;
-  margin-left: 100px;
-  margin-bottom: 20px;
-  font-family: 'Poppins', sans-serif;
-  font-weight: bold;
-  
-}
-
-.foro-pregunta-wrapper input{
-  margin-left: 100px;
-  width: 1300px;
-  height: 70px;
-  border-radius: 20px;
-  border: none;
-}
-
-.foro-pregunta-wrapper input::placeholder{
-  font-size: 1.5em;
-  font-family: 'Poppins', sans-serif;
-  font-weight: bold;
-  padding-left: 10px;
-}
-
-.button-enviar{
-  display: flex;
-  justify-content: flex-end;
-  margin: 20px 30px 0px 0px
-}
-
-.button-enviar button{
-  color: #2D6806;
-  background-color: white;
-  font-family: 'Poppins', sans-serif;
-  font-weight: bold;
-  font-size: 1.5em;
-  width: 200px;
-  height: 40px;
-  border: none;
-  border-radius: 20px;
-}
-
-.last-discusiones-title{
-  display: flex;
-  justify-content: center;
-}
-
-.last-discusiones-title h2{
-  font-size: 2.4em;
-  font-weight: bold;
-}
-
-.foro-pregunta{
-  margin-left: 100px;
-  padding-right: 640px;
-  margin-top: 50px;
-}
-
-.foro-pregunta h2{
-  color: white;
-  font-family: 'Poppins', sans-serif;
-  font-weight: bold;
-}
-
-.button-comentarios{
-  display: flex;
-  justify-content: flex-end;
-  margin: 20px 0px 0px 0px;
-  margin-left: 600px;
-}
-
-.button-comentarios button{
-  color: #2D6806;
-  background-color: white;
-  font-family: 'Poppins', sans-serif;
-  font-weight: bold;
-  font-size: 1.5em;
-  width: 200px;
-  height: 40px;
-  border: none;
-  border-radius: 20px;
-}
-
-/* Fin de estilos del foro*/
 
 
 /* Comienzo estilos del footer*/
