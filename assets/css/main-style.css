@@ -17,21 +17,80 @@ div[id]{
 .login h3{
   display: flex;
   justify-content: flex-end;
-  margin: 40px 60px 0px 0px;
+  margin: 25px 60px 0px 0px;
   color: #0B6635;
   font-family: 'Poppins', sans-serif;
   font-size: 1.6em;
 }
 
+
 .login h3:hover{
+  color: #00af52;
+}
+
+.login h4{
+  display: flex;
+  justify-content: flex-end;
+  margin: 15px 50px 0px 0px;
+  color: #0B6635;
+  font-family: 'Poppins', sans-serif;
+}
+
+.login a{
+  color: #0B6635;
+  font-size: 1em;
+  font-weight: 500;
+}
+
+.login .logout{
+  margin-top: 0px;
+}
+
+i{
+  color: black;
+  font-size: 1.12em;
+}
+
+.logout:hover{
   cursor: pointer;
   color: #00af52;
 }
 
-.login a:hover{
-  cursor: pointer;
-  color: #00af52;
+/* Comienzo estilos del modal de cerrar sesion */
+.modal-footer a{
+  color: white;
+  background-color: #0B6635;
+  border: none;
 }
+
+.modal-footer a:hover{
+  background-color: #03361b;
+}
+
+.modal-header h1{
+  margin-left: 158px;
+  color: black
+}
+
+.modal-body {
+  text-align: center;
+}
+
+.modal-body span {
+  display: block; /* Hace que cada línea sea un bloque */
+  color: #0B6635;
+}
+
+.modal-body .smaller-text {
+  font-size: 80%; /* Reduce el tamaño del texto */
+}
+
+.modal-footer, .modal-header{
+  border: none !important;
+}
+
+/*FIN DE ESTILOS DEL MODAL SINGOUT*/
+
 
 .logo img{
   width: 120px;

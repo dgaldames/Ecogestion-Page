@@ -1,3 +1,10 @@
+<?php
+
+session_start();
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,8 +23,30 @@
     <header>
         <div class home="header-wrapper">
             <div class="login">
-                <a href="/Ecogestion-Page/php/login.php"><h3><i class='bx bx-log-in'></i>Inicio Sesión / Registrarse</h3></a>
+                <h3>Bienvenido, <span><?php echo $_SESSION['usuario'];?>!</span></h3>
+                    <!-- Button trigger modal -->
+                    <h4> <a class="logout" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><i class='bx bx-log-out'></i> Cerrar sesión</a></h4>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Sesión Finalizada</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <h2><span>Cierre de sesión exitoso</span></h2>
+                                    <h2><span class="smaller-text">Hasta la próxima <i class='bx bx-wink-smile'></i></span></h2>
+                                </div>
+                                <div class="modal-footer">
+                                    <a href="cerrar_sesion.php" type="button" class="btn btn-primary" id="entendido">Entendido</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
             </div>
+        </div>
 
             <div class="logo">
                 <a href="index.html">
@@ -28,11 +57,11 @@
             <div class="nav">
                 <nav>
                     <ul class="nav-links">
-                        <li><a href="index.html">Inicio</a></li>
-                        <li><a href="index.html#fondo-who">¿Quiénes Somos?</a></li>
-                        <li><a href="perfil.html#beneficios">Recompensas</a></li>
-                        <li><a href="index.html#fondo-serv">¿Qué ofrecemos?</a></li>
-                        <li><a href="foro.html">Foro</a></li>
+                        <li><a href="/Ecogestion-page/php/index.php">Inicio</a></li>
+                        <li><a href="/Ecogestion-page/php/index.php#fondo-who">¿Quiénes Somos?</a></li>
+                        <li><a href="/Ecogestion-page/php/perfil.php#beneficios">Recompensas</a></li>
+                        <li><a href="/Ecogestion-page/php/index.php#fondo-serv">¿Qué ofrecemos?</a></li>
+                        <li><a href="/Ecogestion-page/php/foro.php">Foro</a></li>
                     </ul>
                 </nav>
             </div>
