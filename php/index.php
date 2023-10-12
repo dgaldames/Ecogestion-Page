@@ -35,14 +35,14 @@ session_start();
                             <div class="modal-content">
                                 <div class="modal-header">
                                     <h1 class="modal-title fs-5" id="staticBackdropLabel">Sesión Finalizada</h1>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
                                     <h2><span>Cierre de sesión exitoso</span></h2>
                                     <h2><span class="smaller-text">Hasta la próxima <i class='bx bx-wink-smile'></i></span></h2>
                                 </div>
                                 <div class="modal-footer">
-                                    <a href="cerrar_sesion.php" type="button" class="btn btn-primary" id="entendido">Entendido</a>
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Mejor me quedo</button>
+                                    <a href="cerrar_sesion.php" type="button" class="btn btn-primary">Entendido</a>
                                 </div>
                             </div>
                         </div>
@@ -60,7 +60,7 @@ session_start();
                         <ul class="nav-links">
                             <li><a href="/Ecogestion-page/php/index.php">Inicio</a></li>
                             <li><a href="/Ecogestion-page/php/index.php#fondo-who">¿Quiénes Somos?</a></li>
-                            <li><a href="/Ecogestion-page/php/perfil.php#beneficios">Recompensas</a></li>
+                            <li id="beneficios"><a href="/Ecogestion-page/php/perfil.php#beneficios">Recompensas</a></li>
                             <li><a href="/Ecogestion-page/php/index.php#fondo-serv">¿Qué ofrecemos?</a></li>
                             <li><a href="/Ecogestion-page/php/foro.php">Foro</a></li>
                         </ul>

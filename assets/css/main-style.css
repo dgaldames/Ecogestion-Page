@@ -67,8 +67,18 @@ i{
   background-color: #03361b;
 }
 
+.modal-footer button{
+  color: white;
+  background-color: #0B6635;
+  border: none;
+}
+
+.modal-footer button:hover{
+  background-color: #03361b;
+}
+
 .modal-header h1{
-  margin-left: 158px;
+  margin-left: 162px;
   color: black
 }
 
@@ -107,7 +117,7 @@ i{
   list-style: none;
   margin-top: 20px;
   justify-content: space-around;
-  margin-left: 240px;
+  margin-left: 190px;
 }
 
 .nav-links a{

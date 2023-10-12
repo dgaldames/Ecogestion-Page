@@ -24,7 +24,7 @@ session_start();
     <header>
         <div class home="header-wrapper">
             <div class="login">
-                <h3>Bienvenido, <span><?php echo $_SESSION['usuario'];?>!</span></h3>
+                <h3>Bienvenido,ㅤ<span><?php echo $_SESSION['usuario'];?>!</span></h3>
                     <!-- Button trigger modal -->
                     <h4> <a class="logout" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><i class='bx bx-log-out'></i> Cerrar sesión</a></h4>
 
@@ -34,14 +34,14 @@ session_start();
                             <div class="modal-content">
                                 <div class="modal-header">
                                     <h1 class="modal-title fs-5" id="staticBackdropLabel">Sesión Finalizada</h1>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
                                     <h2><span>Cierre de sesión exitoso</span></h2>
                                     <h2><span class="smaller-text">Hasta la próxima <i class='bx bx-wink-smile'></i></span></h2>
                                 </div>
                                 <div class="modal-footer">
-                                    <a href="cerrar_sesion.php" type="button" class="btn btn-primary" id="entendido">Entendido</a>
+                                    <button id="quedarse" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Mejor me quedo</button>
+                                    <a href="cerrar_sesion.php" type="button" class="btn btn-primary">Entendido</a>
                                 </div>
                             </div>
                         </div>
@@ -60,7 +60,7 @@ session_start();
                     <ul class="nav-links">
                         <li><a href="/Ecogestion-page/php/index.php">Inicio</a></li>
                         <li><a href="/Ecogestion-page/php/index.php#fondo-who">¿Quiénes Somos?</a></li>
-                        <li><a href="/Ecogestion-page/php/perfil.php#beneficios">Recompensas</a></li>
+                        <li id="beneficios"><a href="/Ecogestion-page/php/perfil.php#beneficios">Recompensas</a></li>
                         <li><a href="/Ecogestion-page/php/index.php#fondo-serv">¿Qué ofrecemos?</a></li>
                         <li><a href="/Ecogestion-page/php/foro.php">Foro</a></li>
                     </ul>
@@ -82,7 +82,7 @@ session_start();
         <h5>¿Qué deseas canjear hoy?</h5>
     </div>
 
-    <div class="bene-dispo" id="beneficios">
+    <div class="bene-dispo">
         <h2>Beneficios Disponibles</h2>
     </div>
 
@@ -155,6 +155,7 @@ session_start();
                 </div>
             </div>
             <button class="btn btn-primary" id="btn-500" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Cupones por 500 pts</button>
+            
         </div>
 
     <div class="segundos-cupones">

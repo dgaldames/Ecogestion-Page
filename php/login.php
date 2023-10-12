@@ -28,9 +28,6 @@ if (isset($_SESSION['usuario'])) {
 
     <header>
         <div class home="header-wrapper">
-            <div class="login">
-                <a href="login.php"><h3>Inicio Sesión / Registrarse</h3></a>
-            </div>
 
             <div class="logo">
                 <a href="/Ecogestion-page/src/index.html">
@@ -43,7 +40,7 @@ if (isset($_SESSION['usuario'])) {
                     <ul class="nav-links">
                         <li><a href="/Ecogestion-page/src/index.html">Inicio</a></li>
                         <li><a href="/Ecogestion-page/src/index.html#fondo-who">¿Quiénes Somos?</a></li>
-                        <li><a href="/Ecogestion-page/src/perfil.html#beneficios">Recompensas</a></li>
+                        <li id="beneficios"><a href="/Ecogestion-page/src/perfil.html#beneficios">Recompensas</a></li>
                         <li><a href="/Ecogestion-page/src/index.html#fondo-serv">¿Qué ofrecemos?</a></li>
                         <li><a href="/Ecogestion-page/src/foro.html">Foro</a></li>
                     </ul>
