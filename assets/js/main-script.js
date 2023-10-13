@@ -38,3 +38,11 @@ document.getElementById('mapa-ancla2').addEventListener('click', function() {
     }
 });
 
+function abrirMenu(){
+    document.getElementById("left-menu").style.width = "330px"
+}
+
+function cerrarMenu(){
+    document.getElementById("left-menu").style.width = "0"
+}
+

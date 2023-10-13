@@ -398,6 +398,69 @@ i{
   margin: 20px 0px 40px 0px;
 }
 
+/*Comienzo estilos modales */
+
+.modal-body {
+  margin: 0px 30px;
+}
+.modal-body h1 {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+.modal-content2 {
+  height: 600px;
+  background-color: #e9e9e9;
+  color: #030302;
+  text-align: center;
+}
+.header-plas {
+  background-image: url("img/guia\ banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  border: 0px;
+}
+.container-btn {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  margin-bottom: 140px;
+}
+
+/* Estilos para el botón X circular */
+.x-button {
+  width: 50px; /* Ancho deseado */
+  height: 50px; /* Alto deseado */
+  border-radius: 50%; /* Hace que el botón sea circular */
+  background: black; /* Fondo negro */
+  position: absolute;
+  top: 20%;
+  right: 20px; /* Coloca el botón a la derecha con un espacio de 20px desde el borde derecho */
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.x-button::before,
+.x-button::after {
+  content: "";
+  position: absolute;
+  width: 4px; /* Ancho de la línea de la X */
+  height: 20px; /* Altura de la línea de la X */
+  background: white; /* Color de la línea de la X */
+  top: 50%; /* Posiciona la línea verticalmente */
+  left: 50%; /* Posiciona la línea horizontalmente */
+  transform: translate(-50%, -50%) rotate(45deg); /* Rota la línea para formar una X */
+}
+
+.x-button::after {
+  transform: translate(-50%, -50%) rotate(-45deg); /* Rota la segunda línea para formar una X */
+}
+
+/* Fin estilos modales */
+
+
 .mapa-banner{
   position: relative;
   width: 100%;
@@ -555,7 +618,134 @@ i{
   padding: 15px 0px;
 }
 
-
-
-
+/* hr{
+  display: none;
+} */
 /* Fin estilos del footer*/
+
+
+
+/* COMIENZO ESTILOS RESPONSIVE*/
+
+/* Responsive quienes somos */
+@media screen and (max-width: 600px) {
+  .who-banner{
+    height: 300px; 
+  }
+  .foto-text{
+    margin-top: -30px;
+    font-size: 0.8em;
+    margin: auto;
+  }
+
+  .foto-text p{
+    margin: 0px 50px 20px 0px;
+
+  }
+
+  .main-who-wrapper {
+    flex-direction: column; 
+    align-items: center;
+  }
+
+  .foto-tilines img {
+    height: 380px;
+    margin-left: 150px;
+  }
+}
+/* Fin responsive quienes somos responsive servicios */
+
+/* Comienzo responsive nuestros servicios */
+@media screen and (max-width: 600px) {
+  .services-banner{
+    height: 200px; 
+  }
+
+  .service-title h1 {
+    font-size: 1em;
+    text-align: center;
+  }
+
+  .img-option img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .btn-option button {
+    width: 180px;
+    height: 40px;
+    font-size: 1em;
+    margin-bottom: 20px
+
+  }
+
+  .options-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+/* Fin responsive nuestros servicios */
+
+/* Comienzo responsive NAV*/
+
+@media screen and (max-width: 600px) {
+
+  #left-menu{
+    height: 100vh;
+    position: fixed;
+    width: 0;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: #cfcfcf;
+    overflow-x: hidden;
+    transition: .3s;
+  }
+
+  .nav-links{
+    display: block;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .nav-links li a{
+    font-size: 1.6em;
+    padding-left: 15px;
+    margin: 0px;
+  }
+
+  .nav-links li{
+    margin: 20px 0px 20px 0px;
+  }
+
+  #left-menu #x{
+    display: block;
+  }
+  
+  #barras{
+    display: block;
+  }
+
+  #barras{
+    font-size: 3em;
+  }
+
+  #x{
+    font-size: 3em;
+  }
+
+}
+
+
+/* #barras{
+  display: none;
+}
+
+#x{
+  display: none;
+} */
+
+/* VER POR QUE NO ME PESCA ESTA WEA*/
+
+
+

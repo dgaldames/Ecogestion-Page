@@ -25,9 +25,9 @@ session_start();
         <header>
             <div class="header-wrapper">
                 <div class="login">
-                    <h3 class="bienvenida">Bienvenido,ㅤ<span><?php echo $_SESSION['usuario'];?>!</span></h3>
+                    <h3 class="bienvenida">Bienvenidoㅤ<span><?php echo $_SESSION['usuario'];?>!</span></h3>
                     <!-- Button trigger modal -->
-                    <h4> <a class="logout" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><i class='bx bx-log-out'></i> Cerrar sesión</a></h4>
+                    <h4> <a class="logout" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><i class='bx bx-log-out'></i>ㅤCerrar sesión</a></h4>
 
                     <!-- Modal -->
                     <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
@@ -176,222 +176,253 @@ session_start();
         <div class="guia-tittle">
             <h1>Guía de reciclaje</h1>
         </div>
-
+    
         <div class="main-guia-wrapper">
             <div class="texto-izquierda">
                 <h4>¿Qué encontraras aqui?</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt omnis ipsum delectus dicta itaque, minus rem optio cupiditate necessitatibus tempora repellat et, earum veritatis voluptatem non quam harum provident modi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur provident ipsam ex fugit tempore impedit. Reiciendis deserunt fugiat, ratione eos expedita optio aspernatur fugit dolore aut id iure aliquid totam.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt omnis ipsum delectus dicta itaque,
+                    minus rem optio cupiditate necessitatibus tempora repellat et, earum veritatis voluptatem non quam harum
+                    provident modi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur provident ipsam ex
+                    fugit tempore impedit. Reiciendis deserunt fugiat, ratione eos expedita optio aspernatur fugit dolore
+                    aut id iure aliquid totam.</p>
             </div>
-
+    
             <div class="recicle-wrapper">
                 <div class="options-line">
                     <div class="img-option">
                         <img src="/Ecogestion-page/assets/css/img/guia clasificacion icons/Dalle-icono-botella-plastico-paint.png" alt="">
                         <div class="riclaje-btn">
-                            <button data-bs-toggle="modal" data-bs-target="#exampleModalPlastico">Plásticos</button>
+                            <button id="boton-popup" data-bs-toggle="modal"
+                                data-bs-target="#exampleModalPlastico">Plásticos</button>
                         </div>
                     </div>
-
-                    <div class="modal fade" id="exampleModalPlastico" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                            <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    
+                    <div class="modal fade" id="exampleModalPlastico" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-xl modal-dialog-centered">
+                            <div class="modal-content2">
+                                <div class="modal-header header-plas">
+                                    <div class="container-btn">
+                                        <button type="button" class="x-button" data-bs-dismiss="modal" aria-label="Close">
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="modal-body">
+                                    <h1>¿Cómo reciclar plásticos?</h1>
+                                    <p>Con plásticos nos referimos a Lorem ipsum dolor sit amet,
+                                        consectetur adipiscing elit. Duis sapien mi, maximus nec nibh vel, posuere interdum
+                                        risus. Phasellus et justo in neque sagittis ultrices eu id nisl.</p>
+                                </div>
                             </div>
-                            <div class="modal-body">
-                            Plástico
-                            </div>
-                            <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save changes</button>
-                            </div>
-                        </div>
                         </div>
                     </div>
-
+    
                     <div class="img-option">
                         <img src="/Ecogestion-page/assets/css/img/guia clasificacion icons/Dalle-icono-botella-vidrio-paint.png" alt="">
                         <div class="riclaje-btn">
-                            <button data-bs-toggle="modal" data-bs-target="#exampleModalVidrio">Vidrio</button>
+                            <button id="boton-popup" data-bs-toggle="modal"
+                                data-bs-target="#exampleModalVidrio">Vidrio</button>
                         </div>
                     </div>
-
-                    <div class="modal fade" id="exampleModalVidrio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                            <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    
+                    <div class="modal fade" id="exampleModalVidrio" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-xl modal-dialog-centered">
+                            <div class="modal-content2">
+                                <div class="modal-header header-plas">
+                                    <div class="container-btn">
+                                        <button type="button" class="x-button" data-bs-dismiss="modal" aria-label="Close">
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="modal-body">
+                                    <h1>¿Cómo reciclar Vidrio?</h1>
+                                    <p>Con Vidrio nos referimos a Lorem ipsum dolor sit amet,
+                                        consectetur adipiscing elit. Duis sapien mi, maximus nec nibh vel, posuere interdum
+                                        risus. Phasellus et justo in neque sagittis ultrices eu id nisl.</p>
+                                </div>
                             </div>
-                            <div class="modal-body">
-                            Vidrio
-                            </div>
-                            <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save changes</button>
-                            </div>
-                        </div>
                         </div>
                     </div>
-
+    
                     <div class="img-option">
                         <img src="/Ecogestion-page/assets/css/img/guia clasificacion icons/Dalle-icono-papel2.png" alt="">
                         <div class="riclaje-btn">
-                            <button data-bs-toggle="modal" data-bs-target="#exampleModalPapel">Papel</button>
+                            <button id="boton-popup" data-bs-toggle="modal"
+                                data-bs-target="#exampleModalPapel">Papel</button>
                         </div>
                     </div>
-
-                    <div class="modal fade" id="exampleModalPapel" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                            <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    
+                    <div class="modal fade" id="exampleModalPapel" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-xl modal-dialog-centered">
+                            <div class="modal-content2">
+                                <div class="modal-header header-plas">
+                                    <div class="container-btn">
+                                        <button type="button" class="x-button" data-bs-dismiss="modal" aria-label="Close">
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="modal-body">
+                                    <h1>¿Cómo reciclar Papel?</h1>
+                                    <p>Con Papel nos referimos a Lorem ipsum dolor sit amet,
+                                        consectetur adipiscing elit. Duis sapien mi, maximus nec nibh vel, posuere interdum
+                                        risus. Phasellus et justo in neque sagittis ultrices eu id nisl.</p>
+                                </div>
                             </div>
-                            <div class="modal-body">
-                            Papel
-                            </div>
-                            <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save changes</button>
-                            </div>
-                        </div>
                         </div>
                     </div>
-
+    
                     <div class="img-option">
                         <img src="/Ecogestion-Page/assets/css/img/guia clasificacion icons/Dalle-icono-lata-paint.png" alt="">
                         <div class="riclaje-btn">
-                            <button data-bs-toggle="modal" data-bs-target="#exampleModalLatas">Latas</button>
+                            <button id="boton-popup" data-bs-toggle="modal"
+                                data-bs-target="#exampleModalLatas">Latas</button>
                         </div>
                     </div>
-
-                    <div class="modal fade" id="exampleModalLatas" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                            <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    
+                    <div class="modal fade" id="exampleModalLatas" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-xl modal-dialog-centered">
+                            <div class="modal-content2">
+                                <div class="modal-header header-plas">
+                                    <div class="container-btn">
+                                        <button type="button" class="x-button" data-bs-dismiss="modal" aria-label="Close">
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="modal-body">
+                                    <h1>¿Cómo reciclar Latas?</h1>
+                                    <p>Con Latas nos referimos a Lorem ipsum dolor sit amet,
+                                        consectetur adipiscing elit. Duis sapien mi, maximus nec nibh vel, posuere interdum
+                                        risus. Phasellus et justo in neque sagittis ultrices eu id nisl.</p>
+                                </div>
                             </div>
-                            <div class="modal-body">
-                            Latas
-                            </div>
-                            <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save changes</button>
-                            </div>
-                        </div>
                         </div>
                     </div>
-
+    
+    
                 </div>
-
+    
                 <div class="options-line">
                     <div class="img-option">
-                        <img src="/Ecogestion-Page/assets/css/img/guia clasificacion icons/Dalle-icono-organico-paint.bmp">
+                        <img src="/Ecogestion-Page/assets/css/img/guia clasificacion icons/Dalle-icono-organico-paint.bmp" alt="">
                         <div class="riclaje-btn">
-                            <button data-bs-toggle="modal" data-bs-target="#exampleModalOrganicos">Orgánicos</button>
+                            <button id="boton-popup" data-bs-toggle="modal"
+                                data-bs-target="#exampleModalOrganicos">Organicos</button>
                         </div>
                     </div>
-
-                    <div class="modal fade" id="exampleModalOrganicos" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                            <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    
+                    <div class="modal fade" id="exampleModalOrganicos" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-xl modal-dialog-centered">
+                            <div class="modal-content2">
+                                <div class="modal-header header-plas">
+                                    <div class="container-btn">
+                                        <button type="button" class="x-button" data-bs-dismiss="modal" aria-label="Close">
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="modal-body">
+                                    <h1>¿Cómo reciclar Organicos?</h1>
+                                    <p>Con Latas nos referimos a Lorem ipsum dolor sit amet,
+                                        consectetur adipiscing elit. Duis sapien mi, maximus nec nibh vel, posuere interdum
+                                        risus. Phasellus et justo in neque sagittis ultrices eu id nisl.</p>
+                                </div>
                             </div>
-                            <div class="modal-body">
-                            Orgánicos
-                            </div>
-                            <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save changes</button>
-                            </div>
-                        </div>
                         </div>
                     </div>
-
+    
+    
                     <div class="img-option">
                         <img src="/Ecogestion-Page/assets/css/img/guia clasificacion icons/icono-caja-final.png" alt="">
                         <div class="riclaje-btn">
-                            <button data-bs-toggle="modal" data-bs-target="#exampleModalCarton">Cartón</button>
+                            <button id="boton-popup" data-bs-toggle="modal"
+                                data-bs-target="#exampleModalCarton">Cartón</button>
                         </div>
                     </div>
-
-                    <div class="modal fade" id="exampleModalCarton" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                            <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    
+                    <div class="modal fade" id="exampleModalCarton" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-xl modal-dialog-centered">
+                            <div class="modal-content2">
+                                <div class="modal-header header-plas">
+                                    <div class="container-btn">
+                                        <button type="button" class="x-button" data-bs-dismiss="modal" aria-label="Close">
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="modal-body">
+                                    <h1>¿Cómo reciclar Cartón?</h1>
+                                    <p>Con Latas nos referimos a Lorem ipsum dolor sit amet,
+                                        consectetur adipiscing elit. Duis sapien mi, maximus nec nibh vel, posuere interdum
+                                        risus. Phasellus et justo in neque sagittis ultrices eu id nisl.</p>
+                                </div>
                             </div>
-                            <div class="modal-body">
-                            Cartón
-                            </div>
-                            <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save changes</button>
-                            </div>
-                        </div>
                         </div>
                     </div>
-
+    
+    
                     <div class="img-option">
                         <img src="/Ecogestion-Page/assets/css/img/guia clasificacion icons/icono-electronico.png" alt="">
                         <div class="riclaje-btn">
-                            <button data-bs-toggle="modal" data-bs-target="#exampleModalElectronicos">Electrónicos</button>
+                            <button id="boton-popup" data-bs-toggle="modal"
+                                data-bs-target="#exampleModalElectronicos">Electrónicos</button>
                         </div>
                     </div>
-
-                    <div class="modal fade" id="exampleModalElectronicos" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                            <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    
+                    <div class="modal fade" id="exampleModalElectronicos" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-xl modal-dialog-centered">
+                            <div class="modal-content2">
+                                <div class="modal-header header-plas">
+                                    <div class="container-btn">
+                                        <button type="button" class="x-button" data-bs-dismiss="modal" aria-label="Close">
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="modal-body">
+                                    <h1>¿Cómo reciclar Electrónicos?</h1>
+                                    <p>Con Latas nos referimos a Lorem ipsum dolor sit amet,
+                                        consectetur adipiscing elit. Duis sapien mi, maximus nec nibh vel, posuere interdum
+                                        risus. Phasellus et justo in neque sagittis ultrices eu id nisl.</p>
+                                </div>
                             </div>
-                            <div class="modal-body">
-                            Electrónicos
-                            </div>
-                            <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save changes</button>
-                            </div>
-                        </div>
                         </div>
                     </div>
-
+    
                     <div class="img-option">
                         <img src="/Ecogestion-Page/assets/css/img/guia clasificacion icons/icono-ropa.png" alt="">
                         <div class="riclaje-btn">
-                            <button data-bs-toggle="modal" data-bs-target="#exampleModalTextil">Textil</button>
+                            <button id="boton-popup" data-bs-toggle="modal"
+                                data-bs-target="#exampleModalTextil">Textil</button>
                         </div>
                     </div>
-
-                    <div class="modal fade" id="exampleModalTextil" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                            <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    
+                    <div class="modal fade" id="exampleModalTextil" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-xl modal-dialog-centered">
+                            <div class="modal-content2">
+                                <div class="modal-header header-plas">
+                                    <div class="container-btn">
+                                        <button type="button" class="x-button" data-bs-dismiss="modal" aria-label="Close">
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="modal-body">
+                                    <h1>¿Cómo reciclar Textil?</h1>
+                                    <p>Con Latas nos referimos a Lorem ipsum dolor sit amet,
+                                        consectetur adipiscing elit. Duis sapien mi, maximus nec nibh vel, posuere interdum
+                                        risus. Phasellus et justo in neque sagittis ultrices eu id nisl.</p>
+                                </div>
                             </div>
-                            <div class="modal-body">
-                            Textil
-                            </div>
-                            <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save changes</button>
-                            </div>
-                        </div>
                         </div>
                     </div>
-
+    
                 </div>
             </div>
         </div>
-
+    
         <!--Fin de Guia de reciclaje-->
         
         <!--Comienzo de Mapa-->
