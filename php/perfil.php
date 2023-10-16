@@ -21,13 +21,13 @@ session_start();
 
 <body>
 
-    <header>
+<header>
         <div class home="header-wrapper">
-            <div class="login">
+            <div class="login" id="login-php-perfil">
                 <h3>Bienvenido,ㅤ<span><?php echo $_SESSION['usuario'];?>!</span></h3>
                     <!-- Button trigger modal -->
                     <h4> <a class="logout" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><i class='bx bx-log-out'></i> Cerrar sesión</a></h4>
-
+                    
                     <!-- Modal -->
                     <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                         <div class="modal-dialog">
@@ -40,7 +40,7 @@ session_start();
                                     <h2><span class="smaller-text">Hasta la próxima <i class='bx bx-wink-smile'></i></span></h2>
                                 </div>
                                 <div class="modal-footer">
-                                    <button id="quedarse" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Mejor me quedo</button>
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Mejor me quedo</button>
                                     <a href="cerrar_sesion.php" type="button" class="btn btn-primary">Entendido</a>
                                 </div>
                             </div>
@@ -55,17 +55,19 @@ session_start();
                 </a>
             </div>
 
-            <div class="nav">
-                <nav>
-                    <ul class="nav-links">
-                        <li><a href="/Ecogestion-page/php/index.php">Inicio</a></li>
-                        <li><a href="/Ecogestion-page/php/index.php#fondo-who">¿Quiénes Somos?</a></li>
-                        <li id="beneficios"><a href="/Ecogestion-page/php/perfil.php#beneficios">Recompensas</a></li>
-                        <li><a href="/Ecogestion-page/php/index.php#fondo-serv">¿Qué ofrecemos?</a></li>
-                        <li><a href="/Ecogestion-page/php/foro.php">Foro</a></li>
-                    </ul>
-                </nav>
-            </div>
+            <div class="nav" id="left-menu-php-perfil">
+                    <nav>
+                        <span><i id="x-php-perfil" class='bx bx-left-arrow-alt' onclick="cerrarMenuPhpPerfil()"></i></span>
+                        <ul class="nav-links">
+                            <li><a href="/Ecogestion-page/php/index.php">Inicio</a></li>
+                            <li><a href="/Ecogestion-page/php/index.php#fondo-who">¿Quiénes Somos?</a></li>
+                            <li id="beneficios"><a href="/Ecogestion-page/php/perfil.php#beneficios">Recompensas</a></li>
+                            <li><a href="/Ecogestion-page/php/index.php#fondo-serv">¿Qué ofrecemos?</a></li>
+                            <li><a href="/Ecogestion-page/php/foro.php">Foro</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <span id="barras-php-perfil" onclick="abrirMenuPhpPerfil()"><i class='bx bx-menu'></i></span>
         </div>
     </header>
 
@@ -285,3 +287,6 @@ session_start();
 
 </body>
 </html>
+
+
+<script src="/Ecogestion-Page/assets/js/perfil.js"></script>

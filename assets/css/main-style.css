@@ -618,17 +618,19 @@ i{
   padding: 15px 0px;
 }
 
-/* hr{
-  display: none;
-} */
-/* Fin estilos del footer*/
-
-
 #barras{
   display: none;
 }
 
 #x{
+  display: none;
+}
+
+#barras-php{
+  display: none;
+}
+
+#x-php{
   display: none;
 }
 
@@ -644,6 +646,10 @@ i{
     margin-top: -30px;
     font-size: 0.8em;
     margin: auto;
+  }
+
+  .who-tittle h1{
+    font-size: 1.3em;
   }
 
   .foto-text p{
@@ -670,7 +676,7 @@ i{
   }
 
   .service-title h1 {
-    font-size: 1em;
+    font-size: 1.3em;
     text-align: center;
   }
 
@@ -705,7 +711,7 @@ i{
     top: 0;
     left: 0;
     z-index: 1;
-    background-color: #cfcfcf;
+    background-color: #f2f2f2;
     overflow-x: hidden;
     transition: .3s;
   }
@@ -767,8 +773,6 @@ i{
     margin-top: 40px;
   }
 
-
-
 }
 
 
@@ -787,22 +791,6 @@ i{
     background-color: #cfcfcf;
     overflow-x: hidden;
     transition: .3s;
-  }
-
-  .nav-links{
-    display: block;
-    margin: 0px;
-    padding: 0px;
-  }
-
-  .nav-links li a{
-    font-size: 1.6em;
-    padding-left: 15px;
-    margin: 0px;
-  }
-
-  .nav-links li{
-    margin: 20px 0px 20px 0px;
   }
 
   #left-menu-php #x-php{
@@ -849,5 +837,163 @@ i{
   }
 }
 
+/* FIN responsive sesion iniciada nombre PHP*/
+
+/* Comienzo responsive MAIN del menu principal*/
+
+@media screen and (max-width: 600px) {
+  
+  .banner h1{
+    font-size: 2.8em;
+  }
+
+  .banner button{
+    font-size: 1.5em;
+    width: 300px;
+    height: 70px;
+  }
+
+  .main-text h1{
+    margin: 0;
+    font-size: 2.2em;
+    margin-left: 15px;
+  }
+
+  .main-foto img{
+    width: 250px;
+    height: 250px;
+  }
+
+  .main-foto{
+    margin: 10px 10px 10px 0px;
+  }
+
+  }
+
+/* FIN responsive MAIN del menu principal*/
+
+/* Comienzo responsive GUIA DE RECICLAJE*/
+
+@media screen and (max-width: 600px) {
+
+.main-guia-wrapper{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .texto-izquierda{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .guia-tittle h1{
+    font-size: 1.4em;
+  }
+
+  .texto-izquierda h4{
+    font-size: 1.7em;
+    margin-bottom: 30px;
+  }
+
+  .texto-izquierda p{
+    margin-left: 15px;
+    margin-bottom: 30px;
+    
+  }
+
+  .recicle-wrapper{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .options-line{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
+
+}
+
+/* FIN responsive GUIA DE RECICLAJE*/
+
+
+
+
+/* Comienzo responsive MAPA DE RECICLAJE*/
+@media screen and (max-width: 600px) {
+
+  .main-mapa-wrapper{
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .texto-mapa{
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .tittle-mapa h1{
+      font-size: 1.4em;
+    }
+
+    .texto-mapa h4{
+      font-size: 1.7em;
+      
+    }
+
+    .texto-mapa p{
+      margin-left: 15px;
+      margin-bottom: 30px;
+    }
+  
+    .google-maps{
+      width: 450px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .google-maps iframe{
+      width: 450px;
+      height: 450px;
+
+    }
+
+  }
+/* FIN responsive MAPA DE RECICLAJE*/
+
+
+/* Comienzo responsive FOOTER*/
+@media screen and (max-width: 600px) {
+
+  .textos h4{
+    font-size: 1.1em;
+  }
+
+
+  .lista-servicio li, .lista-cuenta li, .lista-contacto li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 0.9em;
+  }
+
+  .lista-servicio ul, .lista-contacto ul, .lista-cuenta ul{
+    margin: 0;
+    padding: 0;
+  }
+
+  .copi h4{
+    font-size: 1em;
+  }
+
+}
+
+/* FIN responsive FOOTER*/
 
 

@@ -5,16 +5,16 @@ body{
 
 .login a{
     text-decoration: none;
-  }
-  
-  .login h3{
+}
+
+.login h3{
     display: flex;
     justify-content: flex-end;
     margin: 25px 60px 0px 0px;
     color: #0B6635;
     font-family: 'Poppins', sans-serif;
     font-size: 1.6em;
-  }
+}
 
 .login h3:hover{
     color: #00af52;
@@ -290,6 +290,22 @@ i{
 }
 
 
+#barras-perfil{
+    display: none;
+}
+
+#x-perfil{
+    display: none;
+}
+
+#barras-php-perfil{
+    display: none;
+}
+
+#x-php-perfil{
+    display: none;
+}
+
 /* Inicio de estilos de modales*/
 
 #btn-250{
@@ -349,73 +365,214 @@ i{
 
 @media screen and (max-width: 600px) {
 
-    #left-menu-perfil{
-      height: 100vh;
-      position: fixed;
-      width: 0;
-      top: 0;
-      left: 0;
-      z-index: 1;
-      background-color: #cfcfcf;
-      overflow-x: hidden;
-      transition: .3s;
-    }
-  
-    .nav-links{
-      display: block;
-      margin: 0px;
-      padding: 0px;
-    }
-  
-    .nav-links li a{
-      font-size: 1.6em;
-      padding-left: 15px;
-      margin: 0px;
-    }
-  
-    .nav-links li{
-      margin: 20px 0px 20px 0px;
-    }
-  
-    #left-menu-perfil #x-perfil{
-      display: block;
+        #left-menu-perfil{
+        height: 100vh;
+        position: fixed;
+        width: 0;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        background-color: #cfcfcf;
+        overflow-x: hidden;
+        transition: .3s;
+        }
+
+        .nav-links{
+        display: block;
+        margin: 0px;
+        padding: 0px;
+        }
+    
+        .nav-links li a{
+        font-size: 1.6em;
+        padding-left: 15px;
+        margin: 0px;
+        }
+    
+        .nav-links li{
+        margin: 20px 0px 20px 0px;
+        }
+    
+        #left-menu-perfil #x-perfil{
+        display: block;
+        }
+        
+        #barras-perfil{
+        display: block;
+        cursor: pointer;
+        }
+    
+        #barras-perfil{
+        font-size: 3em;
+        }
+    
+        #x-perfil{
+        font-size: 3em;
+        cursor: pointer;
+        }
+    
     }
     
-    #barras-perfil{
-      display: block;
-      cursor: pointer;
+    
+    /* Comienzo responsive boton inicio sesion*/
+    
+    @media screen and (max-width: 600px) {
+    
+        .login a h3{
+        font-size: 1.2em;
+        margin: 0;
+        }
+    
+        .login {
+        position: absolute;
+        right: 0;
+        margin-top: 140px;
+        margin-right: 20px; 
+        }
+    
+        .header-wrapper{
+        margin-top: 20px;
+        }
+    
     }
-  
-    #barras-perfil{
-      font-size: 3em;
+
+
+
+
+    /* Comienzo responsive NAV PHP*/
+
+@media screen and (max-width: 600px) {
+
+    #left-menu-php-perfil{
+    height: 100vh;
+    position: fixed;
+    width: 0;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: #cfcfcf;
+    overflow-x: hidden;
+    transition: .3s;
     }
-  
-    #x-perfil{
-      font-size: 3em;
-      cursor: pointer;
+
+    .nav-links{
+    display: block;
+    margin: 0px;
+    padding: 0px;
     }
-  
-  }
-  
-  
-  /* Comienzo responsive boton inicio sesion*/
-  
-  @media screen and (max-width: 600px) {
-  
-    .login a h3{
-      font-size: 1.2em;
-      margin: 0;
+
+    .nav-links li a{
+    font-size: 1.6em;
+    padding-left: 15px;
+    margin: 0px;
     }
-  
-    .login {
-      position: absolute;
-      right: 0;
-      margin-top: 140px;
-      margin-right: 20px; 
+
+    .nav-links li{
+    margin: 20px 0px 20px 0px;
     }
-  
-    .header-wrapper{
-      margin-top: 20px;
+
+    #left-menu-php-perfil #x-php-perfil{
+    display: block;
     }
-  
-  }
+    
+    #barras-php-perfil{
+    display: block;
+    cursor: pointer;
+    }
+
+    #barras-php-perfil{
+    font-size: 3em;
+    }
+
+    #x-php-perfil{
+    font-size: 3em;
+    cursor: pointer;
+    }
+
+}
+
+
+/* Comienzo responsive boton inicio sesion PHP*/
+
+@media screen and (max-width: 600px) {
+    
+    #login-php-perfil h3{
+    font-size: 1em;
+    margin: 0;
+    }
+
+    #login-php-perfil h4{
+    font-size: 1.2em;
+    margin: 0;
+    margin-top: 6px;
+    }
+
+    #login-php-perfil {
+    position: absolute;
+    right: 0;
+    margin-top: 120px;
+    margin-right: 20px; 
+    
+    }
+}
+
+/* Responsive de apartado de perfil */
+
+@media screen and (max-width: 600px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .primeros-cupones {
+        flex-wrap: wrap;
+        display: flex;
+    }
+
+    .primeros-cupones>* {
+        flex: 0 0 calc(45% - 4px);
+    }
+
+    .segundos-cupones {
+        flex-wrap: wrap;
+        display: flex;
+    }
+
+    .segundos-cupones>* {
+        flex: 0 0 calc(45% - 4px);
+    }
+
+    .bienvenida-usuario h1{
+        margin: 0;
+    }
+}
+
+
+/* Comienzo responsive FOOTER*/
+@media screen and (max-width: 600px) {
+
+    .textos h4{
+    font-size: 1.1em;
+    }
+
+
+    .lista-servicio li, .lista-cuenta li, .lista-contacto li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 0.9em;
+    }
+
+    .lista-servicio ul, .lista-contacto ul, .lista-cuenta ul{
+    margin: 0;
+    padding: 0;
+    }
+
+    .copi h4{
+    font-size: 1em;
+    }
+
+}
+
+/* FIN responsive FOOTER*/

@@ -377,6 +377,23 @@ i{
     padding: 15px 0px;
 }
 
+#barras-foro{
+    display: none;
+}
+
+#x-foro{
+    display: none;
+}
+
+#barras-php-foro{
+    display: none;
+}
+
+#x-php-foro{
+    display: none;
+}
+
+
 
 /* Comienzo responsive NAV*/
 
@@ -531,3 +548,33 @@ i{
         
         }
     }
+
+
+    /* Comienzo responsive FOOTER*/
+@media screen and (max-width: 600px) {
+
+    .textos h4{
+    font-size: 1.1em;
+    }
+
+
+    .lista-servicio li, .lista-cuenta li, .lista-contacto li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 0.9em;
+    }
+
+    .lista-servicio ul, .lista-contacto ul, .lista-cuenta ul{
+    margin: 0;
+    padding: 0;
+    }
+
+    .copi h4{
+    font-size: 1em;
+    }
+
+}
+
+/* FIN responsive FOOTER*/

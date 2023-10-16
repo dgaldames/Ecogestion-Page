@@ -31,9 +31,9 @@
                   <span><i id="x-perfil" class='bx bx-left-arrow-alt' onclick="cerrarMenuPerfil()"></i></span>
                   <ul class="nav-links">
                       <li><a href="index.html">Inicio</a></li>
-                      <li><a href="#fondo-who">¿Quiénes Somos?</a></li>
-                      <li id="beneficios"><a href="perfil.html#beneficios">Recompensas</a></li>
-                      <li><a href="#fondo-serv">¿Qué ofrecemos?</a></li>
+                      <li><a href="index.html#fondo-who">¿Quiénes Somos?</a></li>
+                      <li id="beneficios"><a href="#beneficios">Recompensas</a></li>
+                      <li><a href="index.html#fondo-serv">¿Qué ofrecemos?</a></li>
                       <li><a href="foro.html">Foro</a></li>
                   </ul>
               </nav>
@@ -42,216 +42,219 @@
         </div>
     </header>
 
-    <div class="bienvenida-usuario">
-        <img src="/Ecogestion-Page/assets/css/img/foto tilines.png" alt="Foto usuario" width="150px">
-        <h1>Hola Usuario!</h1>
-    </div>
 
-    <div class="x-puntos">
-        <h3>Tienes X puntos</h3>
-    </div>
 
-    <div class="pregunta">
-        <h5>¿Qué deseas canjear hoy?</h5>
-    </div>
-
-    <div class="bene-dispo" id="beneficios">
-        <h2>Beneficios Disponibles</h2>
-    </div>
-
-        <div class="primeros-cupones">
-
-            <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
-                <div class="modal-dialog modal-dialog-centered">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Modal 1</h1>
-                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                      Show a second modal and hide this one with the button below.
-                    </div>
-                    <div class="modal-footer">
-                      <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Open second modal</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
-                <div class="modal-dialog modal-dialog-centered">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Modal 2</h1>
-                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                      Hide this modal and show the first with the button below.
-                    </div>
-                    <div class="modal-footer">
-                      <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Back to first</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <button class="btn btn-primary" id="btn-250" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Cupones por 250 pts</button>
-
+    <div class="container-all" id="move-content">
+      <div class="bienvenida-usuario">
+          <img src="/Ecogestion-Page/assets/css/img/foto-tilines.png" alt="Foto usuario" width="150px">
+          <h1>Hola Usuario!</h1>
+      </div>
+  
+      <div class="x-puntos">
+          <h3>Tienes X puntos</h3>
+      </div>
+  
+      <div class="pregunta">
+          <h5>¿Qué deseas canjear hoy?</h5>
+      </div>
+  
+      <div class="bene-dispo" id="beneficios">
+          <h2>Beneficios Disponibles</h2>
+      </div>
+  
+          <div class="primeros-cupones">
               <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
-                <div class="modal-dialog modal-dialog-centered">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Modal 1</h1>
-                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                      Show a second modal and hide this one with the button below.
-                    </div>
-                    <div class="modal-footer">
-                      <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Open second modal</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
-                <div class="modal-dialog modal-dialog-centered">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Modal 2</h1>
-                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                      Hide this modal and show the first with the button below.
-                    </div>
-                    <div class="modal-footer">
-                      <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Back to first</button>
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Modal 1</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Show a second modal and hide this one with the button below.
+                      </div>
+                      <div class="modal-footer">
+                        <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Open second modal</button>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-              <button class="btn btn-primary" id="btn-500" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Cupones por 500 pts</button>
-        </div>
-
-    <div class="segundos-cupones">
-        
-        <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
-            <div class="modal-dialog modal-dialog-centered">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Modal 1</h1>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Modal 2</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Hide this modal and show the first with the button below.
+                      </div>
+                      <div class="modal-footer">
+                        <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Back to first</button>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <div class="modal-body">
-                  Show a second modal and hide this one with the button below.
+                <button class="btn btn-primary" id="btn-250" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Cupones por 250 pts</button>
+  
+                <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Modal 1</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Show a second modal and hide this one with the button below.
+                      </div>
+                      <div class="modal-footer">
+                        <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Open second modal</button>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <div class="modal-footer">
-                  <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Open second modal</button>
+                <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Modal 2</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Hide this modal and show the first with the button below.
+                      </div>
+                      <div class="modal-footer">
+                        <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Back to first</button>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-              </div>
-            </div>
+                <button class="btn btn-primary" id="btn-500" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Cupones por 500 pts</button>
           </div>
-          <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
-            <div class="modal-dialog modal-dialog-centered">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Modal 2</h1>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                  Hide this modal and show the first with the button below.
-                </div>
-                <div class="modal-footer">
-                  <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Back to first</button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <button class="btn btn-primary" id="btn-750" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Cupones por 750 pts</button>
-
-          <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
-            <div class="modal-dialog modal-dialog-centered">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Modal 1</h1>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                  Show a second modal and hide this one with the button below.
-                </div>
-                <div class="modal-footer">
-                  <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Open second modal</button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
-            <div class="modal-dialog modal-dialog-centered">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Modal 2</h1>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                  Hide this modal and show the first with the button below.
-                </div>
-                <div class="modal-footer">
-                  <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Back to first</button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <button class="btn btn-primary" id="btn-1000" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Cupones por 1000 pts</button>
+  
+      <div class="segundos-cupones container-aside">
           
-    </div>
-
-    <footer class="clase-footer">
-
-        <div class="footer-wrapper">
-            <div class="textos">
-                <h4>Contacto</h4>
-                <h4>Nuestros Servicios</h4>
-                <h4>Mi cuenta</h4>
-            </div>
-
-            <div class="wraper-footer">
-                
-                <div class="contacto-wrapper">
-                    <div class="lista-contacto">
-                        <ul>
-                            <li> <box-icon name="envelope"></box-icon> Ecogestion@gmail.com </li>
-                            <li> <box-icon name="phone"></box-icon> +569 12345678 </li>
-                            <li> <box-icon name="map"></box-icon> <a href="">Viel 3414</a></li>
-                        </ul>
-                    </div>
+          <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Modal 1</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    Show a second modal and hide this one with the button below.
+                  </div>
+                  <div class="modal-footer">
+                    <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Open second modal</button>
+                  </div>
                 </div>
-
-                <div class="lista-wrapper">
-                    <div class="lista-servicio">
-                        <ul>
-                            <li> <box-icon name="map-alt"></box-icon> <a href="#fondo-mapa">Mapa de reciclaje</a></li>
-                            <li> <box-icon name="book-content"></box-icon> <a href="#fondo-guia">Guía de reciclaje</a></li>
-                            <li> <box-icon name="smile"></box-icon> <a href="foro.html">Foro</a></li>
-                            <li> <box-icon name="trophy"></box-icon> <a href="perfil.html#beneficios">Recompensas</a></li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="cuenta-wrapper">
-                    <div class="lista-cuenta">
-                        <ul>
-                            <li> <box-icon name="user"></box-icon> <a href="login.html">Iniciar sesión</a> </li>
-                            <li> <box-icon name="user-plus"></box-icon> <a href="login.html">Registrarse</a></li>
-                            <li> <box-icon name="star"></box-icon> <a href="perfil.html">Beneficios disponibles</a></li>
-                        </ul>
-                    </div>
-                </div>
+              </div>
             </div>
-
-            <div class="copi">
-                <h4>© 2023 Copyright Ecogestion. <br> Todos los derechos reservados</h4>
+            <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Modal 2</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    Hide this modal and show the first with the button below.
+                  </div>
+                  <div class="modal-footer">
+                    <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Back to first</button>
+                  </div>
+                </div>
+              </div>
             </div>
-
-        </div>
-
-    </footer>
+            <button class="btn btn-primary" id="btn-750" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Cupones por 750 pts</button>
+  
+            <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Modal 1</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    Show a second modal and hide this one with the button below.
+                  </div>
+                  <div class="modal-footer">
+                    <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Open second modal</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Modal 2</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    Hide this modal and show the first with the button below.
+                  </div>
+                  <div class="modal-footer">
+                    <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Back to first</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="btn btn-primary" id="btn-1000" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Cupones por 1000 pts</button>
+            
+      </div>
+  
+      <footer class="clase-footer">
+  
+          <div class="footer-wrapper">
+              <div class="textos">
+                  <h4>Contacto</h4>
+                  <h4>Nuestros Servicios</h4>
+                  <h4>Mi cuenta</h4>
+              </div>
+  
+              <div class="wraper-footer">
+                  
+                  <div class="contacto-wrapper">
+                      <div class="lista-contacto">
+                          <ul>
+                              <li> <box-icon name="envelope"></box-icon> Ecogestion@gmail.com </li>
+                              <li> <box-icon name="phone"></box-icon> +569 12345678 </li>
+                              <li> <box-icon name="map"></box-icon> <a href="">Viel 3414</a></li>
+                          </ul>
+                      </div>
+                  </div>
+  
+                  <div class="lista-wrapper">
+                      <div class="lista-servicio">
+                          <ul>
+                              <li> <box-icon name="map-alt"></box-icon> <a href="#fondo-mapa">Mapa de reciclaje</a></li>
+                              <li> <box-icon name="book-content"></box-icon> <a href="#fondo-guia">Guía de reciclaje</a></li>
+                              <li> <box-icon name="smile"></box-icon> <a href="foro.html">Foro</a></li>
+                              <li> <box-icon name="trophy"></box-icon> <a href="perfil.html#beneficios">Recompensas</a></li>
+                          </ul>
+                      </div>
+                  </div>
+  
+                  <div class="cuenta-wrapper">
+                      <div class="lista-cuenta">
+                          <ul>
+                              <li> <box-icon name="user"></box-icon> <a href="login.html">Iniciar sesión</a> </li>
+                              <li> <box-icon name="user-plus"></box-icon> <a href="login.html">Registrarse</a></li>
+                              <li> <box-icon name="star"></box-icon> <a href="perfil.html">Beneficios disponibles</a></li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+  
+              <div class="copi">
+                  <h4>© 2023 Copyright Ecogestion. <br> Todos los derechos reservados</h4>
+              </div>
+  
+          </div>
+          </div>
+  
+      </footer>
 
 
 
