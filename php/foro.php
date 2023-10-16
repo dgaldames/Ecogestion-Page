@@ -22,7 +22,7 @@ session_start();
 <body>
     <header>
         <div class home="header-wrapper">
-            <div class="login">
+            <div class="login" id="login-php-foro">
                 <h3>Bienvenido,ㅤ<span><?php echo $_SESSION['usuario'];?>!</span></h3>
                     <!-- Button trigger modal -->
                     <h4> <a class="logout" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><i class='bx bx-log-out'></i> Cerrar sesión</a></h4>
@@ -54,8 +54,9 @@ session_start();
                 </a>
             </div>
 
-            <div class="nav">
+            <div class="nav" id="left-menu-php-foro">
                 <nav>
+                    <span><i id="x-php-foro" class='bx bx-left-arrow-alt' onclick="cerrarMenuForoPhp()"></i></span>
                     <ul class="nav-links">
                         <li><a href="/Ecogestion-page/php/index.php">Inicio</a></li>
                         <li><a href="/Ecogestion-page/php/index.php#fondo-who">¿Quiénes Somos?</a></li>
@@ -65,7 +66,7 @@ session_start();
                     </ul>
                 </nav>
             </div>
-        </div>
+            <span id="barras-php-foro" onclick="abrirMenuForoPhp()"><i class='bx bx-menu'></i></span>
     </header>
 
     <div class="banner-wrapper" id="foro-fondo-main">
@@ -181,3 +182,5 @@ session_start();
         
     </body>
     </html>
+
+    <script src="/Ecogestion-page/assets/js/foro.js"></script>

@@ -35,17 +35,19 @@ if (isset($_SESSION['usuario'])) {
                 </a>
             </div>
 
-            <div class="nav">
-                <nav>
-                    <ul class="nav-links">
-                        <li><a href="/Ecogestion-page/src/index.html">Inicio</a></li>
-                        <li><a href="/Ecogestion-page/src/index.html#fondo-who">¿Quiénes Somos?</a></li>
-                        <li id="beneficios"><a href="/Ecogestion-page/src/perfil.html#beneficios">Recompensas</a></li>
-                        <li><a href="/Ecogestion-page/src/index.html#fondo-serv">¿Qué ofrecemos?</a></li>
-                        <li><a href="/Ecogestion-page/src/foro.html">Foro</a></li>
-                    </ul>
-                </nav>
-            </div>
+            <div class="nav" id="left-menu-login">
+                    <nav>
+                        <span><i id="x-login" class='bx bx-left-arrow-alt' onclick="cerrarMenuLogin()"></i></span>
+                        <ul class="nav-links">
+                            <li><a href="index.html">Inicio</a></li>
+                            <li><a href="#fondo-who">¿Quiénes Somos?</a></li>
+                            <li id="beneficios"><a href="perfil.html#beneficios">Recompensas</a></li>
+                            <li><a href="#fondo-serv">¿Qué ofrecemos?</a></li>
+                            <li><a href="foro.html">Foro</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <span id="barras-login" onclick="abrirMenuLogin()"><i class='bx bx-menu'></i></span>
         </div>
     </header>
 
@@ -89,8 +91,8 @@ if (isset($_SESSION['usuario'])) {
 
         </div>
     </main>
-
-    <script src="/Ecogestion-page/assets/js/login.js"></script>
-
+    
 </body>
 </html>
+
+    <script src="/Ecogestion-page/assets/js/login.js"></script>

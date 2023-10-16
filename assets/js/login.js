@@ -60,3 +60,13 @@ function signup(){
     }
 }
 
+//Funciones para nav responsive
+
+function abrirMenuLogin(){
+    document.getElementById("left-menu-login").style.width = "330px"
+}
+
+function cerrarMenuLogin(){
+    document.getElementById("left-menu-login").style.width = "0"
+}
+

@@ -376,3 +376,158 @@ i{
     color: white;
     padding: 15px 0px;
 }
+
+
+/* Comienzo responsive NAV*/
+
+@media screen and (max-width: 600px) {
+
+    #left-menu-foro{
+    height: 100vh;
+    position: fixed;
+    width: 0;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: #cfcfcf;
+    overflow-x: hidden;
+    transition: .3s;
+    }
+
+    .nav-links{
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    }
+
+    .nav-links li a{
+    font-size: 1.6em;
+    padding-left: 15px;
+    margin: 0px;
+    }
+
+    .nav-links li{
+    margin: 20px 0px 20px 0px;
+    }
+
+    #left-menu-foro #x-foro{
+    display: block;
+    }
+    
+    #barras-foro{
+    display: block;
+    cursor: pointer;
+    }
+
+    #barras-foro{
+    font-size: 3em;
+    }
+
+    #x-foro{
+    font-size: 3em;
+    cursor: pointer;
+    }
+
+}
+
+
+/* Comienzo responsive boton inicio sesion*/
+
+@media screen and (max-width: 600px) {
+
+    .login a h3{
+    font-size: 1.2em;
+    margin: 0;
+    }
+
+    .login {
+    position: absolute;
+    right: 0;
+    margin-top: 140px;
+    margin-right: 20px; 
+    }
+
+    .header-wrapper{
+    margin-top: 20px;
+    }
+
+}
+
+
+
+
+    /* Comienzo responsive NAV PHP*/
+
+    @media screen and (max-width: 600px) {
+
+        #left-menu-php-foro{
+        height: 100vh;
+        position: fixed;
+        width: 0;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        background-color: #cfcfcf;
+        overflow-x: hidden;
+        transition: .3s;
+        }
+    
+        .nav-links{
+        display: block;
+        margin: 0px;
+        padding: 0px;
+        }
+    
+        .nav-links li a{
+        font-size: 1.6em;
+        padding-left: 15px;
+        margin: 0px;
+        }
+    
+        .nav-links li{
+        margin: 20px 0px 20px 0px;
+        }
+    
+        #left-menu-php-foro #x-php-foro{
+        display: block;
+        }
+        
+        #barras-php-foro{
+        display: block;
+        cursor: pointer;
+        }
+    
+        #barras-php-foro{
+        font-size: 3em;
+        }
+    
+        #x-php-foro{
+        font-size: 3em;
+        cursor: pointer;
+        }
+    
+    }
+    
+    /* Comienzo responsive sesion iniciada nombre PHP*/
+    
+    @media screen and (max-width: 600px) {
+    
+        #login-php-foro h3{
+        font-size: 1em;
+        margin: 0;
+        }
+    
+        #login-php-foro h4{
+        font-size: 1.2em;
+        margin: 0;
+        margin-top: 6px;
+        }
+    
+        #login-php-foro {
+        position: absolute;
+        right: 0;
+        margin-top: 120px;
+        margin-right: 20px; 
+        
+        }
+    }

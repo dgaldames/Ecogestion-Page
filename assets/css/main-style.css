@@ -624,6 +624,14 @@ i{
 /* Fin estilos del footer*/
 
 
+#barras{
+  display: none;
+}
+
+#x{
+  display: none;
+}
+
 
 /* COMIENZO ESTILOS RESPONSIVE*/
 
@@ -724,6 +732,7 @@ i{
   
   #barras{
     display: block;
+    cursor: pointer;
   }
 
   #barras{
@@ -732,20 +741,113 @@ i{
 
   #x{
     font-size: 3em;
+    cursor: pointer;
   }
 
 }
 
 
-/* #barras{
-  display: none;
+/* Comienzo responsive boton inicio sesion*/
+
+@media screen and (max-width: 600px) {
+
+  .login a h3{
+    font-size: 1.2em;
+    margin: 0;
+  }
+
+  .login {
+    position: absolute;
+    right: 0;
+    margin-top: 140px;
+    margin-right: 20px; 
+  }
+
+  .header-wrapper{
+    margin-top: 40px;
+  }
+
+
+
 }
 
-#x{
-  display: none;
-} */
 
-/* VER POR QUE NO ME PESCA ESTA WEA*/
+
+/* Comienzo responsive NAV PHP*/
+
+@media screen and (max-width: 600px) {
+
+  #left-menu-php{
+    height: 100vh;
+    position: fixed;
+    width: 0;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: #cfcfcf;
+    overflow-x: hidden;
+    transition: .3s;
+  }
+
+  .nav-links{
+    display: block;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .nav-links li a{
+    font-size: 1.6em;
+    padding-left: 15px;
+    margin: 0px;
+  }
+
+  .nav-links li{
+    margin: 20px 0px 20px 0px;
+  }
+
+  #left-menu-php #x-php{
+    display: block;
+  }
+  
+  #barras-php{
+    display: block;
+    cursor: pointer;
+  }
+
+  #barras-php{
+    font-size: 3em;
+  }
+
+  #x-php{
+    font-size: 3em;
+    cursor: pointer;
+  }
+
+}
+
+/* Comienzo responsive sesion iniciada nombre PHP*/
+
+@media screen and (max-width: 600px) {
+
+  #login-php h3{
+    font-size: 1em;
+    margin: 0;
+  }
+
+  #login-php h4{
+    font-size: 1.2em;
+    margin: 0;
+    margin-top: 6px;
+  }
+
+  #login-php {
+    position: absolute;
+    right: 0;
+    margin-top: 120px;
+    margin-right: 20px; 
+    
+  }
+}
 
 
 

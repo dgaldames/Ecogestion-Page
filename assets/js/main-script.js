@@ -38,6 +38,8 @@ document.getElementById('mapa-ancla2').addEventListener('click', function() {
     }
 });
 
+//Funciones para abrir y cerrar el menu responsive
+
 function abrirMenu(){
     document.getElementById("left-menu").style.width = "330px"
 }
@@ -45,4 +47,13 @@ function abrirMenu(){
 function cerrarMenu(){
     document.getElementById("left-menu").style.width = "0"
 }
+
+function abrirMenuPhp(){
+    document.getElementById("left-menu-php").style.width = "330px"
+}
+
+function cerrarMenuPhp(){
+    document.getElementById("left-menu-php").style.width = "0"
+}
+
 

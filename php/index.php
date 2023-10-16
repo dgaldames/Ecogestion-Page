@@ -24,10 +24,11 @@ session_start();
     <body>
         <header>
             <div class="header-wrapper">
-                <div class="login">
+                <div class="login" id="login-php">
                     <h3 class="bienvenida">Bienvenidoㅤ<span><?php echo $_SESSION['usuario'];?>!</span></h3>
                     <!-- Button trigger modal -->
                     <h4> <a class="logout" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><i class='bx bx-log-out'></i>ㅤCerrar sesión</a></h4>
+                </div>
 
                     <!-- Modal -->
                     <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
@@ -47,7 +48,6 @@ session_start();
                             </div>
                         </div>
                     </div>
-                </div>
 
                 <div class="logo">
                     <a href="index.html">
@@ -55,8 +55,9 @@ session_start();
                     </a>
                 </div>
 
-                <div class="nav">
+                <div class="nav" id="left-menu-php">
                     <nav>
+                        <span><i id="x-php" class='bx bx-left-arrow-alt' onclick="cerrarMenuPhp()"></i></span>
                         <ul class="nav-links">
                             <li><a href="/Ecogestion-page/php/index.php">Inicio</a></li>
                             <li><a href="/Ecogestion-page/php/index.php#fondo-who">¿Quiénes Somos?</a></li>
@@ -66,6 +67,7 @@ session_start();
                         </ul>
                     </nav>
                 </div>
+                <span id="barras-php" onclick="abrirMenuPhp()"><i class='bx bx-menu'></i></span>
             </div>
         </header>
 

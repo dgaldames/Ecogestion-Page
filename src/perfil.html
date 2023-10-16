@@ -26,17 +26,19 @@
                 </a>
             </div>
 
-            <div class="nav">
-                <nav>
-                    <ul class="nav-links">
+            <div class="nav" id="left-menu-perfil">
+              <nav>
+                  <span><i id="x-perfil" class='bx bx-left-arrow-alt' onclick="cerrarMenuPerfil()"></i></span>
+                  <ul class="nav-links">
                       <li><a href="index.html">Inicio</a></li>
-                      <li><a href="index.html#fondo-who">¿Quiénes Somos?</a></li>
+                      <li><a href="#fondo-who">¿Quiénes Somos?</a></li>
                       <li id="beneficios"><a href="perfil.html#beneficios">Recompensas</a></li>
-                      <li><a href="index.html#fondo-serv">¿Qué ofrecemos?</a></li>
+                      <li><a href="#fondo-serv">¿Qué ofrecemos?</a></li>
                       <li><a href="foro.html">Foro</a></li>
-                    </ul>
-                </nav>
-            </div>
+                  </ul>
+              </nav>
+          </div>
+          <span id="barras-perfil" onclick="abrirMenuPerfil()"><i class='bx bx-menu'></i></span>
         </div>
     </header>
 
@@ -255,3 +257,5 @@
 
 </body>
 </html>
+
+<script src="/Ecogestion-page/assets/js/perfil.js"></script>
