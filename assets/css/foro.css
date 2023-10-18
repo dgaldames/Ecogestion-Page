@@ -395,58 +395,90 @@ i{
 
 
 
-/* Comienzo responsive NAV*/
+/* COMIENZO responsive NAV*/
 
-@media screen and (max-width: 600px) {
+    @media screen and (max-width: 600px) {
 
-    #left-menu-foro{
-    height: 100vh;
-    position: fixed;
-    width: 0;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    background-color: #cfcfcf;
-    overflow-x: hidden;
-    transition: .3s;
-    }
-
-    .nav-links{
-    display: block;
-    margin: 0px;
-    padding: 0px;
-    }
-
-    .nav-links li a{
-    font-size: 1.6em;
-    padding-left: 15px;
-    margin: 0px;
-    }
-
-    .nav-links li{
-    margin: 20px 0px 20px 0px;
-    }
-
-    #left-menu-foro #x-foro{
-    display: block;
+        #left-menu-foro{
+        height: 100vh;
+        position: fixed;
+        width: 0;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        background-color: #2D6806;
+        overflow-x: hidden;
+        transition: .3s;
+        
+        }
+    
+        .nav-links{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0px;
+        padding: 0px;
+        height: 60%;
+        }
+    
+        .nav-links li::after {
+        content: "";
+        display: block;
+        border: none;
+        background-color: white;
+        height: 4px;
+        margin: 0;
+        padding: 0px 170px;
+        
     }
     
-    #barras-foro{
-    display: block;
-    cursor: pointer;
+    .nav-links li{
+        margin: 8px 0px 8px 0px;
     }
-
-    #barras-foro{
-    font-size: 3em;
+    
+        .nav-links li a{
+        font-size: 1.3em;
+        padding-left: 20px;
+        margin: 0px;
+        color: white;
+        }
+    
+        .nav-links li a:hover{
+        color: black;
+        }
+    
+        .nav-links li i{
+        color: white;
+        font-size: 2em;
+        margin-left: 20px;
+        }
+    
+        #left-menu-foro #x-foro{
+        display: block;
+        }
+        
+        #barras-foro{
+        display: block;
+        cursor: pointer;
+        }
+    
+        #barras-foro{
+        font-size: 3em;
+        }
+    
+        #x-foro{
+        font-size: 3em;
+        cursor: pointer;
+        color: white;
+        }
+    
     }
+    /* FIN responsive NAV*/
 
-    #x-foro{
-    font-size: 3em;
-    cursor: pointer;
+    .nav-links li i{
+        display: none;
     }
-
-}
-
 
 /* Comienzo responsive boton inicio sesion*/
 
@@ -473,7 +505,7 @@ i{
 
 
 
-    /* Comienzo responsive NAV PHP*/
+    /* COMIENZO responsive NAV*/
 
     @media screen and (max-width: 600px) {
 
@@ -484,25 +516,52 @@ i{
         top: 0;
         left: 0;
         z-index: 1;
-        background-color: #cfcfcf;
+        background-color: #2D6806;
         overflow-x: hidden;
         transition: .3s;
+        
         }
     
         .nav-links{
-        display: block;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
         margin: 0px;
         padding: 0px;
+        height: 60%;
         }
+    
+    .nav-links li::after {
+        content: "";
+        display: block;
+        border: none;
+        background-color: white;
+        height: 4px;
+        margin: 0;
+        padding: 0px 170px;
+        
+    }
+    
+    .nav-links li{
+        margin: 8px 0px 8px 0px;
+    }
     
         .nav-links li a{
-        font-size: 1.6em;
-        padding-left: 15px;
+        font-size: 1.3em;
+        padding-left: 20px;
         margin: 0px;
+        color: white;
         }
     
-        .nav-links li{
-        margin: 20px 0px 20px 0px;
+        .nav-links li a:hover{
+        color: black;
+        }
+    
+        .nav-links li i{
+        color: white;
+        font-size: 2em;
+        margin-left: 20px;
         }
     
         #left-menu-php-foro #x-php-foro{
@@ -521,9 +580,11 @@ i{
         #x-php-foro{
         font-size: 3em;
         cursor: pointer;
+        color: white;
         }
     
     }
+    /* FIN responsive NAV*/
     
     /* Comienzo responsive sesion iniciada nombre PHP*/
     

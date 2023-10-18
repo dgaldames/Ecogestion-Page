@@ -18,9 +18,11 @@ if (isset($_SESSION['usuario'])) {
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 <link rel="stylesheet" href="/Ecogestion-Page/assets/css/login.css">
+<script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 <title>Login</title>
 </head>
 
@@ -39,11 +41,16 @@ if (isset($_SESSION['usuario'])) {
                     <nav>
                         <span><i id="x-login" class='bx bx-left-arrow-alt' onclick="cerrarMenuLogin()"></i></span>
                         <ul class="nav-links">
-                            <li><a href="index.html">Inicio</a></li>
-                            <li><a href="#fondo-who">¿Quiénes Somos?</a></li>
-                            <li id="beneficios"><a href="perfil.html#beneficios">Recompensas</a></li>
-                            <li><a href="#fondo-serv">¿Qué ofrecemos?</a></li>
-                            <li><a href="foro.html">Foro</a></li>
+                            <li><i class='bx bxs-home'></i><a href="/Ecogestion-Page/src/index.html">Inicio</a></li>
+                            <hr class="linea">
+                            <li><i class='bx bxs-book-reader'></i><a href="/Ecogestion-Page/src/index.html#fondo-who">¿Quiénes Somos?</a></li>
+                            <hr class="linea">
+                            <li id="beneficios"><i class='bx bxs-medal'></i><a href="/Ecogestion-Page/src/perfil.html#beneficios">Recompensas</a></li>
+                            <hr class="linea">
+                            <li><i class='bx bxs-star' ></i><a href="/Ecogestion-Page/src/index.html#fondo-serv">¿Qué ofrecemos?</a></li>
+                            <hr class="linea">
+                            <li><i class='bx bxs-message-detail'></i><a href="/Ecogestion-Page/src/foro.html">Foro</a></li>
+                            <hr class="linea">
                         </ul>
                     </nav>
                 </div>

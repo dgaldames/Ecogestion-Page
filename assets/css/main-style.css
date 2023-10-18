@@ -637,7 +637,214 @@ i{
 
 /* COMIENZO ESTILOS RESPONSIVE*/
 
-/* Responsive quienes somos */
+
+
+/* Comienzo responsive boton inicio sesion*/
+
+@media screen and (max-width: 600px) {
+
+  .login a h3{
+    font-size: 1.2em;
+    margin: 0;
+  }
+  
+  .login {
+    position: absolute;
+    right: 0;
+    margin-top: 140px;
+    margin-right: 20px; 
+  }
+  
+  .header-wrapper{
+    margin-top: 40px;
+  }
+  
+}
+/* FIN Responsive boton inicio sesion*/
+
+/* Comienzo responsive sesion iniciada nombre PHP*/
+
+@media screen and (max-width: 600px) {
+  #login-php h3{
+    font-size: 1em;
+    margin: 0;
+  }
+
+  #login-php h4{
+    font-size: 1.2em;
+    margin: 0;
+    margin-top: 6px;
+  }
+
+  #login-php {
+    position: absolute;
+    right: 0;
+    margin-top: 120px;
+    margin-right: 20px; 
+    
+  }
+}
+/* FIN responsive sesion iniciada nombre PHP*/
+
+/* COMIENZO responsive NAV*/
+
+@media screen and (max-width: 600px) {
+
+  #left-menu{
+    height: 100vh;
+    position: fixed;
+    width: 0;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: #2D6806;
+    overflow-x: hidden;
+    transition: .3s;
+    
+  }
+
+  .nav-links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    height: 60%;
+  }
+
+.nav-links li::after {
+  content: "";
+  display: block;
+  border: none;
+  background-color: white;
+  height: 4px;
+  margin: 0;
+  padding: 0px 170px;
+  
+}
+
+.nav-links li{
+  margin: 8px 0px 8px 0px;
+}
+
+  .nav-links li a{
+    font-size: 1.3em;
+    padding-left: 20px;
+    margin: 0px;
+    color: white;
+  }
+
+  .nav-links li a:hover{
+    color: black;
+  }
+
+  .nav-links li i{
+    color: white;
+    font-size: 2em;
+    margin-left: 20px;
+  }
+
+  #left-menu #x{
+    display: block;
+  }
+  
+  #barras{
+    display: block;
+    cursor: pointer;
+  }
+
+  #barras{
+    font-size: 3em;
+  }
+
+  #x{
+    font-size: 3em;
+    cursor: pointer;
+    color: white;
+  }
+
+}
+/* FIN responsive NAV*/
+
+.nav-links li i{
+  display: none;
+}
+
+
+/* Comienzo responsive NAV PHP*/
+
+@media screen and (max-width: 600px) {
+
+  #left-menu-php{
+    height: 100vh;
+    position: fixed;
+    width: 0;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: #2D6806;
+    overflow-x: hidden;
+    transition: .3s;
+  }
+
+  #left-menu-php #x-php{
+    display: block;
+  }
+  
+  #barras-php{
+    display: block;
+    cursor: pointer;
+  }
+
+  #barras-php{
+    font-size: 3em;
+  }
+
+  #x-php{
+    font-size: 3em;
+    cursor: pointer;
+    color: white;
+  }
+
+}
+/* FIN responsive NAV PHP*/
+
+
+/* Comienzo responsive MAIN del menu principal*/
+@media screen and (max-width: 600px) {
+  
+  .banner h1{
+    font-size: 2.8em;
+  }
+
+  .banner button{
+    font-size: 1.5em;
+    width: 300px;
+    height: 70px;
+  }
+
+  .main-text h1{
+    margin: 0;
+    font-size: 2.2em;
+    margin-left: 15px;
+  }
+
+  .main-foto img{
+    width: 250px;
+    height: 250px;
+  }
+
+  .main-foto{
+    margin: 10px 10px 10px 0px;
+  }
+
+  }
+
+/* FIN responsive MAIN del menu principal*/
+
+
+/* COMIENZO Responsive quienes somos */
 @media screen and (max-width: 600px) {
   .who-banner{
     height: 300px; 
@@ -646,6 +853,7 @@ i{
     margin-top: -30px;
     font-size: 0.8em;
     margin: auto;
+    margin-left: 15px;
   }
 
   .who-tittle h1{
@@ -653,21 +861,21 @@ i{
   }
 
   .foto-text p{
-    margin: 0px 50px 20px 0px;
-
+    margin: 0px 0px 20px 0px;
   }
 
   .main-who-wrapper {
     flex-direction: column; 
     align-items: center;
+    margin: 0;
   }
 
   .foto-tilines img {
     height: 380px;
-    margin-left: 150px;
+    margin: 0;
   }
 }
-/* Fin responsive quienes somos responsive servicios */
+/* Fin responsive quienes somos */
 
 /* Comienzo responsive nuestros servicios */
 @media screen and (max-width: 600px) {
@@ -700,177 +908,6 @@ i{
 }
 /* Fin responsive nuestros servicios */
 
-/* Comienzo responsive NAV*/
-
-@media screen and (max-width: 600px) {
-
-  #left-menu{
-    height: 100vh;
-    position: fixed;
-    width: 0;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    background-color: #f2f2f2;
-    overflow-x: hidden;
-    transition: .3s;
-  }
-
-  .nav-links{
-    display: block;
-    margin: 0px;
-    padding: 0px;
-  }
-
-  .nav-links li a{
-    font-size: 1.6em;
-    padding-left: 15px;
-    margin: 0px;
-  }
-
-  .nav-links li{
-    margin: 20px 0px 20px 0px;
-  }
-
-  #left-menu #x{
-    display: block;
-  }
-  
-  #barras{
-    display: block;
-    cursor: pointer;
-  }
-
-  #barras{
-    font-size: 3em;
-  }
-
-  #x{
-    font-size: 3em;
-    cursor: pointer;
-  }
-
-}
-
-
-/* Comienzo responsive boton inicio sesion*/
-
-@media screen and (max-width: 600px) {
-
-  .login a h3{
-    font-size: 1.2em;
-    margin: 0;
-  }
-
-  .login {
-    position: absolute;
-    right: 0;
-    margin-top: 140px;
-    margin-right: 20px; 
-  }
-
-  .header-wrapper{
-    margin-top: 40px;
-  }
-
-}
-
-
-
-/* Comienzo responsive NAV PHP*/
-
-@media screen and (max-width: 600px) {
-
-  #left-menu-php{
-    height: 100vh;
-    position: fixed;
-    width: 0;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    background-color: #cfcfcf;
-    overflow-x: hidden;
-    transition: .3s;
-  }
-
-  #left-menu-php #x-php{
-    display: block;
-  }
-  
-  #barras-php{
-    display: block;
-    cursor: pointer;
-  }
-
-  #barras-php{
-    font-size: 3em;
-  }
-
-  #x-php{
-    font-size: 3em;
-    cursor: pointer;
-  }
-
-}
-
-/* Comienzo responsive sesion iniciada nombre PHP*/
-
-@media screen and (max-width: 600px) {
-
-  #login-php h3{
-    font-size: 1em;
-    margin: 0;
-  }
-
-  #login-php h4{
-    font-size: 1.2em;
-    margin: 0;
-    margin-top: 6px;
-  }
-
-  #login-php {
-    position: absolute;
-    right: 0;
-    margin-top: 120px;
-    margin-right: 20px; 
-    
-  }
-}
-
-/* FIN responsive sesion iniciada nombre PHP*/
-
-/* Comienzo responsive MAIN del menu principal*/
-
-@media screen and (max-width: 600px) {
-  
-  .banner h1{
-    font-size: 2.8em;
-  }
-
-  .banner button{
-    font-size: 1.5em;
-    width: 300px;
-    height: 70px;
-  }
-
-  .main-text h1{
-    margin: 0;
-    font-size: 2.2em;
-    margin-left: 15px;
-  }
-
-  .main-foto img{
-    width: 250px;
-    height: 250px;
-  }
-
-  .main-foto{
-    margin: 10px 10px 10px 0px;
-  }
-
-  }
-
-/* FIN responsive MAIN del menu principal*/
 
 /* Comienzo responsive GUIA DE RECICLAJE*/
 
@@ -918,8 +955,6 @@ i{
 }
 
 /* FIN responsive GUIA DE RECICLAJE*/
-
-
 
 
 /* Comienzo responsive MAPA DE RECICLAJE*/
