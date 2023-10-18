@@ -145,6 +145,7 @@ i{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
 }
 
 .banner h1 {
@@ -495,7 +496,7 @@ i{
 }
 
 .texto-mapa{
-  margin: 0px 150px 0px 100px;
+  margin: 0px 20px 0px 100px;
 }
 
 .texto-mapa h4{
@@ -515,6 +516,10 @@ i{
   border: 4px solid rgb(238, 238, 238);
 }
 
+iframe{
+  width: 1200px;
+  height: 700px;
+}
 
 
 /* Comienzo estilos del footer*/
