@@ -10,6 +10,7 @@ session_start();
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/Ecogestion-page/assets/css/img/logo-no-background.png">
     <link rel="stylesheet" href="/Ecogestion-page/assets/css/perfil.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -258,9 +259,9 @@ session_start();
                 <div class="contacto-wrapper">
                     <div class="lista-contacto">
                         <ul>
-                            <li> <box-icon name="envelope"></box-icon> Ecogestion@gmail.com </li>
-                            <li> <box-icon name="phone"></box-icon> +569 12345678 </li>
-                            <li> <box-icon name="map"></box-icon> <a href="">Viel 3414</a></li>
+                            <li> <box-icon name="envelope"></box-icon><a href="mailto:Ecogestion@gmail.com">Ecogestion@gmail.com</a></li>
+                            <li> <box-icon name="phone"></box-icon> <a href="tel:+569 12345678">+569 12345678</a></li>
+                            <li> <box-icon name="map"></box-icon> <a href="https://maps.app.goo.gl/zcX4muADG8J8eaTKA" target="_blank">Viel 3414</a></li>
                         </ul>
                     </div>
                 </div>
