@@ -58,15 +58,15 @@ session_start();
                 <nav>
                     <span><i id="x-php-foro" class='bx bx-left-arrow-alt' onclick="cerrarMenuForoPhp()"></i></span>
                     <ul class="nav-links">
-                        <li><i class='bx bxs-home'></i><a href="/Ecogestion-page/php/index.php">Inicio</a></li>
+                        <li><i class='bx bxs-home' id="home-php-foro"></i><a href="/Ecogestion-page/php/index.php">Inicio</a></li>
                         <hr class="linea">
-                        <li><i class='bx bxs-book-reader'></i><a href="/Ecogestion-page/php/index.php#fondo-who">¿Quiénes Somos?</a></li>
+                        <li><i class='bx bxs-book-reader' id="book-php-foro"></i><a href="/Ecogestion-page/php/index.php#fondo-who">¿Quiénes Somos?</a></li>
                         <hr class="linea">
-                        <li id="beneficios"><i class='bx bxs-medal'></i><a href="/Ecogestion-page/php/perfil.php#beneficios">Recompensas</a></li>
+                        <li id="beneficios"><i class='bx bxs-medal' id="medal-php-foro"></i><a href="/Ecogestion-page/php/perfil.php#beneficios">Recompensas</a></li>
                         <hr class="linea">
-                        <li><i class='bx bxs-star' ></i><a href="/Ecogestion-page/php/index.php#fondo-serv">¿Qué ofrecemos?</a></li>
+                        <li><i class='bx bxs-star' id="star-php-foro"></i><a href="/Ecogestion-page/php/index.php#fondo-serv">¿Qué ofrecemos?</a></li>
                         <hr class="linea">
-                        <li><i class='bx bxs-message-detail'></i><a href="/Ecogestion-page/php/foro.php">Foro</a></li>
+                        <li><i class='bx bxs-message-detail' id="message-php-foro"></i><a href="/Ecogestion-page/php/foro.php">Foro</a></li>
                         <hr class="linea">
                     </ul>
                 </nav>

@@ -192,6 +192,10 @@ main{
     display: none;
 }
 
+#home-login, #book-login, #medal-login, #star-login, #message-login{
+    display: none;
+}
+
 /* RESPONSIVE */
 
 @media screen and (max-width: 850px){
@@ -303,13 +307,18 @@ main{
         cursor: pointer;
         color: white;
         }
+
+        #home-login, #book-login, #medal-login, #star-login, #message-login{
+            display: inline;
+        }
     
+        header{
+            margin-top: 40px;
+        }
+
     }
     /* FIN responsive NAV*/
 
-.nav-links li i{
-    display: none;
-}
 
 
 

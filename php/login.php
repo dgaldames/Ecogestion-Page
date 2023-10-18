@@ -41,15 +41,15 @@ if (isset($_SESSION['usuario'])) {
                     <nav>
                         <span><i id="x-login" class='bx bx-left-arrow-alt' onclick="cerrarMenuLogin()"></i></span>
                         <ul class="nav-links">
-                            <li><i class='bx bxs-home'></i><a href="/Ecogestion-Page/src/index.html">Inicio</a></li>
+                            <li><i class='bx bxs-home' id="home-login"></i><a href="/Ecogestion-Page/src/index.html">Inicio</a></li>
                             <hr class="linea">
-                            <li><i class='bx bxs-book-reader'></i><a href="/Ecogestion-Page/src/index.html#fondo-who">¿Quiénes Somos?</a></li>
+                            <li><i class='bx bxs-book-reader' id="book-login"></i><a href="/Ecogestion-Page/src/index.html#fondo-who">¿Quiénes Somos?</a></li>
                             <hr class="linea">
-                            <li id="beneficios"><i class='bx bxs-medal'></i><a href="/Ecogestion-Page/src/perfil.html#beneficios">Recompensas</a></li>
+                            <li id="beneficios"><i class='bx bxs-medal' id="medal-login"></i><a href="/Ecogestion-Page/src/perfil.html#beneficios">Recompensas</a></li>
                             <hr class="linea">
-                            <li><i class='bx bxs-star' ></i><a href="/Ecogestion-Page/src/index.html#fondo-serv">¿Qué ofrecemos?</a></li>
+                            <li><i class='bx bxs-star' id="star-login"></i><a href="/Ecogestion-Page/src/index.html#fondo-serv">¿Qué ofrecemos?</a></li>
                             <hr class="linea">
-                            <li><i class='bx bxs-message-detail'></i><a href="/Ecogestion-Page/src/foro.html">Foro</a></li>
+                            <li><i class='bx bxs-message-detail' id="message-login"></i><a href="/Ecogestion-Page/src/foro.html">Foro</a></li>
                             <hr class="linea">
                         </ul>
                     </nav>

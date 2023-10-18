@@ -59,15 +59,15 @@ session_start();
                     <nav>
                         <span><i id="x-php-perfil" class='bx bx-left-arrow-alt' onclick="cerrarMenuPhpPerfil()"></i></span>
                         <ul class="nav-links">
-                            <li><i class='bx bxs-home'></i><a href="/Ecogestion-page/php/index.php">Inicio</a></li>
+                            <li><i class='bx bxs-home' id="home-php-perfil"></i><a href="/Ecogestion-page/php/index.php">Inicio</a></li>
                             <hr class="linea">
-                            <li><i class='bx bxs-book-reader'></i><a href="/Ecogestion-page/php/index.php#fondo-who">¿Quiénes Somos?</a></li>
+                            <li><i class='bx bxs-book-reader' id="book-php-perfil"></i><a href="/Ecogestion-page/php/index.php#fondo-who">¿Quiénes Somos?</a></li>
                             <hr class="linea">
-                            <li id="beneficios"><i class='bx bxs-medal'></i><a href="/Ecogestion-page/php/perfil.php#beneficios">Recompensas</a></li>
+                            <li id="beneficios"><i class='bx bxs-medal' id="medal-php-perfil"></i><a href="/Ecogestion-page/php/perfil.php#beneficios">Recompensas</a></li>
                             <hr class="linea">
-                            <li><i class='bx bxs-star' ></i><a href="/Ecogestion-page/php/index.php#fondo-serv">¿Qué ofrecemos?</a></li>
+                            <li><i class='bx bxs-star' id="star-php-perfil"></i><a href="/Ecogestion-page/php/index.php#fondo-serv">¿Qué ofrecemos?</a></li>
                             <hr class="linea">
-                            <li><i class='bx bxs-message-detail'></i><a href="/Ecogestion-page/php/foro.php">Foro</a></li>
+                            <li><i class='bx bxs-message-detail' id="message-php-perfil"></i><a href="/Ecogestion-page/php/foro.php">Foro</a></li>
                             <hr class="linea">
                         </ul>
                     </nav>
@@ -77,8 +77,15 @@ session_start();
     </header>
 
     <div class="bienvenida-usuario">
-        <img src="/Ecogestion-Page/assets/css/img/foto tilines.png" alt="Foto usuario" width="150px">
+        <img src="/Ecogestion-Page/assets/css/img/foto-tilines.png" alt="Foto usuario" width="150px">
         <h1>Hola, <span><?php echo $_SESSION['usuario'];?>!</span></h1>
+    </div>
+
+    <div class="upload">
+        <button type="button" class="btn-warning">
+        <i class='bx bx-upload'></i> Subir foto
+        <input type="file">
+        </button>
     </div>
 
     <div class="x-puntos">

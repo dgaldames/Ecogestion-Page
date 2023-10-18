@@ -634,6 +634,14 @@ i{
   display: none;
 }
 
+#home, #book, #medal, #star, #message{
+  display: none;
+}
+
+#home-php, #book-php, #medal-php, #star-php, #message-php{
+  display: none;
+}
+
 
 /* COMIENZO ESTILOS RESPONSIVE*/
 
@@ -764,12 +772,15 @@ i{
     color: white;
   }
 
+  #home, #book, #medal, #star, #message{
+    display: inline;
+  }
+
+
 }
 /* FIN responsive NAV*/
 
-.nav-links li i{
-  display: none;
-}
+
 
 
 /* Comienzo responsive NAV PHP*/
@@ -805,6 +816,10 @@ i{
     font-size: 3em;
     cursor: pointer;
     color: white;
+  }
+
+  #home-php, #book-php, #medal-php, #star-php, #message-php{
+    display: inline;
   }
 
 }

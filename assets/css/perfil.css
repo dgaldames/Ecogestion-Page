@@ -126,12 +126,47 @@ i{
 .bienvenida-usuario{
     display: flex;
     justify-content: space-around;
-    margin: 100px 0px 65px 0px;
+    margin: 100px 0px 20px 0px;
 }
 
 .bienvenida-usuario h1{
     margin-right: 570px;
     font-size: 3em;
+}
+
+.upload{
+    margin-left: 233px;
+}
+
+.btn-warning i{
+    color: white;
+}
+
+.btn-warning{
+    position: relative;
+    padding: 9px 13px;
+    font-size: 0.9em;
+    line-height: 1.5;
+    border-radius: 3px;
+    color: #fff;
+    background-color: #2D6806;
+    border: 0;
+    transition: 0.2s;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.btn-warning input[type='file']{
+    cursor: pointer;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    transform: scale(3);
+    opacity: 0;
+}
+
+.btn-warning:hover{
+    background-color: #03361b;
 }
 
 .x-puntos{
@@ -361,6 +396,14 @@ i{
 }
 
 
+#home-php-perfil, #book-php-perfil, #medal-php-perfil, #star-php-perfil, #message-php-perfil{
+    display: none;
+}
+
+#home-perfil, #book-perfil, #medal-perfil, #star-perfil, #message-perfil{
+    display: none;
+}
+
 /* COMIENZO responsive NAV*/
 
     @media screen and (max-width: 600px) {
@@ -439,6 +482,10 @@ i{
         color: white;
         }
     
+        #home-perfil, #book-perfil, #medal-perfil, #star-perfil, #message-perfil{
+            display: inline;
+        }
+
     }
     /* FIN responsive NAV*/
     
@@ -462,8 +509,8 @@ i{
         margin-right: 20px; 
         }
     
-        .header-wrapper{
-        margin-top: 20px;
+        header{
+        margin-top: 40px;
         }
     
     }
@@ -471,7 +518,7 @@ i{
 
 
 
-    /* COMIENZO responsive NAV*/
+    /* COMIENZO responsive NAV PHP*/
 
     @media screen and (max-width: 600px) {
 
@@ -548,9 +595,13 @@ i{
         cursor: pointer;
         color: white;
         }
+
+        #home-php-perfil, #book-php-perfil, #medal-php-perfil, #star-php-perfil, #message-php-perfil{
+            display: inline;
+        }
     
     }
-    /* FIN responsive NAV*/
+    /* FIN responsive NAV PHP*/
 
 
 /* Comienzo responsive boton inicio sesion PHP*/
@@ -605,6 +656,15 @@ i{
 
     .bienvenida-usuario h1{
         margin: 0;
+    }
+
+    .upload{
+        margin: 0;
+        margin-left: 60px;
+    }
+
+    .btn-warning{
+        padding: 7px 12px;
     }
 }
 

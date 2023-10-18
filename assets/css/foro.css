@@ -393,6 +393,14 @@ i{
     display: none;
 }
 
+#home-php-foro, #book-php-foro, #medal-php-foro, #star-php-foro, #message-php-foro{
+    display: none;
+}
+
+#home-foro, #book-foro, #medal-foro, #star-foro, #message-foro{
+    display: none;
+}
+
 
 
 /* COMIENZO responsive NAV*/
@@ -472,6 +480,10 @@ i{
         cursor: pointer;
         color: white;
         }
+
+        #home-foro, #book-foro, #medal-foro, #star-foro, #message-foro{
+            display: inline;
+        }
     
     }
     /* FIN responsive NAV*/
@@ -496,8 +508,8 @@ i{
     margin-right: 20px; 
     }
 
-    .header-wrapper{
-    margin-top: 20px;
+    header{
+        margin-top: 40px;
     }
 
 }
@@ -505,7 +517,7 @@ i{
 
 
 
-    /* COMIENZO responsive NAV*/
+    /* COMIENZO responsive NAV PHP*/
 
     @media screen and (max-width: 600px) {
 
@@ -581,6 +593,10 @@ i{
         font-size: 3em;
         cursor: pointer;
         color: white;
+        }
+
+        #home-php-foro, #book-php-foro, #medal-php-foro, #star-php-foro, #message-php-foro{
+            display: inline;
         }
     
     }
