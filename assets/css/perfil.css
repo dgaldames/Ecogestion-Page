@@ -70,7 +70,7 @@ i{
 }
 
 .modal-header h1{
-    margin-left: 162px;
+    margin-left: 130px;
     color: black
 }
 
@@ -132,41 +132,6 @@ i{
 .bienvenida-usuario h1{
     margin-right: 570px;
     font-size: 3em;
-}
-
-.upload{
-    margin-left: 233px;
-}
-
-.btn-warning i{
-    color: white;
-}
-
-.btn-warning{
-    position: relative;
-    padding: 9px 13px;
-    font-size: 0.9em;
-    line-height: 1.5;
-    border-radius: 3px;
-    color: #fff;
-    background-color: #2D6806;
-    border: 0;
-    transition: 0.2s;
-    overflow: hidden;
-    cursor: pointer;
-}
-
-.btn-warning input[type='file']{
-    cursor: pointer;
-    position: absolute;
-    left: 0%;
-    top: 0%;
-    transform: scale(3);
-    opacity: 0;
-}
-
-.btn-warning:hover{
-    background-color: #03361b;
 }
 
 .x-puntos{
@@ -333,14 +298,10 @@ i{
 }
 
 .modal-header h1{
-    margin: 0;
-    margin-left: 60px;      /*IMPORTANTE QUE CUANDO LA X SEA UN NUMERO EL TEXTO BAJARA Y ABRA QUE HACER CAMBIOS */
+    margin: 0;  /*IMPORTANTE QUE CUANDO LA X SEA UN NUMERO EL TEXTO BAJARA Y ABRA QUE HACER CAMBIOS */
     font-weight: bold;
 }
 
-.btn-close{
-    margin-left: 60px !important;
-}
 
 .modal-body{
     display: flex;
@@ -362,13 +323,6 @@ i{
     background-color: #03361b;
 }
 
-#btn-close-2{
-    margin-left: 130px !important;
-}
-
-#exampleModalToggleLabel2{
-    margin-left: 150px !important;
-}
 
 .modal-body img{
     width: 300px;

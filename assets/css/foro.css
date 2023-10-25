@@ -627,6 +627,7 @@ i{
     }
 
 
+
     /* Comienzo responsive FOOTER*/
 @media screen and (max-width: 600px) {
 
@@ -655,6 +656,8 @@ i{
 }
 
 /* FIN responsive FOOTER*/
+
+
 
 
 
@@ -790,3 +793,79 @@ i{
     font-size: 1.5em;
 }
 
+
+
+    /* Comienzo responsive MAIN del foro*/
+    @media screen and (max-width: 600px) {
+
+        .foro-title{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+        
+        .foro-title h2{
+            font-size: 1.6em;
+            
+        }
+    
+        .foto-user-name-wrapper{
+            margin: 0;
+        }
+    
+        .foto-user img{
+            width: 75px;
+            height: 75px;
+        }
+    
+        .name-user h4{
+            font-size: 1.1em;
+        }
+    
+        .foro-pregunta-wrapper input{
+            margin: 0;
+            margin-left: 20px;
+            width: 450px;
+            font-size: 0.9em;
+        }
+
+        .foro-pregunta-wrapper h2{
+            margin: 0;
+            margin-bottom: 20px;
+            margin-left: 20px;
+        }
+
+        .button-enviar{
+            margin: 0;
+            margin-top: 20px;
+        }
+
+        .button-enviar button{
+            width: 160px;
+            height: 45px;
+            font-size: 1.1em;
+        }
+    
+        .last-discusiones-title h2{
+            font-size: 2em;
+        }
+
+        .foro-pregunta{
+            width: 450px;
+            margin: 0;
+            margin-left: 20px;
+            margin-top: 25px;
+        }
+    
+        .button-comentarios button{
+            width: 180px;
+            height: 45px;
+            font-size: 1em;
+            margin: 0;
+        }
+
+        .foro-pregunta h2{
+            font-size: 1.2em;
+        }
+
+    }

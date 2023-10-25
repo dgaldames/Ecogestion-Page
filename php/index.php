@@ -112,7 +112,7 @@ session_start();
         <div class="main-who-wrapper">
             <div class="foto-text">
                 <img src="css/img/foto who 1.png" alt="">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita debitis eius nulla autem eaque. Optio unde debitis, dolores veritatis nemo ipsum minus. Repellat ut dicta dignissimos eligendi maiores, molestias fuga.</p>
+                <p>Somos un grupo de estudiantes universitarios con una pasión compartida: la sostenibilidad y la protección del medio ambiente. Nos hemos unido para crear conciencia sobre la importancia del reciclaje y la conservación de recursos. Nuestra motivación radica en la creencia de que cada pequeña acción cuenta, y juntos, podemos marcar la diferencia.</p>
             </div>
             <div class="foto-tilines">
                 <img src="/Ecogestion-Page/assets/css/img/foto-tilines.png" alt="Foto de los tilines">
@@ -188,11 +188,7 @@ session_start();
         <div class="main-guia-wrapper">
             <div class="texto-izquierda">
                 <h4>¿Qué encontraras aqui?</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt omnis ipsum delectus dicta itaque,
-                    minus rem optio cupiditate necessitatibus tempora repellat et, earum veritatis voluptatem non quam harum
-                    provident modi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur provident ipsam ex
-                    fugit tempore impedit. Reiciendis deserunt fugiat, ratione eos expedita optio aspernatur fugit dolore
-                    aut id iure aliquid totam.</p>
+                <p>Nuestra guía de reciclaje es una referencia esencial para aprender cómo clasificar y reciclar diversos tipos de materiales. Simplemente selecciona un elemento de la lista, y te proporcionaremos información detallada sobre cómo desecharlo de manera responsable. Esta sección te ayudará a comprender la importancia del reciclaje y a tomar decisiones informadas sobre cómo gestionar tus desechos de manera más sostenible.</p>
             </div>
     
             <div class="recicle-wrapper">
@@ -448,7 +444,7 @@ session_start();
         <div class="main-mapa-wrapper">
             <div class="texto-mapa">
                 <h4>¿Qué encontraras aqui?</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae a aut cum et, quisquam quis, tempore eveniet eum explicabo repellat dolorum mollitia reprehenderit ut dolore facilis dignissimos esse. Illum, porro? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum exercitationem repudiandae hic ipsa aut. Doloremque saepe illum asperiores, reiciendis accusantium libero fuga ipsa, earum accusamus praesentium alias rerum culpa quo.</p>
+                <p>En nuestro mapa de reciclaje, encontrarás una herramienta interactiva que te permitirá ubicar los puntos más cercanos para reciclar en tu área. Ofrecemos un mapa detallado que muestra claramente la ubicación de contenedores de reciclaje, centros de recolección y otros lugares donde puedes llevar tus materiales reciclables. Esta función te facilitará la tarea de encontrar opciones de reciclaje cercanas y contribuir a la conservación del medio ambiente.</p>
             </div>
             
             <div class="google-maps">

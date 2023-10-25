@@ -82,13 +82,6 @@ session_start();
         <h1>Hola, <span><?php echo $_SESSION['usuario'];?>!</span></h1>
     </div>
 
-    <div class="upload">
-        <button type="button" class="btn-warning">
-        <i class='bx bx-upload'></i> Subir foto
-        <input type="file">
-        </button>
-    </div>
-
     <div class="x-puntos">
         <h3>Tienes X puntos</h3>
     </div>
@@ -107,14 +100,13 @@ session_start();
                 <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Modal 1</h1>
+                            <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Cupones disponibles por X puntos</h1>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
-                            Show a second modal and hide this one with the button below.
-                        </div>
-                        <div class="modal-footer">
-                            <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Open second modal</button>
+                            <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Cupones por $1000 en XXX</button>
+                            <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Cupones por $1000 en XXX</button>
+                            <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Cupones por $1000 en XXX</button>
                         </div>
                     </div>
                 </div>
@@ -123,48 +115,53 @@ session_start();
                 <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Modal 2</h1>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Cupon de XXXXX</h1>
                         </div>
                         <div class="modal-body">
-                            Hide this modal and show the first with the button below.
+                            <img src="/Ecogestion-Page/assets/css/img/qr-estatico.jpg" alt="QR a canjear">
+                        </div>
+                        <div class="fecha">
+                            <h4>Valido hasta xx-xx-xx</h4>
                         </div>
                         <div class="modal-footer">
-                            <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Back to first</button>
+                            <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Volver atrás</button>
                         </div>
                     </div>
                 </div>
             </div>
             <button class="btn btn-primary" id="btn-250" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Cupones por 250 pts</button>
 
+
             <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
                 <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Modal 1</h1>
+                            <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Cupones disponibles por X puntos</h1>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
-                            Show a second modal and hide this one with the button below.
-                        </div>
-                        <div class="modal-footer">
-                            <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Open second modal</button>
+                            <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Cupones por $1000 en XXX</button>
+                            <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Cupones por $1000 en XXX</button>
+                            <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Cupones por $1000 en XXX</button>
                         </div>
                     </div>
                 </div>
             </div>
+
             <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
                 <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Modal 2</h1>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Cupon de XXXXX</h1>
                         </div>
                         <div class="modal-body">
-                            Hide this modal and show the first with the button below.
+                            <img src="/Ecogestion-Page/assets/css/img/qr-estatico.jpg" alt="QR a canjear">
+                        </div>
+                        <div class="fecha">
+                            <h4>Valido hasta xx-xx-xx</h4>
                         </div>
                         <div class="modal-footer">
-                            <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Back to first</button>
+                            <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Volver atrás</button>
                         </div>
                     </div>
                 </div>
@@ -179,14 +176,13 @@ session_start();
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Modal 1</h1>
+                        <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Cupones disponibles por X puntos</h1>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        Show a second modal and hide this one with the button below.
-                    </div>
-                    <div class="modal-footer">
-                        <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Open second modal</button>
+                        <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Cupones por $1000 en XXX</button>
+                        <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Cupones por $1000 en XXX</button>
+                        <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Cupones por $1000 en XXX</button>
                     </div>
                 </div>
             </div>
@@ -195,14 +191,16 @@ session_start();
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Modal 2</h1>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Cupon de XXXXXX</h1>
                     </div>
                     <div class="modal-body">
-                        Hide this modal and show the first with the button below.
+                        <img src="/Ecogestion-Page/assets/css/img/qr-estatico.jpg" alt="QR a canjear">
+                    </div>
+                    <div class="fecha">
+                        <h4>Valido hasta xx-xx-xx</h4>
                     </div>
                     <div class="modal-footer">
-                        <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Back to first</button>
+                        <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Volver atrás</button>
                     </div>
                 </div>
             </div>
@@ -213,27 +211,28 @@ session_start();
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Modal 1</h1>
+                        <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Cupones disponibles por XXXXX</h1>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        Show a second modal and hide this one with the button below.
-                    </div>
-                    <div class="modal-footer">
-                        <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Open second modal</button>
+                        <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Cupones por $1000 en XXX</button>
+                        <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Cupones por $1000 en XXX</button>
+                        <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Cupones por $1000 en XXX</button>
                     </div>
                 </div>
             </div>
         </div>
         <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
-            <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-dialog modal-d    ialog-centered">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Modal 2</h1>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Cupon de XXXXX</h1>
                     </div>
                     <div class="modal-body">
-                        Hide this modal and show the first with the button below.
+                        <img src="/Ecogestion-Page/assets/css/img/qr-estatico.jpg" alt="QR a canjear">
+                    </div>
+                    <div class="fecha">
+                        <h4>Valido hasta xx-xx-xx</h4>
                     </div>
                     <div class="modal-footer">
                         <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Back to first</button>
