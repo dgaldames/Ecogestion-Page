@@ -95,7 +95,7 @@ if (isset($_SESSION['usuario'])) {
                     <input type="password" placeholder="Contraseña" name="contrasena" required>
                     <button type="button" class="btn-warning">
                         <i class='bx bx-upload'></i> Subir foto
-                        <input type="file">
+                        <input type="file" accept="image/*" name="foto">
                     </button>
                     <button>Registrarse</button>
                 </form>
