@@ -87,18 +87,18 @@ if (isset($_SESSION['usuario'])) {
                     <button>Entrar</button>
                 </form>
             <!--Formulario Register-->
-                <form action="/Ecogestion-page/php/registro_usuario_be.php" method="POST" class="formulario-signup" enctype="multipart/form-data">
-                    <h2>Registrarse</h2>
-                    <input type="text" placeholder="Nombre Completo" name="nombre_completo" required>
-                    <input type="email" placeholder="Correo Electronico" name="correo" required>
-                    <input type="text" placeholder="Usuario" name="usuario" required>
-                    <input type="password" placeholder="Contraseña" name="contrasena" required>
-                    <button type="button" class="btn-warning">
-                        <i class='bx bx-upload'></i> Subir foto
-                        <input type="file" accept="image/*" name="foto">
-                    </button>
-                    <button>Registrarse</button>
-                </form>
+            <form action="/Ecogestion-page/php/registro_usuario_be.php" method="POST" class="formulario-signup" enctype="multipart/form-data">
+                <h2>Registrarse</h2>
+                <input type="text" placeholder="Nombre Completo" name="nombre_completo" required>
+                <input type="email" placeholder="Correo Electronico" name="correo" required>
+                <input type="text" placeholder="Usuario" name="usuario" required>
+                <input type="password" placeholder="Contraseña" name="contrasena" required>
+                <button type="submit" class="btn-warning">
+                    <i class='bx bx-upload'></i> Subir foto
+                    <input type="file" name="imagen">
+                </button>
+                <button>Registrarse</button>
+            </form>
             </div>
 
         </div>

@@ -3,10 +3,12 @@
 include 'conexion_be.php';
 session_start();
 
-isset($_SESSION['foto']);
-    $nombre_archivo = $_SESSION['foto'];
-    $rutaImagen = '/Ecogestion-page/php/images/o.o.PNG' . $nombre_archivo; // Reemplaza 'ruta_a_tu_carpeta_de_imagenes/' por la ruta real de tu carpeta de imágenes
 ?>
+
+
+
+
+
 
 
 <!DOCTYPE html>
@@ -81,12 +83,26 @@ isset($_SESSION['foto']);
         </div>
     </header>
 
-    <div class="bienvenida-usuario">
+
     <?php
-        echo '<img src="' . $rutaImagen . '" alt="Foto usuario" width="150px">';
+
+    $query = "SELECT * FROM usuarios";
+    $resultado = $conexion->query($query);
+    if ($resultado && $row = $resultado->fetch_assoc()) {
+        ?>
+
+        <div class="bienvenida-usuario">
+            <img src="data:image/jpg;base64,<?php echo base64_encode($row['imagen']);?>" alt="Foto usuario" width="150px">
+            <h1>Hola, <span><?php echo $_SESSION['usuario'];?>!</span></h1>
+        </div>
+
+    <?php
+}
+
     ?>
-        <h1>Hola, <span><?php echo $_SESSION['usuario'];?>!</span></h1>
-    </div>
+
+
+    
 
     <div class="x-puntos">
         <h3>Tienes X puntos</h3>
