@@ -56,6 +56,15 @@ if (mysqli_num_rows($verificar_usuario) > 0) {
     
             $ejecutar = mysqli_query($conexion, $query);
             
+
+            if ($ejecutar) {
+    $nombre_archivo = mysqli_insert_id($conexion);
+    $_SESSION['foto'] = $nombre_archivo;
+    // Redirige al usuario a la página de perfil
+    header('Location: perfil.php');
+}
+
+            
             if ($ejecutar) {
                 echo '
                     <script>

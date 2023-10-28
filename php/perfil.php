@@ -1,7 +1,11 @@
 <?php
 
+include 'conexion_be.php';
 session_start();
 
+isset($_SESSION['foto']);
+    $nombre_archivo = $_SESSION['foto'];
+    $rutaImagen = '/Ecogestion-page/php/images/o.o.PNG' . $nombre_archivo; // Reemplaza 'ruta_a_tu_carpeta_de_imagenes/' por la ruta real de tu carpeta de imágenes
 ?>
 
 
@@ -78,7 +82,9 @@ session_start();
     </header>
 
     <div class="bienvenida-usuario">
-        <img src="/Ecogestion-Page/assets/css/img/foto-tilines.png" alt="Foto usuario" width="150px">
+    <?php
+        echo '<img src="' . $rutaImagen . '" alt="Foto usuario" width="150px">';
+    ?>
         <h1>Hola, <span><?php echo $_SESSION['usuario'];?>!</span></h1>
     </div>
 
