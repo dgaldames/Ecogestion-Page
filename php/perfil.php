@@ -3,12 +3,25 @@
 include 'conexion_be.php';
 session_start();
 
+$nombre_usuario = $_SESSION['usuario'];
+$query = "SELECT * FROM usuarios WHERE usuario = '$nombre_usuario'";
+$res = mysqli_query($conexion, $query);
+$row_usuario = mysqli_fetch_assoc($res);
+
+if ($row_usuario) {
+    $nombre_completo = $row_usuario['nombre_completo'];
+    $correo = $row_usuario['correo'];
+    $usuario = $row_usuario['usuario'];
+    $contrasena = $row_usuario['contrasena'];
+    $nombre_img = $row_usuario['nombre_img'];
+    $ruta = $row_usuario['ruta'];
+    $peso = $row_usuario['peso'];
+}else{
+    header("Location: login.php");
+}
+
+
 ?>
-
-
-
-
-
 
 
 <!DOCTYPE html>
@@ -25,13 +38,11 @@ session_start();
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
     <title>Perfil</title>
 </head>
-
 <body>
-
 <header>
         <div class home="header-wrapper">
             <div class="login" id="login-php-perfil">
-                <h3>Bienvenido,ㅤ<span><?php echo $_SESSION['usuario'];?>!</span></h3>
+                <h3>Bienvenido,ㅤ<span><?php echo $usuario?>!</span></h3>
                     <!-- Button trigger modal -->
                     <h4> <a class="logout" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><i class='bx bx-log-out'></i> Cerrar sesión</a></h4>
                     
@@ -55,13 +66,11 @@ session_start();
                     </div>
             </div>
         </div>
-
             <div class="logo">
                 <a href="index.html">
                 <img src="/Ecogestion-Page/assets/css/img/logo-no-background.png" alt="Ecogestion"">
                 </a>
             </div>
-
             <div class="nav" id="left-menu-php-perfil">
                     <nav>
                         <span><i id="x-php-perfil" class='bx bx-left-arrow-alt' onclick="cerrarMenuPhpPerfil()"></i></span>
@@ -83,41 +92,21 @@ session_start();
         </div>
     </header>
 
-
-    <?php
-
-    $query = "SELECT * FROM usuarios";
-    $resultado = $conexion->query($query);
-    if ($resultado && $row = $resultado->fetch_assoc()) {
-        ?>
-
-        <div class="bienvenida-usuario">
-            <img src="data:image/jpg;base64,<?php echo base64_encode($row['imagen']);?>" alt="Foto usuario" width="150px">
-            <h1>Hola, <span><?php echo $_SESSION['usuario'];?>!</span></h1>
-        </div>
-
-    <?php
-}
-
-    ?>
-
-
-    
+    <div class="bienvenida-usuario">
+        <img class="img-user" src="../<?php echo $ruta ?>" alt="Foto de perfil">
+        <h1>Hola, <span><?php echo $usuario;?>!</span></h1>
+    </div>
 
     <div class="x-puntos">
         <h3>Tienes X puntos</h3>
     </div>
-
     <div class="pregunta">
         <h5>¿Qué deseas canjear hoy?</h5>
     </div>
-
     <div class="bene-dispo">
         <h2>Beneficios Disponibles</h2>
     </div>
-
         <div class="primeros-cupones">
-
             <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
                 <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content">
@@ -152,8 +141,6 @@ session_start();
                 </div>
             </div>
             <button class="btn btn-primary" id="btn-250" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Cupones por 250 pts</button>
-
-
             <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
                 <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content">
@@ -169,7 +156,6 @@ session_start();
                     </div>
                 </div>
             </div>
-
             <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
                 <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content">
@@ -191,7 +177,6 @@ session_start();
             <button class="btn btn-primary" id="btn-500" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Cupones por 500 pts</button>
             
         </div>
-
     <div class="segundos-cupones">
         
         <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
@@ -228,7 +213,6 @@ session_start();
             </div>
         </div>
             <button class="btn btn-primary" id="btn-750" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Cupones por 750 pts</button>
-
         <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
@@ -263,18 +247,14 @@ session_start();
             </div>
         </div>
         <button class="btn btn-primary" id="btn-1000" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Cupones por 1000 pts</button>
-
     </div>
-
     <footer class="clase-footer">
-
         <div class="footer-wrapper">
             <div class="textos">
                 <h4>Contacto</h4>
                 <h4>Nuestros Servicios</h4>
                 <h4>Mi cuenta</h4>
             </div>
-
             <div class="wraper-footer">
                 
                 <div class="contacto-wrapper">
@@ -286,7 +266,6 @@ session_start();
                         </ul>
                     </div>
                 </div>
-
                 <div class="lista-wrapper">
                     <div class="lista-servicio">
                         <ul>
@@ -297,7 +276,6 @@ session_start();
                         </ul>
                     </div>
                 </div>
-
                 <div class="cuenta-wrapper">
                     <div class="lista-cuenta">
                         <ul>
@@ -308,19 +286,11 @@ session_start();
                     </div>
                 </div>
             </div>
-
             <div class="copi">
                 <h4>© 2023 Copyright Ecogestion. <br> Todos los derechos reservados</h4>
             </div>
-
         </div>
-
     </footer>
-
-
-
 </body>
 </html>
-
-
 <script src="/Ecogestion-Page/assets/js/perfil.js"></script>

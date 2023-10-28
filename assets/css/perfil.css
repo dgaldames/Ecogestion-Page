@@ -134,6 +134,13 @@ i{
     font-size: 3em;
 }
 
+.img-user{
+    aspect-ratio: 1/1;
+    width: 10%;
+    object-fit: cover;
+    object-position: top;
+}
+
 .x-puntos{
     display: flex;
     justify-content: center;
