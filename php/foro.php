@@ -11,7 +11,7 @@ session_start();
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/Ecogestion-page/assets/css/foro.css">
-    <link rel="icon" type="image/png" href="/Ecogestion-page/assets/css/img/logo-no-background.png">
+    <link rel="icon" type="image/png" href="/Ecogestion-page/assets/img/logo-no-background.png">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
@@ -51,7 +51,7 @@ session_start();
 
             <div class="logo">
                 <a href="index.html">
-                    <img src="/Ecogestion-Page/assets/css/img/logo-no-background.png" alt="Ecogesion">
+                    <img src="/Ecogestion-Page/assets/img/logo-no-background.png" alt="Ecogesion">
                 </a>
             </div>
 
@@ -88,7 +88,7 @@ session_start();
     <div class="foro-publicacion-wrapper">
         <div class="foto-user-name-wrapper">
             <div class="foto-user">
-                <img src="/Ecogestion-Page/assets/css/img/user foto.png" alt="Foto Usuario">
+                <img src="/Ecogestion-Page/assets/img/usuario1.png" alt="Foto Usuario">
             </div>
             <div class="name-user">
                 <h4>Usuario</h4>
@@ -116,7 +116,7 @@ session_start();
     <div class="foro-publicacion-wrapper">
         <div class="foto-user-name-wrapper">
             <div class="foto-user">
-                <img src="/Ecogestion-Page/assets/css/img/user foto.png" alt="Foto Usuario">
+                <img src="/Ecogestion-Page/assets/img/usuario1.png" alt="Foto Usuario">
             </div>
             <div class="name-user">
                 <h4>Usuario</h4>

@@ -69,11 +69,6 @@ i{
     background-color: #03361b;
 }
 
-.modal-header h1{
-    margin-left: 130px;
-    color: black
-}
-
 .modal-body {
     text-align: center;
 }
@@ -304,11 +299,15 @@ i{
     align-items: center;
 }
 
-.modal-header h1{
-    margin: 0;  /*IMPORTANTE QUE CUANDO LA X SEA UN NUMERO EL TEXTO BAJARA Y ABRA QUE HACER CAMBIOS */
-    font-weight: bold;
+.modal-header{
+    position: relative;
+    display: flex;
 }
 
+.btn-close{
+    position: absolute;
+    left: 380px;
+}
 
 .modal-body{
     display: flex;

@@ -12,7 +12,7 @@ session_start();
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" type="image/png" href="/Ecogestion-page/assets/css/img/logo-no-background.png">
+        <link rel="icon" type="image/png" href="/Ecogestion-page/assets/img/logo-no-background.png">
         <link rel="stylesheet" href="/Ecogestion-page/assets/css/main-style.css">
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -52,7 +52,7 @@ session_start();
 
                 <div class="logo">
                     <a href="index.html">
-                        <img src="/Ecogestion-page/assets/css/img/logo-no-background.png" alt="Ecogesion">
+                        <img src="/Ecogestion-page/assets/img/logo-no-background.png" alt="Ecogesion">
                     </a>
                 </div>
 
@@ -92,7 +92,7 @@ session_start();
                 <h1>Recicla con nuestra <br> ayuda porque con <br> ecogestion tu reciclaje <br> va como avión</h1>
             </div>
             <div class="main-foto">
-                <img src="/Ecogestion-Page/assets/css/img/reciclaje main.png" alt="Persona reciclando">
+                <img src="/Ecogestion-Page/assets/img/reciclaje main.png" alt="Persona reciclando">
             </div>
         </div>
 
@@ -115,7 +115,7 @@ session_start();
                 <p>Somos un grupo de estudiantes universitarios con una pasión compartida: la sostenibilidad y la protección del medio ambiente. Nos hemos unido para crear conciencia sobre la importancia del reciclaje y la conservación de recursos. Nuestra motivación radica en la creencia de que cada pequeña acción cuenta, y juntos, podemos marcar la diferencia.</p>
             </div>
             <div class="foto-tilines">
-                <img src="/Ecogestion-Page/assets/css/img/foto-tilines.png" alt="Foto de los tilines">
+                <img src="/Ecogestion-Page/assets/img/foto-tilines.png" alt="Foto de los tilines">
             </div>
         </div>
 
@@ -136,7 +136,7 @@ session_start();
             <div class="options-wrapper">
                 <div class="frames">
                     <div class="img-option-serv">
-                        <img src="/Ecogestion-page/assets/css/img/frame 1.jpg" alt="guia">
+                        <img src="/Ecogestion-page/assets/img/frame 1.jpg" alt="guia">
                     </div>
                     <div class="btn-option" id="guia-ancla2">
                         <button>Guía de reciclaje</button>
@@ -145,7 +145,7 @@ session_start();
                 
                 <div class="frames">
                     <div class="img-option-serv">
-                        <img src="/Ecogestion-page/assets/css/img/frame 2.jpg" alt="mapa" class="img-size">
+                        <img src="/Ecogestion-page/assets/img/frame 2.jpg" alt="mapa" class="img-size">
                     </div>
                     <div class="btn-option" id="mapa-ancla2">
                         <button>Mapa</button>
@@ -154,7 +154,7 @@ session_start();
                 
                 <div class="frames">
                     <div class="img-option-serv">
-                        <img src="/Ecogestion-page/assets/css/img/frame 3.jpg" alt="foro">
+                        <img src="/Ecogestion-page/assets/img/frame 3.jpg" alt="foro">
                     </div>
                     <div class="btn-option">
                         <a href="foro.html"><button>Foro</button></a>
@@ -163,7 +163,7 @@ session_start();
                 
                 <div class="frames">
                     <div class="img-option-serv">
-                        <img src="/Ecogestion-page/assets/css/img/frame 4.jpg" alt="recompensas">
+                        <img src="/Ecogestion-page/assets/img/frame 4.jpg" alt="recompensas">
                     </div>
                     <div class="btn-option">
                         <a href="perfil.html#beneficios"><button>Recompensas</button></a>
@@ -194,7 +194,7 @@ session_start();
             <div class="recicle-wrapper">
                 <div class="options-line">
                     <div class="img-option">
-                        <img src="/Ecogestion-page/assets/css/img/guia clasificacion icons/Dalle-icono-botella-plastico-paint.png" alt="">
+                        <img src="/Ecogestion-page/assets/img/guia clasificacion icons/Dalle-icono-botella-plastico-paint.png" alt="">
                         <div class="riclaje-btn">
                             <button id="boton-popup" data-bs-toggle="modal"
                                 data-bs-target="#exampleModalPlastico">Plásticos</button>
@@ -222,7 +222,7 @@ session_start();
                     </div>
     
                     <div class="img-option">
-                        <img src="/Ecogestion-page/assets/css/img/guia clasificacion icons/Dalle-icono-botella-vidrio-paint.png" alt="">
+                        <img src="/Ecogestion-page/assets/img/guia clasificacion icons/Dalle-icono-botella-vidrio-paint.png" alt="">
                         <div class="riclaje-btn">
                             <button id="boton-popup" data-bs-toggle="modal"
                                 data-bs-target="#exampleModalVidrio">Vidrio</button>
@@ -250,7 +250,7 @@ session_start();
                     </div>
     
                     <div class="img-option">
-                        <img src="/Ecogestion-page/assets/css/img/guia clasificacion icons/Dalle-icono-papel2.png" alt="">
+                        <img src="/Ecogestion-page/assets/img/guia clasificacion icons/Dalle-icono-papel2.png" alt="">
                         <div class="riclaje-btn">
                             <button id="boton-popup" data-bs-toggle="modal"
                                 data-bs-target="#exampleModalPapel">Papel</button>
@@ -278,7 +278,7 @@ session_start();
                     </div>
     
                     <div class="img-option">
-                        <img src="/Ecogestion-Page/assets/css/img/guia clasificacion icons/Dalle-icono-lata-paint.png" alt="">
+                        <img src="/Ecogestion-Page/assets/img/guia clasificacion icons/Dalle-icono-lata-paint.png" alt="">
                         <div class="riclaje-btn">
                             <button id="boton-popup" data-bs-toggle="modal"
                                 data-bs-target="#exampleModalLatas">Latas</button>
@@ -310,7 +310,7 @@ session_start();
     
                 <div class="options-line">
                     <div class="img-option">
-                        <img src="/Ecogestion-Page/assets/css/img/guia clasificacion icons/Dalle-icono-organico-paint.bmp" alt="">
+                        <img src="/Ecogestion-Page/assets/img/guia clasificacion icons/Dalle-icono-organico-paint.bmp" alt="">
                         <div class="riclaje-btn">
                             <button id="boton-popup" data-bs-toggle="modal"
                                 data-bs-target="#exampleModalOrganicos">Organicos</button>
@@ -339,7 +339,7 @@ session_start();
     
     
                     <div class="img-option">
-                        <img src="/Ecogestion-Page/assets/css/img/guia clasificacion icons/icono-caja-final.png" alt="">
+                        <img src="/Ecogestion-Page/assets/img/guia clasificacion icons/icono-caja-final.png" alt="">
                         <div class="riclaje-btn">
                             <button id="boton-popup" data-bs-toggle="modal"
                                 data-bs-target="#exampleModalCarton">Cartón</button>
@@ -368,7 +368,7 @@ session_start();
     
     
                     <div class="img-option">
-                        <img src="/Ecogestion-Page/assets/css/img/guia clasificacion icons/icono-electronico.png" alt="">
+                        <img src="/Ecogestion-Page/assets/img/guia clasificacion icons/icono-electronico.png" alt="">
                         <div class="riclaje-btn">
                             <button id="boton-popup" data-bs-toggle="modal"
                                 data-bs-target="#exampleModalElectronicos">Electrónicos</button>
@@ -396,7 +396,7 @@ session_start();
                     </div>
     
                     <div class="img-option">
-                        <img src="/Ecogestion-Page/assets/css/img/guia clasificacion icons/icono-ropa.png" alt="">
+                        <img src="/Ecogestion-Page/assets/img/guia clasificacion icons/icono-ropa.png" alt="">
                         <div class="riclaje-btn">
                             <button id="boton-popup" data-bs-toggle="modal"
                                 data-bs-target="#exampleModalTextil">Textil</button>
@@ -448,7 +448,7 @@ session_start();
             </div>
             
             <div class="google-maps">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d212998.56777100364!2d-70.7946386810924!3d-33.47267890100095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c5410425af2f%3A0x8475d53c400f0931!2sSantiago%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses!2scl!4v1693514406788!5m2!1ses!2scl" width="1020" height="580" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://puntoslimpios.mma.gob.cl"></iframe>
             </div>
         </div>
 

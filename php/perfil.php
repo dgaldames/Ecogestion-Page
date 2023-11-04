@@ -29,7 +29,7 @@ if ($row_usuario) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" href="/Ecogestion-page/assets/css/img/logo-no-background.png">
+    <link rel="icon" type="image/png" href="/Ecogestion-page/assets/img/logo-no-background.png">
     <link rel="stylesheet" href="/Ecogestion-page/assets/css/perfil.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -58,8 +58,8 @@ if ($row_usuario) {
                                     <h2><span class="smaller-text">Hasta la próxima <i class='bx bx-wink-smile'></i></span></h2>
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Mejor me quedo</button>
-                                    <a href="cerrar_sesion.php" type="button" class="btn btn-primary">Entendido</a>
+                                    <button id="btn-stay" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Mejor me quedo</button>
+                                    <a id="a-logout" href="cerrar_sesion.php" type="button" class="btn btn-primary">Entendido</a>
                                 </div>
                             </div>
                         </div>
@@ -68,7 +68,7 @@ if ($row_usuario) {
         </div>
             <div class="logo">
                 <a href="index.html">
-                <img src="/Ecogestion-Page/assets/css/img/logo-no-background.png" alt="Ecogestion"">
+                <img src="/Ecogestion-Page/assets/img/logo-no-background.png" alt="Ecogestion"">
                 </a>
             </div>
             <div class="nav" id="left-menu-php-perfil">
@@ -129,7 +129,7 @@ if ($row_usuario) {
                             <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Cupon de XXXXX</h1>
                         </div>
                         <div class="modal-body">
-                            <img src="/Ecogestion-Page/assets/css/img/qr-estatico.jpg" alt="QR a canjear">
+                            <img src="/Ecogestion-Page/assets/img/qr-estatico.jpg" alt="QR a canjear">
                         </div>
                         <div class="fecha">
                             <h4>Valido hasta xx-xx-xx</h4>
