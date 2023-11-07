@@ -15,3 +15,11 @@ function abrirMenuForoPhp(){
 function cerrarMenuForoPhp(){
     document.getElementById("left-menu-php-foro").style.width = "0"
 }
+
+document.getElementById('send').addEventListener('click', function() {
+    alert('Debes iniciar sesión para interactuar con el foro.');
+});
+
+document.getElementById('comments').addEventListener('click', function() {
+    alert('Debes iniciar sesión para interactuar con el foro.');
+});

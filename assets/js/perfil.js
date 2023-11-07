@@ -16,3 +16,20 @@ function abrirMenuPhpPerfil(){
 function cerrarMenuPhpPerfil(){
     document.getElementById("left-menu-php-perfil").style.width = "0"
 }
+
+
+document.getElementById('btn-250').addEventListener('click', function() {
+    alert('Debes iniciar sesión para acceder a esta función.');
+});
+
+document.getElementById('btn-500').addEventListener('click', function() {
+    alert('Debes iniciar sesión para acceder a esta función.');
+});
+
+document.getElementById('btn-750').addEventListener('click', function() {
+    alert('Debes iniciar sesión para acceder a esta función.');
+});
+
+document.getElementById('btn-1000').addEventListener('click', function() {
+    alert('Debes iniciar sesión para acceder a esta función.');
+});

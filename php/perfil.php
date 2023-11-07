@@ -269,19 +269,19 @@ if ($row_usuario) {
                 <div class="lista-wrapper">
                     <div class="lista-servicio">
                         <ul>
-                            <li> <box-icon name="map-alt"></box-icon> <a href="#fondo-mapa">Mapa de reciclaje</a></li>
-                            <li> <box-icon name="book-content"></box-icon> <a href="#fondo-guia">Guía de reciclaje</a></li>
-                            <li> <box-icon name="smile"></box-icon> <a href="foro.html">Foro</a></li>
-                            <li> <box-icon name="trophy"></box-icon> <a href="perfil.html#beneficios">Recompensas</a></li>
+                            <li> <box-icon name="map-alt"></box-icon> <a href="index.php#fondo-mapa">Mapa de reciclaje</a></li>
+                            <li> <box-icon name="book-content"></box-icon> <a href="index.php#fondo-guia">Guía de reciclaje</a></li>
+                            <li> <box-icon name="smile"></box-icon> <a href="foro.php">Foro</a></li>
+                            <li> <box-icon name="trophy"></box-icon> <a href="perfil.php#beneficios">Recompensas</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="cuenta-wrapper">
                     <div class="lista-cuenta">
                         <ul>
-                            <li> <box-icon name="user"></box-icon> <a href="login.html">Iniciar sesión</a> </li>
-                            <li> <box-icon name="user-plus"></box-icon> <a href="login.html">Registrarse</a></li>
-                            <li> <box-icon name="star"></box-icon> <a href="perfil.html">Beneficios disponibles</a></li>
+                            <li> <box-icon name="user"></box-icon> <a href="login.php">Iniciar sesión</a> </li>
+                            <li> <box-icon name="user-plus"></box-icon> <a href="login.php">Registrarse</a></li>
+                            <li> <box-icon name="star"></box-icon> <a href="perfil.php">Beneficios disponibles</a></li>
                         </ul>
                     </div>
                 </div>

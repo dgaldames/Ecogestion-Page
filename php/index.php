@@ -157,7 +157,7 @@ session_start();
                         <img src="/Ecogestion-page/assets/img/frame 3.jpg" alt="foro">
                     </div>
                     <div class="btn-option">
-                        <a href="foro.html"><button>Foro</button></a>
+                        <a href="foro.php"><button>Foro</button></a>
                     </div>
                 </div>
                 
@@ -166,7 +166,7 @@ session_start();
                         <img src="/Ecogestion-page/assets/img/frame 4.jpg" alt="recompensas">
                     </div>
                     <div class="btn-option">
-                        <a href="perfil.html#beneficios"><button>Recompensas</button></a>
+                        <a href="perfil.php#recompensas"><button>Recompensas</button></a>
                     </div>
                 </div>
             </div>
@@ -478,8 +478,8 @@ session_start();
                                 <ul>
                                     <li> <box-icon name="map-alt"></box-icon> <a href="#fondo-mapa">Mapa de reciclaje</a></li>
                                     <li> <box-icon name="book-content"></box-icon> <a href="#fondo-guia">Guía de reciclaje</a></li>
-                                    <li> <box-icon name="smile"></box-icon> <a href="foro.html">Foro</a></li>
-                                    <li> <box-icon name="trophy"></box-icon> <a href="perfil.html#beneficios">Recompensas</a></li>
+                                    <li> <box-icon name="smile"></box-icon> <a href="foro.php">Foro</a></li>
+                                    <li> <box-icon name="trophy"></box-icon> <a href="perfil.php#beneficios">Recompensas</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -488,8 +488,8 @@ session_start();
                             <div class="lista-cuenta">
                                 <ul>
                                     <li> <box-icon name="user"></box-icon> <a href="/Ecogestion-Page/php/login.php">Iniciar sesión</a> </li>
-                                    <li> <box-icon name="user-plus"></box-icon> <a href="login.html">Registrarse</a></li>
-                                    <li> <box-icon name="star"></box-icon> <a href="perfil.html">Beneficios disponibles</a></li>
+                                    <li> <box-icon name="user-plus"></box-icon> <a href="login.php">Registrarse</a></li>
+                                    <li> <box-icon name="star"></box-icon> <a href="perfil.php">Beneficios disponibles</a></li>
                                 </ul>
                             </div>
                         </div>

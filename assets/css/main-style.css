@@ -838,6 +838,7 @@ iframe{
 /* Comienzo responsive MAIN del menu principal*/
 @media screen and (max-width: 600px) {
   
+
   .banner h1{
     font-size: 2.8em;
   }
@@ -937,6 +938,10 @@ iframe{
 
 @media screen and (max-width: 600px) {
 
+  .guia-banner{
+    height: 200px;
+  }
+
 .main-guia-wrapper{
     display: flex;
     flex-direction: column;
@@ -984,7 +989,11 @@ iframe{
 /* Comienzo responsive MAPA DE RECICLAJE*/
 @media screen and (max-width: 600px) {
 
-  .main-mapa-wrapper{
+    .mapa-banner{
+      height: 200px;
+    }
+
+    .main-mapa-wrapper{
       display: flex;
       flex-direction: column;
     }

@@ -627,6 +627,17 @@ i{
     }
 
 
+    @media screen and (max-width: 600px){
+        .foro-banner{
+            height: 200px; 
+        }
+
+        .foro-banner h1{
+            font-size: 4.5em;
+            margin-top: 90px;
+        }
+    }
+
 
     /* Comienzo responsive FOOTER*/
 @media screen and (max-width: 600px) {

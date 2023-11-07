@@ -122,6 +122,7 @@ i{
     display: flex;
     justify-content: space-around;
     margin: 100px 0px 20px 0px;
+    align-items: center;
 }
 
 .bienvenida-usuario h1{
@@ -129,7 +130,7 @@ i{
     font-size: 3em;
 }
 
-.img-user{
+.bienvenida-usuario img{
     aspect-ratio: 1/1;
     width: 10%;
     object-fit: cover;
@@ -665,8 +666,23 @@ i{
         flex: 0 0 calc(45% - 4px);
     }
 
+    .bienvenida-usuario {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 100px 0px 20px 0px;
+    }
+
     .bienvenida-usuario h1{
         margin: 0;
+        margin: 0px 140px 0px 0px;
+    }
+
+    .bienvenida-usuario img{
+        aspect-ratio: 1/1;
+        width: 15%;
+        object-fit: cover;
+        object-position: top;
     }
 
     .upload{
