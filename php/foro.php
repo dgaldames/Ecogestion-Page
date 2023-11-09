@@ -100,11 +100,13 @@ session_start();
                 <h2>¿Desea preguntar algo el día de hoy?</h2>
             </div>
             <div class="input-pregunta">
-                <input type="text" name="pregunta" id="pregunta-foro" placeholder="Pregunta aca">
-            </div>
-            <div class="button-enviar">
-                <button>Enviar</button>
-            </div>
+                <form action="/Ecogestion-page/php/publicaciones.php" method="POST">
+                    <input type="text" name="contenido" id="pregunta-foro" placeholder="Pregunta acá">
+                </div>
+                <div class="button-enviar">
+                    <button id="publicar" type="submit" name="publicar">Enviar</button>
+                </div>
+                </form>
         </div>
     </div>
 

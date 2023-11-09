@@ -1,3 +1,7 @@
+body{
+    background-color: #f8f8f8 !important;
+}
+
 html{
     scroll-behavior: smooth;
 }
@@ -158,7 +162,6 @@ i{
 }
 
 .foro-publicacion-wrapper{
-    background-color: #2D6806;
     display: flex;
     margin: 70px 0px 70px 0px;
     padding: 20px 0px 40px 0px;
@@ -678,7 +681,7 @@ i{
 
 
 .foro-publicacion-wrapper{
-    background-color: #f2f2f2;
+    background-color: white;
     display: flex;
     margin: 70px 0px 70px 0px;
     padding: 20px 0px 40px 0px;
@@ -701,18 +704,18 @@ i{
 }
 
 .foro-pregunta-wrapper input{
-    background-color: #d4d4d4;
+    background-color: white;
     width: 800px;
     height: 50px;
     border-radius: 20px;
-    border: none;
+    border: 2px solid black;
     margin-left: 50px;
 }
 
 .foro-pregunta-wrapper input::placeholder{
     font-size: 1em;
     font-family: 'Poppins', sans-serif;
-    font-weight: bold;
+    font-weight: 400;
     padding-left: 10px;
 }
 
