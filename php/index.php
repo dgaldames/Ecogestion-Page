@@ -213,9 +213,12 @@ session_start();
                                 </div>
                                 <div class="modal-body">
                                     <h1>¿Cómo reciclar plásticos?</h1>
-                                    <p>Con plásticos nos referimos a Lorem ipsum dolor sit amet,
-                                        consectetur adipiscing elit. Duis sapien mi, maximus nec nibh vel, posuere interdum
-                                        risus. Phasellus et justo in neque sagittis ultrices eu id nisl.</p>
+                                    <h4>¿A qué nos referimos con plasticos?</h4>
+                                    <p>Los plásticos incluyen envases de bebidas, botellas, recipientes de alimentos y otros productos hechos de plástico.
+                                    </p>
+                                    <h4>¿Cómo se recicla?</h4>
+                                    <p>Al identificar el tipo de plástico, verifica el número de reciclaje en el envase. Asegúrate de lavar los envases y eliminar las etiquetas  antes de reciclarlos. Luego, coloca los plásticos en el contenedor de reciclaje específico para el tipo identificado.
+                                        </p>
                                 </div>
                             </div>
                         </div>
@@ -240,10 +243,13 @@ session_start();
                                     </div>
                                 </div>
                                 <div class="modal-body">
-                                    <h1>¿Cómo reciclar Vidrio?</h1>
-                                    <p>Con Vidrio nos referimos a Lorem ipsum dolor sit amet,
-                                        consectetur adipiscing elit. Duis sapien mi, maximus nec nibh vel, posuere interdum
-                                        risus. Phasellus et justo in neque sagittis ultrices eu id nisl.</p>
+                                <h1>¿Cómo reciclar Vidrio?</h1>
+                                    <h4>¿A qué nos referimos con vidrio?</h4>
+                                    <p>El vidrio abarca envases de botellas, frascos y otros productos fabricados con este material.
+                                    </p>
+                                    <h4>¿Cómo se recicla?</h4>
+                                    <p>Al clasificar el vidrio por color (verde, ámbar, transparente), asegúrate de separarlo antes de depositarlo en los contenedores. Lleva los envases de vidrio a centros de reciclaje específicos para garantizar su procesamiento adecuado. Utiliza contenedores designados para vidrio y evita desecharlo en contenedores destinados a otros materiales para facilitar su reciclaje.
+                                        </p>
                                 </div>
                             </div>
                         </div>
@@ -268,10 +274,13 @@ session_start();
                                     </div>
                                 </div>
                                 <div class="modal-body">
-                                    <h1>¿Cómo reciclar Papel?</h1>
-                                    <p>Con Papel nos referimos a Lorem ipsum dolor sit amet,
-                                        consectetur adipiscing elit. Duis sapien mi, maximus nec nibh vel, posuere interdum
-                                        risus. Phasellus et justo in neque sagittis ultrices eu id nisl.</p>
+                                <h1>¿Cómo reciclar Papel?</h1>
+                                    <h4>¿A qué nos referimos con papel?</h4>
+                                    <p>El papel incluye documentos, cartón y otros productos derivados de la pulpa de madera.
+                                    </p>
+                                    <h4>¿Cómo se recicla?</h4>
+                                    <p>Separa el papel y deposítalo en contenedores específicos. Este papel se recicla para crear nuevos productos. Usa contenedores para papel o programas de reciclaje. Evita mezclar con residuos no reciclables.
+                                        </p>
                                 </div>
                             </div>
                         </div>
@@ -296,10 +305,13 @@ session_start();
                                     </div>
                                 </div>
                                 <div class="modal-body">
-                                    <h1>¿Cómo reciclar Latas?</h1>
-                                    <p>Con Latas nos referimos a Lorem ipsum dolor sit amet,
-                                        consectetur adipiscing elit. Duis sapien mi, maximus nec nibh vel, posuere interdum
-                                        risus. Phasellus et justo in neque sagittis ultrices eu id nisl.</p>
+                                <h1>¿Cómo reciclar Latas?</h1>
+                                    <h4>¿A qué nos referimos con latas?</h4>
+                                    <p>Las latas incluyen envases de alimentos y bebidas hechos de aluminio o acero.
+                                    </p>
+                                    <h4>¿Cómo se recicla?</h4>
+                                    <p>Asegúrate de que las latas estén vacías y límpialas para eliminar residuos. Opcionalmente, aplasta las latas para ahorrar espacio en el contenedor. Deposita las latas en el contenedor de reciclaje de metal más cercano. Coloca las latas en el contenedor de reciclaje de metal, manteniéndolas separadas de otros materiales para facilitar el proceso de reciclaje.
+                                        </p>
                                 </div>
                             </div>
                         </div>
@@ -328,10 +340,12 @@ session_start();
                                     </div>
                                 </div>
                                 <div class="modal-body">
-                                    <h1>¿Cómo reciclar Organicos?</h1>
-                                    <p>Con Latas nos referimos a Lorem ipsum dolor sit amet,
-                                        consectetur adipiscing elit. Duis sapien mi, maximus nec nibh vel, posuere interdum
-                                        risus. Phasellus et justo in neque sagittis ultrices eu id nisl.</p>
+                                <h1>¿Cómo reciclar Orgánicos?</h1>
+                                    <h4>¿A qué nos referimos con orgánicos?</h4>
+                                    <p>Los residuos orgánicos incluyen restos de alimentos, cáscaras, residuos de jardín y otros materiales biodegradables.
+                                    </p>
+                                    <h4>¿Cómo se recicla?</h4>
+                                    <p>Los residuos orgánicos pueden compostarse para convertirse en fertilizante natural. Utiliza un contenedor de compostaje para depositar restos de alimentos y materiales orgánicos.
                                 </div>
                             </div>
                         </div>
@@ -357,10 +371,13 @@ session_start();
                                     </div>
                                 </div>
                                 <div class="modal-body">
-                                    <h1>¿Cómo reciclar Cartón?</h1>
-                                    <p>Con Latas nos referimos a Lorem ipsum dolor sit amet,
-                                        consectetur adipiscing elit. Duis sapien mi, maximus nec nibh vel, posuere interdum
-                                        risus. Phasellus et justo in neque sagittis ultrices eu id nisl.</p>
+                                <h1>¿Cómo reciclar Cartón?</h1>
+                                    <h4>¿A qué nos referimos con cartón?</h4>
+                                    <p>El cartón incluye cajas de embalaje, envases y otros productos hechos de papel corrugado.
+                                    </p>
+                                    <h4>¿Cómo se recicla?</h4>
+                                    <p>Aplana las cajas y asegúrate de que estén libres de residuos y cintas adhesivas antes de reciclar. Coloca el cartón en el contenedor de reciclaje de papel y cartón más cercano. Para su disposición adecuada, coloca el cartón en el contenedor de reciclaje de papel y cartón, asegurándote de que esté limpio y libre de contaminantes.
+                                        </p>
                                 </div>
                             </div>
                         </div>
@@ -386,10 +403,13 @@ session_start();
                                     </div>
                                 </div>
                                 <div class="modal-body">
-                                    <h1>¿Cómo reciclar Electrónicos?</h1>
-                                    <p>Con Latas nos referimos a Lorem ipsum dolor sit amet,
-                                        consectetur adipiscing elit. Duis sapien mi, maximus nec nibh vel, posuere interdum
-                                        risus. Phasellus et justo in neque sagittis ultrices eu id nisl.</p>
+                                <h1>¿Cómo reciclar Electrónicos?</h1>
+                                    <h4>¿A qué nos referimos con electrónicos?</h4>
+                                    <p>Los electrónicos abarcan dispositivos como teléfonos, computadoras, tablets y otros aparatos electrónicos.
+                                    </p>
+                                    <h4>¿Cómo se recicla?</h4>
+                                    <p>Antes de reciclar dispositivos electrónicos, elimina datos personales y desactiva cuentas asociadas. Lleva tus electrónicos a centros de reciclaje especializados para un manejo adecuado. Evita colocarlos en contenedores tradicionales; llévalos a centros especializados o consulta programas de recolección de residuos electrónicos en tu área.
+                                        </p>
                                 </div>
                             </div>
                         </div>
@@ -414,11 +434,13 @@ session_start();
                                     </div>
                                 </div>
                                 <div class="modal-body">
-                                    <h1>¿Cómo reciclar Textil?</h1>
-                                    <p>Con Latas nos referimos a Lorem ipsum dolor sit amet,
-                                        consectetur adipiscing elit. Duis sapien mi, maximus nec nibh vel, posuere interdum
-                                        risus. Phasellus et justo in neque sagittis ultrices eu id nisl.</p>
-                                </div>
+                                <h1>¿Cómo reciclar Textil?</h1>
+                                    <h4>¿A qué nos referimos con textil?</h4>
+                                    <p>Los textiles incluyen ropa, calzado, y otros materiales de tela.
+                                    </p>
+                                    <h4>¿Cómo se recicla?</h4>
+                                    <p>Si la ropa está en buen estado, considera donarla o venderla en segunda mano. Las telas pueden reciclarse para crear nuevos productos o convertirse en materiales aislantes. Para su disposición adecuada, coloca la ropa y textiles no deseados en contenedores específicos para textiles si están disponibles en tu área. Si no, considera donarlos a organizaciones benéficas o llevarlos a centros de reciclaje especializados.
+                                        </p>
                             </div>
                         </div>
                     </div>

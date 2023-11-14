@@ -9,11 +9,11 @@ session_start();
 
 if(isset($_POST['publicar'])){
 
-    $usuario = $_POST['usuario'];
+    $idusuario = $_SESSION['idusuario'];
     $contenido = $_POST['contenido'];
 
-    $query = "INSERT INTO publicaciones (usuario, contenido)
-            VALUES('$usuario', '$contenido')";
+    $query = "INSERT INTO publicaciones (idusuario, contenido)
+            VALUES('$idusuario', '$contenido')";
 
     $res = mysqli_query($conexion, $query);
 
@@ -31,8 +31,8 @@ if(isset($_POST['publicar'])){
             </script>
             ';
     }
-
-
 }
+
+
 ?>
 

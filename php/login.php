@@ -7,6 +7,7 @@ if (isset($_SESSION['usuario'])) {
 } */
 
 
+
 // CREO QUE SI TENGO ESTO NO ME DEJA IR AL APARTADO DE INICIAR SESION DE NUEVO
 ?>
 

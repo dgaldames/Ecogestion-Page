@@ -1,6 +1,7 @@
 <?php
 
 session_start();
+include 'conexion_be.php';
 
 ?>
 
@@ -88,7 +89,7 @@ session_start();
     <div class="foro-publicacion-wrapper">
         <div class="foto-user-name-wrapper">
             <div class="foto-user">
-                <img src="/Ecogestion-Page/assets/img/usuario1.png" alt="Foto Usuario">
+                <img src="/Ecogestion-Page/assets/img/usuario3.png" alt="Foto Usuario">
             </div>
             <div class="name-user">
                 <h4>Usuario</h4>
@@ -114,8 +115,45 @@ session_start();
         <h2>Ultimas discusiones</h2>
     </div>
     
-    
-    <div class="foro-publicacion-wrapper">
+
+    <div class="foro-publicaciones-wrapper">
+    <?php
+    // Recuperar publicaciones existentes
+    $query = "SELECT * FROM publicaciones ORDER BY id ASC";
+    $result = mysqli_query($conexion, $query);
+
+    while ($row = mysqli_fetch_assoc($result)) :
+    ?>
+
+        <div class="foro-publicacion-wrapper">
+            <div class="foto-user-name-wrapper">
+                <div class="foto-user">
+                    <!-- Puedes personalizar la ruta de la imagen del usuario según tu estructura de datos -->
+                    <img src="/Ecogestion-Page/assets/img/usuario3.png" alt="Foto Usuario">
+                </div>
+                <div class="name-user">
+                    <h4><?= $_SESSION['usuario'] ?></h4>  <!-- Lo estoy dejando con sesion mientras tanto, la idea es capturar el usuario que lo escribio -->
+                </div>
+            </div>
+
+            <div class="pregunta-boton-wrapper">
+                <div class="foro-pregunta">
+                    <h2><?= $row['contenido'] ?></h2>
+                </div>
+                <div class="button-comentarios">
+                    <button>Ver Comentarios</button>
+                </div>
+            </div>
+        </div>
+    <?php endwhile; ?>
+</div>
+
+
+
+
+
+
+<!--     <div class="foro-publicacion-wrapper">
         <div class="foto-user-name-wrapper">
             <div class="foto-user">
                 <img src="/Ecogestion-Page/assets/img/usuario1.png" alt="Foto Usuario">
@@ -134,7 +172,7 @@ session_start();
             </div>
         </div>
             
-    </div>
+    </div> -->
         
     <footer class="clase-footer">
 
