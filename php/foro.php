@@ -92,7 +92,7 @@ include 'conexion_be.php';
                 <img src="/Ecogestion-Page/assets/img/usuario3.png" alt="Foto Usuario">
             </div>
             <div class="name-user">
-                <h4>Usuario</h4>
+                <h4><?= $_SESSION['usuario'] ?></h4>
             </div>
         </div>
 
@@ -119,7 +119,7 @@ include 'conexion_be.php';
     <div class="foro-publicaciones-wrapper">
     <?php
     // Recuperar publicaciones existentes
-    $query = "SELECT * FROM publicaciones ORDER BY id ASC";
+    $query = "SELECT * FROM publicacioness ORDER BY id ASC";
     $result = mysqli_query($conexion, $query);
 
     while ($row = mysqli_fetch_assoc($result)) :

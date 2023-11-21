@@ -232,13 +232,18 @@ i{
 }
 
 .foto-text p{
-  margin: 50px 380px 0px 0px;
+  margin: 50px 350px 0px 0px;
   font-size: 1.5em;
   font-family: 'Poppins', sans-serif;
 }
 
 .foto-tilines img{
   margin-right: 250px;
+  margin-top: 50px;
+  width: 636px;
+  height: 478px;
+  box-shadow: 20px 15px 23px rgb(165, 165, 165);
+  border-radius: 10px;
 }
 
 .services-banner{

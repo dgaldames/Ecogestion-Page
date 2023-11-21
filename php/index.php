@@ -26,7 +26,7 @@ session_start();
         <header>
             <div class="header-wrapper">
                 <div class="login" id="login-php">
-                    <h3 class="bienvenida">Bienvenidoㅤ<span><?php echo $_SESSION['usuario'];?>!</span></h3>
+                    <h3 class="bienvenida">Bienvenido,ㅤ<span><?php echo $_SESSION['usuario'];?>!</span></h3>
                     <!-- Button trigger modal -->
                     <h4> <a class="logout" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><i class='bx bx-log-out'></i>ㅤCerrar sesión</a></h4>
                 </div>
@@ -115,7 +115,7 @@ session_start();
                 <p>Somos un grupo de estudiantes universitarios con una pasión compartida: la sostenibilidad y la protección del medio ambiente. Nos hemos unido para crear conciencia sobre la importancia del reciclaje y la conservación de recursos. Nuestra motivación radica en la creencia de que cada pequeña acción cuenta, y juntos, podemos marcar la diferencia.</p>
             </div>
             <div class="foto-tilines">
-                <img src="/Ecogestion-Page/assets/img/foto-tilines.png" alt="Foto de los tilines">
+                <img src="/Ecogestion-Page/assets/img/quienes-somos-test.jpeg" alt="Foto de los tilines">
             </div>
         </div>
 
