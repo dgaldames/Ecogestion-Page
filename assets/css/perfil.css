@@ -166,6 +166,15 @@ i{
     margin-bottom: 80px;
 }
 
+.bene-dispo a{
+    text-decoration: none;
+    color: #0B6635;
+}
+
+.bene-dispo a:hover{
+    color: #00af52;
+}
+
 .primeros-cupones{
     display: flex;
     justify-content: space-evenly;
