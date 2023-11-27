@@ -178,11 +178,11 @@ i{
 .foto-user img{
     width: 90px;
     height: 90px;
+    border-radius: 50%;
 }
 
 .name-user h4{
     color: white;
-    margin-left: 17px;
     margin-top: 10px;
 }
 
@@ -229,6 +229,22 @@ i{
 
 .button-enviar button:hover{
     background-color: #f3f3f3;
+}
+
+.bene-dispo h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.bene-dispo a{
+    text-decoration: none;
+    color: #0B6635;
+    
+}
+
+.bene-dispo a:hover{
+    color: #00af52;
 }
 
 .last-discusiones-title{
@@ -689,7 +705,6 @@ i{
 
 .name-user h4{
     color: black;
-    margin-left: 17px;
     margin-top: 10px;
 }
 
@@ -830,6 +845,7 @@ i{
         .foto-user img{
             width: 75px;
             height: 75px;
+            border-radius: 50%;
         }
     
         .name-user h4{

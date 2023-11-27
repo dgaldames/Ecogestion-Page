@@ -12,7 +12,7 @@ if(isset($_POST['publicar'])){
     $idusuario = $_SESSION['idusuario'];
     $contenido = $_POST['contenido'];
 
-    $query = "INSERT INTO publicacioness (idusuario, contenido)
+    $query = "INSERT INTO publicaciones (idusuario, contenido)
             VALUES('$idusuario', '$contenido')";
 
     $res = mysqli_query($conexion, $query);

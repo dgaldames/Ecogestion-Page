@@ -233,6 +233,21 @@ main{
     background-color: #03361b;
 }
 
+.upload-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.upload{
+    padding: 15px 25px;
+    background-color: #2D6806;
+    border-radius: 15px;
+    border: 0;
+    color: white;
+
+}
+
 
 
 
@@ -366,3 +381,31 @@ main{
 
 
 
+
+    input[type="file"] {
+        display: none; /* Oculta el input nativo */
+    }
+
+      /* Estilo para el contenedor que simulará el botón */
+    .custom-file-upload {
+        display: inline-block;
+        padding: 10px 20px;
+        cursor: pointer;
+        background-color: #2D6806; /* Color verde, puedes cambiarlo según tus preferencias */
+        color: #fff; /* Color del texto */
+        font-weight: bold;
+        border-radius: 20px; /* Bordes redondeados */
+        font-size: 1.1em; /* Tamaño del texto */
+        margin-top: 20px;
+    }
+
+      /* Cambia el color del botón cuando se pasa el mouse sobre él */
+    .custom-file-upload:hover {
+        background-color: #03361b; /* Color verde oscuro al pasar el mouse */
+    }
+
+      /* Muestra el nombre del archivo seleccionado al lado del botón */
+    .file-name {
+        display: inline-block;
+        margin-left: 10px;
+    }

@@ -44,6 +44,7 @@ if (mysqli_num_rows($verificar_usuario) > 0) {
 
 
 
+
     
     // La imagen se movió correctamente, ahora puedes realizar la inserción en la base de datos
     $query = "INSERT INTO usuarios (nombre_completo, correo, usuario, contrasena, nombre_img, ruta, peso)

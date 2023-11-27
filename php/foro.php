@@ -3,6 +3,19 @@
 session_start();
 include 'conexion_be.php';
 
+$nombre_usuario = $_SESSION['usuario'];
+$query = "SELECT * FROM usuarios WHERE usuario = '$nombre_usuario'";
+$res = mysqli_query($conexion, $query);
+$row_usuario = mysqli_fetch_assoc($res);
+
+if ($row_usuario) {
+    $nombre_img = $row_usuario['nombre_img'];
+    $ruta = $row_usuario['ruta'];
+    $peso = $row_usuario['peso'];
+}else{
+    header("Location: login.php");
+}
+
 ?>
 
 
@@ -89,7 +102,7 @@ include 'conexion_be.php';
     <div class="foro-publicacion-wrapper">
         <div class="foto-user-name-wrapper">
             <div class="foto-user">
-                <img src="/Ecogestion-Page/assets/img/usuario3.png" alt="Foto Usuario">
+                <img class="img-user" src="../<?php echo $ruta ?>" alt="Foto de perfil">
             </div>
             <div class="name-user">
                 <h4><?= $_SESSION['usuario'] ?></h4>
@@ -102,7 +115,7 @@ include 'conexion_be.php';
             </div>
             <div class="input-pregunta">
                 <form action="/Ecogestion-page/php/publicaciones.php" method="POST">
-                    <input type="text" name="contenido" id="pregunta-foro" placeholder="Pregunta acá">
+                    <input type="text" name="contenido" id="pregunta-foro" placeholder="Pregunte sus dudas acá">
                 </div>
                 <div class="button-enviar">
                     <button id="publicar" type="submit" name="publicar">Enviar</button>
@@ -119,7 +132,7 @@ include 'conexion_be.php';
     <div class="foro-publicaciones-wrapper">
     <?php
     // Recuperar publicaciones existentes
-    $query = "SELECT * FROM publicacioness ORDER BY id ASC";
+    $query = "SELECT * FROM publicaciones ORDER BY id ASC";
     $result = mysqli_query($conexion, $query);
 
     while ($row = mysqli_fetch_assoc($result)) :
@@ -129,7 +142,7 @@ include 'conexion_be.php';
             <div class="foto-user-name-wrapper">
                 <div class="foto-user">
                     <!-- Puedes personalizar la ruta de la imagen del usuario según tu estructura de datos -->
-                    <img src="/Ecogestion-Page/assets/img/usuario3.png" alt="Foto Usuario">
+                    <img class="img-user" src="../<?php echo $ruta ?>" alt="Foto de perfil">
                 </div>
                 <div class="name-user">
                     <h4><?= $_SESSION['usuario'] ?></h4>  <!-- Lo estoy dejando con sesion mientras tanto, la idea es capturar el usuario que lo escribio -->

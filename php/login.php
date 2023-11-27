@@ -94,11 +94,16 @@ if (isset($_SESSION['usuario'])) {
                 <input type="email" placeholder="Correo Electronico" name="correo" required>
                 <input type="text" placeholder="Usuario" name="usuario" required>
                 <input type="password" placeholder="Contraseña" name="contrasena" required>
-                <button type="submit" class="btn-warning">
-                    <i class='bx bx-upload'></i> Subir foto
-                    <input type="file" name="imagen">
-                </button>
-                <button>Registrarse</button>
+                
+                <!-- Input de tipo file oculto -->
+                <input type="file" name="imagen" id="fileInput"/>
+
+                <!-- Contenedor que simula un botón y muestra el nombre del archivo seleccionado -->
+                <label for="fileInput" class="custom-file-upload">
+                Subir imagen
+                    <span class="file-name"></span>
+                </label>
+                <button type="submit">Registrarse</button>
             </form>
             </div>
 
