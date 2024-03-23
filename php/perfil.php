@@ -29,8 +29,8 @@ if ($row_usuario) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" href="/Ecogestion-page/assets/img/logo-no-background.png">
-    <link rel="stylesheet" href="/Ecogestion-page/assets/css/perfil.css">
+    <link rel="icon" type="image/png" href="../assets/img/logo-no-background.png">
+    <link rel="stylesheet" href="../assets/css/perfil.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
@@ -68,22 +68,22 @@ if ($row_usuario) {
         </div>
             <div class="logo">
                 <a href="index.html">
-                <img src="/Ecogestion-Page/assets/img/logo-no-background.png" alt="Ecogestion"">
+                <img src="../assets/img/logo-no-background.png" alt="Ecogestion"">
                 </a>
             </div>
             <div class="nav" id="left-menu-php-perfil">
                     <nav>
                         <span><i id="x-php-perfil" class='bx bx-left-arrow-alt' onclick="cerrarMenuPhpPerfil()"></i></span>
                         <ul class="nav-links">
-                            <li><i class='bx bxs-home' id="home-php-perfil"></i><a href="/Ecogestion-page/php/index.php">Inicio</a></li>
+                            <li><i class='bx bxs-home' id="home-php-perfil"></i><a href="../php/index.php">Inicio</a></li>
                             <hr class="linea">
-                            <li><i class='bx bxs-book-reader' id="book-php-perfil"></i><a href="/Ecogestion-page/php/index.php#fondo-who">¿Quiénes Somos?</a></li>
+                            <li><i class='bx bxs-book-reader' id="book-php-perfil"></i><a href="../php/index.php#fondo-who">¿Quiénes Somos?</a></li>
                             <hr class="linea">
-                            <li id="beneficios"><i class='bx bxs-medal' id="medal-php-perfil"></i><a href="/Ecogestion-page/php/perfil.php#beneficios">Recompensas</a></li>
+                            <li id="beneficios"><i class='bx bxs-medal' id="medal-php-perfil"></i><a href="../php/perfil.php#beneficios">Recompensas</a></li>
                             <hr class="linea">
-                            <li><i class='bx bxs-star' id="star-php-perfil"></i><a href="/Ecogestion-page/php/index.php#fondo-serv">¿Qué ofrecemos?</a></li>
+                            <li><i class='bx bxs-star' id="star-php-perfil"></i><a href="../php/index.php#fondo-serv">¿Qué ofrecemos?</a></li>
                             <hr class="linea">
-                            <li><i class='bx bxs-message-detail' id="message-php-perfil"></i><a href="/Ecogestion-page/php/foro.php">Foro</a></li>
+                            <li><i class='bx bxs-message-detail' id="message-php-perfil"></i><a href="../php/foro.php">Foro</a></li>
                             <hr class="linea">
                         </ul>
                     </nav>
@@ -129,7 +129,7 @@ if ($row_usuario) {
                             <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Cupon de XXXXX</h1>
                         </div>
                         <div class="modal-body">
-                            <img src="/Ecogestion-Page/assets/img/qr-estatico.jpg" alt="QR a canjear">
+                            <img src="../assets/img/qr-estatico.jpg" alt="QR a canjear">
                         </div>
                         <div class="fecha">
                             <h4>Valido hasta xx-xx-xx</h4>
@@ -163,7 +163,7 @@ if ($row_usuario) {
                             <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Cupon de XXXXX</h1>
                         </div>
                         <div class="modal-body">
-                            <img src="/Ecogestion-Page/assets/css/img/qr-estatico.jpg" alt="QR a canjear">
+                            <img src="../assets/css/img/qr-estatico.jpg" alt="QR a canjear">
                         </div>
                         <div class="fecha">
                             <h4>Valido hasta xx-xx-xx</h4>
@@ -201,7 +201,7 @@ if ($row_usuario) {
                         <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Cupon de XXXXXX</h1>
                     </div>
                     <div class="modal-body">
-                        <img src="/Ecogestion-Page/assets/css/img/qr-estatico.jpg" alt="QR a canjear">
+                        <img src="../assets/css/img/qr-estatico.jpg" alt="QR a canjear">
                     </div>
                     <div class="fecha">
                         <h4>Valido hasta xx-xx-xx</h4>
@@ -235,7 +235,7 @@ if ($row_usuario) {
                         <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Cupon de XXXXX</h1>
                     </div>
                     <div class="modal-body">
-                        <img src="/Ecogestion-Page/assets/css/img/qr-estatico.jpg" alt="QR a canjear">
+                        <img src="../assets/css/img/qr-estatico.jpg" alt="QR a canjear">
                     </div>
                     <div class="fecha">
                         <h4>Valido hasta xx-xx-xx</h4>
@@ -279,8 +279,8 @@ if ($row_usuario) {
                 <div class="cuenta-wrapper">
                     <div class="lista-cuenta">
                         <ul>
-                            <li> <box-icon name="user"></box-icon> <a href="login.php">Iniciar sesión</a> </li>
-                            <li> <box-icon name="user-plus"></box-icon> <a href="login.php">Registrarse</a></li>
+                            <li> <box-icon name="user"></box-icon> <a href="#">Iniciar sesión</a> </li>
+                            <li> <box-icon name="user-plus"></box-icon> <a href="#">Registrarse</a></li>
                             <li> <box-icon name="star"></box-icon> <a href="perfil.php">Beneficios disponibles</a></li>
                         </ul>
                     </div>

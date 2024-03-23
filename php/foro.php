@@ -24,8 +24,8 @@ if ($row_usuario) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/Ecogestion-page/assets/css/foro.css">
-    <link rel="icon" type="image/png" href="/Ecogestion-page/assets/img/logo-no-background.png">
+    <link rel="stylesheet" href="../assets/css/foro.css">
+    <link rel="icon" type="image/png" href="../assets/img/logo-no-background.png">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
@@ -65,7 +65,7 @@ if ($row_usuario) {
 
             <div class="logo">
                 <a href="index.html">
-                    <img src="/Ecogestion-Page/assets/img/logo-no-background.png" alt="Ecogesion">
+                    <img src="../assets/img/logo-no-background.png" alt="Ecogesion">
                 </a>
             </div>
 
@@ -73,15 +73,15 @@ if ($row_usuario) {
                 <nav>
                     <span><i id="x-php-foro" class='bx bx-left-arrow-alt' onclick="cerrarMenuForoPhp()"></i></span>
                     <ul class="nav-links">
-                        <li><i class='bx bxs-home' id="home-php-foro"></i><a href="/Ecogestion-page/php/index.php">Inicio</a></li>
+                        <li><i class='bx bxs-home' id="home-php-foro"></i><a href="../php/index.php">Inicio</a></li>
                         <hr class="linea">
-                        <li><i class='bx bxs-book-reader' id="book-php-foro"></i><a href="/Ecogestion-page/php/index.php#fondo-who">¿Quiénes Somos?</a></li>
+                        <li><i class='bx bxs-book-reader' id="book-php-foro"></i><a href="../php/index.php#fondo-who">¿Quiénes Somos?</a></li>
                         <hr class="linea">
-                        <li id="beneficios"><i class='bx bxs-medal' id="medal-php-foro"></i><a href="/Ecogestion-page/php/perfil.php#beneficios">Recompensas</a></li>
+                        <li id="beneficios"><i class='bx bxs-medal' id="medal-php-foro"></i><a href="../php/perfil.php#beneficios">Recompensas</a></li>
                         <hr class="linea">
-                        <li><i class='bx bxs-star' id="star-php-foro"></i><a href="/Ecogestion-page/php/index.php#fondo-serv">¿Qué ofrecemos?</a></li>
+                        <li><i class='bx bxs-star' id="star-php-foro"></i><a href="../php/index.php#fondo-serv">¿Qué ofrecemos?</a></li>
                         <hr class="linea">
-                        <li><i class='bx bxs-message-detail' id="message-php-foro"></i><a href="/Ecogestion-page/php/foro.php">Foro</a></li>
+                        <li><i class='bx bxs-message-detail' id="message-php-foro"></i><a href="../php/foro.php">Foro</a></li>
                         <hr class="linea">
                     </ul>
                 </nav>
@@ -114,7 +114,7 @@ if ($row_usuario) {
                 <h2>¿Desea preguntar algo el día de hoy?</h2>
             </div>
             <div class="input-pregunta">
-                <form action="/Ecogestion-page/php/publicaciones.php" method="POST">
+                <form action="../php/publicaciones.php" method="POST">
                     <input type="text" name="contenido" id="pregunta-foro" placeholder="Pregunte sus dudas acá">
                 </div>
                 <div class="button-enviar">

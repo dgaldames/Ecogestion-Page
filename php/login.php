@@ -19,11 +19,11 @@ if (isset($_SESSION['usuario'])) {
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="icon" type="image/png" href="/Ecogestion-page/assets/img/logo-no-background.png">
+<link rel="icon" type="image/png" href="../assets/img/logo-no-background.png">
 <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-<link rel="stylesheet" href="/Ecogestion-Page/assets/css/login.css">
+<link rel="stylesheet" href="../assets/css/login.css">
 <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 <title>Login</title>
 </head>
@@ -35,7 +35,7 @@ if (isset($_SESSION['usuario'])) {
 
             <div class="logo">
                 <a href="/Ecogestion-page/src/index.html">
-                    <img src="/Ecogestion-page/assets/img/logo-no-background.png" alt="Ecogesion">
+                    <img src="../assets/img/logo-no-background.png" alt="Ecogesion">
                 </a>
             </div>
 
@@ -43,15 +43,15 @@ if (isset($_SESSION['usuario'])) {
                     <nav>
                         <span><i id="x-login" class='bx bx-left-arrow-alt' onclick="cerrarMenuLogin()"></i></span>
                         <ul class="nav-links">
-                            <li><i class='bx bxs-home' id="home-login"></i><a href="/Ecogestion-Page/src/index.html">Inicio</a></li>
+                            <li><i class='bx bxs-home' id="home-login"></i><a href="../src/index.html">Inicio</a></li>
                             <hr class="linea">
-                            <li><i class='bx bxs-book-reader' id="book-login"></i><a href="/Ecogestion-Page/src/index.html#fondo-who">¿Quiénes Somos?</a></li>
+                            <li><i class='bx bxs-book-reader' id="book-login"></i><a href="../src/index.html#fondo-who">¿Quiénes Somos?</a></li>
                             <hr class="linea">
-                            <li id="beneficios"><i class='bx bxs-medal' id="medal-login"></i><a href="/Ecogestion-Page/src/perfil.html#beneficios">Recompensas</a></li>
+                            <li id="beneficios"><i class='bx bxs-medal' id="medal-login"></i><a href="../src/perfil.html#beneficios">Recompensas</a></li>
                             <hr class="linea">
-                            <li><i class='bx bxs-star' id="star-login"></i><a href="/Ecogestion-Page/src/index.html#fondo-serv">¿Qué ofrecemos?</a></li>
+                            <li><i class='bx bxs-star' id="star-login"></i><a href="../src/index.html#fondo-serv">¿Qué ofrecemos?</a></li>
                             <hr class="linea">
-                            <li><i class='bx bxs-message-detail' id="message-login"></i><a href="/Ecogestion-Page/src/foro.html">Foro</a></li>
+                            <li><i class='bx bxs-message-detail' id="message-login"></i><a href="../src/foro.html">Foro</a></li>
                             <hr class="linea">
                         </ul>
                     </nav>
@@ -81,14 +81,14 @@ if (isset($_SESSION['usuario'])) {
 
             <!--Formulario Login-->
 
-                <form action="/Ecogestion-page/php/login_usuario_be.php" method="POST" class="formulario-login">
+                <form action="./login_usuario_be.php" method="POST" class="formulario-login">
                     <h2>Iniciar sesión</h2>
                     <input type="text" placeholder="Correo Electronico" name="correo">
                     <input type="password" placeholder="Contraseña" name="contrasena">
                     <button>Entrar</button>
                 </form>
             <!--Formulario Register-->
-            <form action="/Ecogestion-page/php/registro_usuario_be.php" method="POST" class="formulario-signup" enctype="multipart/form-data">
+            <form action="./registro_usuario_be.php" method="POST" class="formulario-signup" enctype="multipart/form-data">
                 <h2>Registrarse</h2>
                 <input type="text" placeholder="Nombre Completo" name="nombre_completo" required>
                 <input type="email" placeholder="Correo Electronico" name="correo" required>
@@ -113,4 +113,4 @@ if (isset($_SESSION['usuario'])) {
 </body>
 </html>
 
-    <script src="/Ecogestion-page/assets/js/login.js"></script>
+    <script src="../assets/js/login.js"></script>

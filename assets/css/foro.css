@@ -131,8 +131,8 @@ i{
     position: relative;
     width: 100%;
     height: 300px; /* Ajusta la altura según tus necesidades */
-    background-image: url('/Ecogestion-page/assets/img/Banner foro.png');
-    background-size: cover;
+    background-image: url('../img/Banner-foro.png');
+    background-size: cover; 
     background-position: center;
     color: white;
     text-align: center;

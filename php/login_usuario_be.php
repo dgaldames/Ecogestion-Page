@@ -13,7 +13,7 @@ if (mysqli_num_rows($validar_login) > 0) {
 
     $_SESSION['usuario'] = $fila['usuario']; // Almacena el nombre de usuario en la sesión
 
-    header("Location: ../php/index.php");
+    header("Location: ./index.php");
     exit;
 
 }else{
