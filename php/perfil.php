@@ -293,4 +293,4 @@ if ($row_usuario) {
     </footer>
 </body>
 </html>
-<script src="/Ecogestion-Page/assets/js/perfilphp.js"></script>
+<script src="../assets/js/perfilphp.js"></script>

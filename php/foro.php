@@ -242,4 +242,4 @@ if ($row_usuario) {
     </body>
     </html>
 
-    <script src="/Ecogestion-page/assets/js/foro.js"></script>
+    <script src="../assets/js/foro.js"></script>

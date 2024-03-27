@@ -529,4 +529,4 @@ session_start();
 
 
 
-<script src="/Ecogestion-Page/assets/js/main-script.js"></script>
+<script src="../assets/js/main-script.js"></script>
