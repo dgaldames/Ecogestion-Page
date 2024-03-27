@@ -10,6 +10,10 @@ div[id]{
   scroll-margin-top: 30px;
 }
 
+.logo img{
+  margin-top: 20px;
+}
+
 .login a{
   text-decoration: none;
 }
@@ -120,8 +124,8 @@ i{
   display: flex;
   list-style: none;
   margin-top: 20px;
-  justify-content: space-around;
-  margin-left: 190px;
+  justify-content: space-between;
+  margin-left: 515px;
 }
 
 .nav-links a{
