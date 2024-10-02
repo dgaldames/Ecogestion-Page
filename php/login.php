@@ -43,15 +43,15 @@ if (isset($_SESSION['usuario'])) {
                     <nav>
                         <span><i id="x-login" class='bx bx-left-arrow-alt' onclick="cerrarMenuLogin()"></i></span>
                         <ul class="nav-links">
-                            <li><i class='bx bxs-home' id="home-login"></i><a href="../src/index.html">Inicio</a></li>
+                            <li><i class='bx bxs-home' id="home-login"></i><a href="../src/index.html" class="verde">Inicio</a></li>
                             <hr class="linea">
-                            <li><i class='bx bxs-book-reader' id="book-login"></i><a href="../src/index.html#fondo-who">¿Quiénes Somos?</a></li>
+                            <li><i class='bx bxs-book-reader' id="book-login"></i><a href="../src/index.html#fondo-who" class="verde">¿Quiénes Somos?</a></li>
                             <hr class="linea">
-                            <li id="beneficios"><i class='bx bxs-medal' id="medal-login"></i><a href="../src/perfil.html#beneficios">Recompensas</a></li>
+                            <li id="beneficios"><i class='bx bxs-medal' id="medal-login"></i><a class="verde">Recompensas</a></li>
                             <hr class="linea">
-                            <li><i class='bx bxs-star' id="star-login"></i><a href="../src/index.html#fondo-serv">¿Qué ofrecemos?</a></li>
+                            <li><i class='bx bxs-star' id="star-login"></i><a href="../src/index.html#fondo-serv" class="verde">¿Qué ofrecemos?</a></li>
                             <hr class="linea">
-                            <li><i class='bx bxs-message-detail' id="message-login"></i><a href="../src/foro.html">Foro</a></li>
+                            <li><i class='bx bxs-message-detail' id="message-login"></i><a class="verde">Foro</a></li>
                             <hr class="linea">
                         </ul>
                     </nav>

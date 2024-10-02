@@ -54,14 +54,17 @@ body{
 
 .nav-links a{
     text-decoration: none;
-    color: #0B6635;
     font-size: 1.7em;
     margin: 0px 60px 0px 60px;
     font-family: 'Poppins', sans-serif;
 }
 
-.nav-links a:hover{
-    color: #00af52;
+/* .nav-links a{
+    color: #00af52; Este es del hover
+} */
+
+.verde{
+    color: #0B6635;
 }
 
 main{
