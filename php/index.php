@@ -89,7 +89,7 @@ session_start();
         
         <div class="main-wrapper">
             <div class="main-text">
-                <h1>Recicla con nuestra <br> ayuda porque con <br> ecogestion tu reciclaje <br> va como avión</h1>
+                <h1>Lorem ipsum dolor <br> Lorem ipsum dolor <br> Lorem ipsum dolor <br> Lorem ipsum dolor</h1>
             </div>
             <div class="main-foto">
                 <img src="../assets/img/reciclaje-main.png" alt="Persona reciclando">
@@ -112,10 +112,10 @@ session_start();
         <div class="main-who-wrapper">
             <div class="foto-text">
                 <img src="css/img/foto who 1.png" alt="">
-                <p>Somos un grupo de estudiantes universitarios con una pasión compartida: la sostenibilidad y la protección del medio ambiente. Nos hemos unido para crear conciencia sobre la importancia del reciclaje y la conservación de recursos. Nuestra motivación radica en la creencia de que cada pequeña acción cuenta, y juntos, podemos marcar la diferencia.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
             </div>
             <div class="foto-tilines">
-                <img src="../assets/img/quienes-somos-test.jpeg" alt="Foto de los tilines">
+                <img src="../assets/img/fotomokup.png" alt="Foto de los tilines">
             </div>
         </div>
 
@@ -188,7 +188,7 @@ session_start();
         <div class="main-guia-wrapper">
             <div class="texto-izquierda">
                 <h4>¿Qué encontraras aqui?</h4>
-                <p>Nuestra guía de reciclaje es una referencia esencial para aprender cómo clasificar y reciclar diversos tipos de materiales. Simplemente selecciona un elemento de la lista, y te proporcionaremos información detallada sobre cómo desecharlo de manera responsable. Esta sección te ayudará a comprender la importancia del reciclaje y a tomar decisiones informadas sobre cómo gestionar tus desechos de manera más sostenible.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
             </div>
     
             <div class="recicle-wrapper">
@@ -201,57 +201,11 @@ session_start();
                         </div>
                     </div>
     
-                    <div class="modal fade" id="exampleModalPlastico" tabindex="-1" aria-labelledby="exampleModalLabel"
-                        aria-hidden="true">
-                        <div class="modal-dialog modal-xl modal-dialog-centered">
-                            <div class="modal-content2">
-                                <div class="modal-header header-plas">
-                                    <div class="container-btn">
-                                        <button type="button" class="x-button" data-bs-dismiss="modal" aria-label="Close">
-                                        </button>
-                                    </div>
-                                </div>
-                                <div class="modal-body">
-                                    <h1>¿Cómo reciclar plásticos?</h1>
-                                    <h4>¿A qué nos referimos con plasticos?</h4>
-                                    <p>Los plásticos incluyen envases de bebidas, botellas, recipientes de alimentos y otros productos hechos de plástico.
-                                    </p>
-                                    <h4>¿Cómo se recicla?</h4>
-                                    <p>Al identificar el tipo de plástico, verifica el número de reciclaje en el envase. Asegúrate de lavar los envases y eliminar las etiquetas  antes de reciclarlos. Luego, coloca los plásticos en el contenedor de reciclaje específico para el tipo identificado.
-                                        </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-    
                     <div class="img-option">
                         <img src="../assets/img/guia-clasificacion-icons/Dalle-icono-botella-vidrio-paint.png" alt="">
                         <div class="riclaje-btn">
                             <button id="boton-popup" data-bs-toggle="modal"
                                 data-bs-target="#exampleModalVidrio">Vidrio</button>
-                        </div>
-                    </div>
-    
-                    <div class="modal fade" id="exampleModalVidrio" tabindex="-1" aria-labelledby="exampleModalLabel"
-                        aria-hidden="true">
-                        <div class="modal-dialog modal-xl modal-dialog-centered">
-                            <div class="modal-content2">
-                                <div class="modal-header header-plas">
-                                    <div class="container-btn">
-                                        <button type="button" class="x-button" data-bs-dismiss="modal" aria-label="Close">
-                                        </button>
-                                    </div>
-                                </div>
-                                <div class="modal-body">
-                                <h1>¿Cómo reciclar Vidrio?</h1>
-                                    <h4>¿A qué nos referimos con vidrio?</h4>
-                                    <p>El vidrio abarca envases de botellas, frascos y otros productos fabricados con este material.
-                                    </p>
-                                    <h4>¿Cómo se recicla?</h4>
-                                    <p>Al clasificar el vidrio por color (verde, ámbar, transparente), asegúrate de separarlo antes de depositarlo en los contenedores. Lleva los envases de vidrio a centros de reciclaje específicos para garantizar su procesamiento adecuado. Utiliza contenedores designados para vidrio y evita desecharlo en contenedores destinados a otros materiales para facilitar su reciclaje.
-                                        </p>
-                                </div>
-                            </div>
                         </div>
                     </div>
     
@@ -263,29 +217,6 @@ session_start();
                         </div>
                     </div>
     
-                    <div class="modal fade" id="exampleModalPapel" tabindex="-1" aria-labelledby="exampleModalLabel"
-                        aria-hidden="true">
-                        <div class="modal-dialog modal-xl modal-dialog-centered">
-                            <div class="modal-content2">
-                                <div class="modal-header header-plas">
-                                    <div class="container-btn">
-                                        <button type="button" class="x-button" data-bs-dismiss="modal" aria-label="Close">
-                                        </button>
-                                    </div>
-                                </div>
-                                <div class="modal-body">
-                                <h1>¿Cómo reciclar Papel?</h1>
-                                    <h4>¿A qué nos referimos con papel?</h4>
-                                    <p>El papel incluye documentos, cartón y otros productos derivados de la pulpa de madera.
-                                    </p>
-                                    <h4>¿Cómo se recicla?</h4>
-                                    <p>Separa el papel y deposítalo en contenedores específicos. Este papel se recicla para crear nuevos productos. Usa contenedores para papel o programas de reciclaje. Evita mezclar con residuos no reciclables.
-                                        </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-    
                     <div class="img-option">
                         <img src="../assets/img/guia-clasificacion-icons/Dalle-icono-lata-paint.png" alt="">
                         <div class="riclaje-btn">
@@ -293,30 +224,6 @@ session_start();
                                 data-bs-target="#exampleModalLatas">Latas</button>
                         </div>
                     </div>
-    
-                    <div class="modal fade" id="exampleModalLatas" tabindex="-1" aria-labelledby="exampleModalLabel"
-                        aria-hidden="true">
-                        <div class="modal-dialog modal-xl modal-dialog-centered">
-                            <div class="modal-content2">
-                                <div class="modal-header header-plas">
-                                    <div class="container-btn">
-                                        <button type="button" class="x-button" data-bs-dismiss="modal" aria-label="Close">
-                                        </button>
-                                    </div>
-                                </div>
-                                <div class="modal-body">
-                                <h1>¿Cómo reciclar Latas?</h1>
-                                    <h4>¿A qué nos referimos con latas?</h4>
-                                    <p>Las latas incluyen envases de alimentos y bebidas hechos de aluminio o acero.
-                                    </p>
-                                    <h4>¿Cómo se recicla?</h4>
-                                    <p>Asegúrate de que las latas estén vacías y límpialas para eliminar residuos. Opcionalmente, aplasta las latas para ahorrar espacio en el contenedor. Deposita las latas en el contenedor de reciclaje de metal más cercano. Coloca las latas en el contenedor de reciclaje de metal, manteniéndolas separadas de otros materiales para facilitar el proceso de reciclaje.
-                                        </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-    
     
                 </div>
     
@@ -329,29 +236,6 @@ session_start();
                         </div>
                     </div>
     
-                    <div class="modal fade" id="exampleModalOrganicos" tabindex="-1" aria-labelledby="exampleModalLabel"
-                        aria-hidden="true">
-                        <div class="modal-dialog modal-xl modal-dialog-centered">
-                            <div class="modal-content2">
-                                <div class="modal-header header-plas">
-                                    <div class="container-btn">
-                                        <button type="button" class="x-button" data-bs-dismiss="modal" aria-label="Close">
-                                        </button>
-                                    </div>
-                                </div>
-                                <div class="modal-body">
-                                <h1>¿Cómo reciclar Orgánicos?</h1>
-                                    <h4>¿A qué nos referimos con orgánicos?</h4>
-                                    <p>Los residuos orgánicos incluyen restos de alimentos, cáscaras, residuos de jardín y otros materiales biodegradables.
-                                    </p>
-                                    <h4>¿Cómo se recicla?</h4>
-                                    <p>Los residuos orgánicos pueden compostarse para convertirse en fertilizante natural. Utiliza un contenedor de compostaje para depositar restos de alimentos y materiales orgánicos.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-    
-    
                     <div class="img-option">
                         <img src="../assets/img/guia-clasificacion-icons/icono-caja-final.png" alt="">
                         <div class="riclaje-btn">
@@ -360,58 +244,11 @@ session_start();
                         </div>
                     </div>
     
-                    <div class="modal fade" id="exampleModalCarton" tabindex="-1" aria-labelledby="exampleModalLabel"
-                        aria-hidden="true">
-                        <div class="modal-dialog modal-xl modal-dialog-centered">
-                            <div class="modal-content2">
-                                <div class="modal-header header-plas">
-                                    <div class="container-btn">
-                                        <button type="button" class="x-button" data-bs-dismiss="modal" aria-label="Close">
-                                        </button>
-                                    </div>
-                                </div>
-                                <div class="modal-body">
-                                <h1>¿Cómo reciclar Cartón?</h1>
-                                    <h4>¿A qué nos referimos con cartón?</h4>
-                                    <p>El cartón incluye cajas de embalaje, envases y otros productos hechos de papel corrugado.
-                                    </p>
-                                    <h4>¿Cómo se recicla?</h4>
-                                    <p>Aplana las cajas y asegúrate de que estén libres de residuos y cintas adhesivas antes de reciclar. Coloca el cartón en el contenedor de reciclaje de papel y cartón más cercano. Para su disposición adecuada, coloca el cartón en el contenedor de reciclaje de papel y cartón, asegurándote de que esté limpio y libre de contaminantes.
-                                        </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-    
-    
                     <div class="img-option">
                         <img src="../assets/img/guia-clasificacion-icons/icono-electronico.png" alt="">
                         <div class="riclaje-btn">
                             <button id="boton-popup" data-bs-toggle="modal"
                                 data-bs-target="#exampleModalElectronicos">Electrónicos</button>
-                        </div>
-                    </div>
-    
-                    <div class="modal fade" id="exampleModalElectronicos" tabindex="-1" aria-labelledby="exampleModalLabel"
-                        aria-hidden="true">
-                        <div class="modal-dialog modal-xl modal-dialog-centered">
-                            <div class="modal-content2">
-                                <div class="modal-header header-plas">
-                                    <div class="container-btn">
-                                        <button type="button" class="x-button" data-bs-dismiss="modal" aria-label="Close">
-                                        </button>
-                                    </div>
-                                </div>
-                                <div class="modal-body">
-                                <h1>¿Cómo reciclar Electrónicos?</h1>
-                                    <h4>¿A qué nos referimos con electrónicos?</h4>
-                                    <p>Los electrónicos abarcan dispositivos como teléfonos, computadoras, tablets y otros aparatos electrónicos.
-                                    </p>
-                                    <h4>¿Cómo se recicla?</h4>
-                                    <p>Antes de reciclar dispositivos electrónicos, elimina datos personales y desactiva cuentas asociadas. Lleva tus electrónicos a centros de reciclaje especializados para un manejo adecuado. Evita colocarlos en contenedores tradicionales; llévalos a centros especializados o consulta programas de recolección de residuos electrónicos en tu área.
-                                        </p>
-                                </div>
-                            </div>
                         </div>
                     </div>
     
@@ -422,29 +259,7 @@ session_start();
                                 data-bs-target="#exampleModalTextil">Textil</button>
                         </div>
                     </div>
-    
-                    <div class="modal fade" id="exampleModalTextil" tabindex="-1" aria-labelledby="exampleModalLabel"
-                        aria-hidden="true">
-                        <div class="modal-dialog modal-xl modal-dialog-centered">
-                            <div class="modal-content2">
-                                <div class="modal-header header-plas">
-                                    <div class="container-btn">
-                                        <button type="button" class="x-button" data-bs-dismiss="modal" aria-label="Close">
-                                        </button>
-                                    </div>
-                                </div>
-                                <div class="modal-body">
-                                <h1>¿Cómo reciclar Textil?</h1>
-                                    <h4>¿A qué nos referimos con textil?</h4>
-                                    <p>Los textiles incluyen ropa, calzado, y otros materiales de tela.
-                                    </p>
-                                    <h4>¿Cómo se recicla?</h4>
-                                    <p>Si la ropa está en buen estado, considera donarla o venderla en segunda mano. Las telas pueden reciclarse para crear nuevos productos o convertirse en materiales aislantes. Para su disposición adecuada, coloca la ropa y textiles no deseados en contenedores específicos para textiles si están disponibles en tu área. Si no, considera donarlos a organizaciones benéficas o llevarlos a centros de reciclaje especializados.
-                                        </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+
             </div>
         </div>
     </div>
@@ -466,7 +281,7 @@ session_start();
         <div class="main-mapa-wrapper">
             <div class="texto-mapa">
                 <h4>¿Qué encontraras aqui?</h4>
-                <p>En nuestro mapa de reciclaje, encontrarás una herramienta interactiva que te permitirá ubicar los puntos más cercanos para reciclar en tu área. Ofrecemos un mapa detallado que muestra claramente la ubicación de contenedores de reciclaje, centros de recolección y otros lugares donde puedes llevar tus materiales reciclables. Esta función te facilitará la tarea de encontrar opciones de reciclaje cercanas y contribuir a la conservación del medio ambiente.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
             </div>
             
             <div class="google-maps">
@@ -518,7 +333,7 @@ session_start();
                     </div>
 
                     <div class="copi">
-                        <h4>© 2023 Copyright Ecogestion. <br> Todos los derechos reservados</h4>
+                        <h4>© 2024 Copyright Ecogestion. <br> Todos los derechos reservados</h4>
                     </div>
 
                 </div>

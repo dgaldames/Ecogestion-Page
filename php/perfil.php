@@ -140,7 +140,7 @@ if ($row_usuario) {
                     </div>
                 </div>
             </div>
-            <button class="btn btn-primary" id="btn-250" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Cupones por 250 pts</button>
+            <button class="btn btn-primary" id="btn-250" data-bs-target="#exampleModalToggle" data-bs-toggle="modalLOL">Cupones por 250 pts</button>
             <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
                 <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content">
@@ -174,7 +174,7 @@ if ($row_usuario) {
                     </div>
                 </div>
             </div>
-            <button class="btn btn-primary" id="btn-500" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Cupones por 500 pts</button>
+            <button class="btn btn-primary" id="btn-500" data-bs-target="#exampleModalToggle" data-bs-toggle="modalLOL">Cupones por 500 pts</button>
             
         </div>
     <div class="segundos-cupones">
@@ -212,7 +212,7 @@ if ($row_usuario) {
                 </div>
             </div>
         </div>
-            <button class="btn btn-primary" id="btn-750" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Cupones por 750 pts</button>
+            <button class="btn btn-primary" id="btn-750" data-bs-target="#exampleModalToggle" data-bs-toggle="modalLOL">Cupones por 750 pts</button>
         <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
@@ -246,7 +246,7 @@ if ($row_usuario) {
                 </div>
             </div>
         </div>
-        <button class="btn btn-primary" id="btn-1000" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Cupones por 1000 pts</button>
+        <button class="btn btn-primary" id="btn-1000" data-bs-target="#exampleModalToggle" data-bs-toggle="modalLOL">Cupones por 1000 pts</button>
     </div>
     <footer class="clase-footer">
         <div class="footer-wrapper">
@@ -287,7 +287,7 @@ if ($row_usuario) {
                 </div>
             </div>
             <div class="copi">
-                <h4>© 2023 Copyright Ecogestion. <br> Todos los derechos reservados</h4>
+                <h4>© 2024 Copyright Ecogestion. <br> Todos los derechos reservados</h4>
             </div>
         </div>
     </footer>
