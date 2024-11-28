@@ -115,7 +115,7 @@ session_start();
                 <p>Somos un grupo de estudiantes universitarios con una pasión compartida: la sostenibilidad y la protección del medio ambiente. Nos hemos unido para crear conciencia sobre la importancia del reciclaje y la conservación de recursos. Nuestra motivación radica en la creencia de que cada pequeña acción cuenta, y juntos, podemos marcar la diferencia.</p>
             </div>
             <div class="foto-tilines">
-                <img src="../assets/img/quienes-somos-test.jpeg" alt="Foto de los tilines">
+                <img src="../assets/img/tilines.jpeg" alt="Foto de los tilines">
             </div>
         </div>
 
@@ -518,7 +518,7 @@ session_start();
                     </div>
 
                     <div class="copi">
-                        <h4>© 2023 Copyright Ecogestion. <br> Todos los derechos reservados</h4>
+                        <h4>© 2024 Copyright Ecogestion. <br> Todos los derechos reservados</h4>
                     </div>
 
                 </div>

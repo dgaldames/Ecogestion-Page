@@ -287,7 +287,7 @@ if ($row_usuario) {
                 </div>
             </div>
             <div class="copi">
-                <h4>© 2023 Copyright Ecogestion. <br> Todos los derechos reservados</h4>
+                <h4>© 2024 Copyright Ecogestion. <br> Todos los derechos reservados</h4>
             </div>
         </div>
     </footer>
